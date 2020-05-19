@@ -1,0 +1,13 @@
+#EXTM3U
+#EXTINF:0,http://185.107.83.53:9000/trt1/live.m3u8
+http://185.107.83.53:9000/startv/live.m3u8
+#EXTINF:0,http://185.107.83.53:9000/kanald/live.m3u8
+http://185.107.83.53:9000/atv/live.m3u8
+#EXTINF:0,http://185.107.83.53:9000/showtv/live.m3u8
+http://185.107.83.53:9000/foxtv/live.m3u8
+#EXTINF:0,http://185.107.83.53:9000/tv8/live.m3u8
+http://185.107.83.53:9000/tv85/live.m3u8
+#EXTINF:0,http://185.107.83.53:9000/kanal7/live.m3u8
+http://185.107.83.53:9000/beyaztv/live.m3u8
+#EXTINF:0,http://185.107.83.53:9000/ntv/live.m3u8
+http://185.107.83.53:9000/ahaber/live.m3u8
