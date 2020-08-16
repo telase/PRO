@@ -1,0 +1,22 @@
+Please read the following terms and conditions carefully before using this software. Use of this software indicates you accept the terms of this license agreement and warranty.
+
+1. Disclaimer of Warranty
+
+TeraCopy (this software) is provided "as-is" and without warranty of any kind, express, implied or otherwise, including without limitation, any warranty of merchantability or fitness for a particular purpose. 
+
+In no event shall the author of this software be held liable for data loss, damages, loss of profits or any other kind of loss while using or misusing this software.
+
+2. License
+
+TeraCopy is provided as FREEWARE for private (non-commercial) or educational (including non-profit organization) use. In these cases, you are granted the right to use and to make an unlimited number of copies of this software.
+
+Should TeraCopy be used for commercial purposes, the user is required to purchase a license code. It is an important source of support in the development of future versions.
+
+3. Restrictions on Use 
+
+This software must not be decompiled, disassembled, reverse engineered or otherwise modified. 
+
+4. Registered Version
+
+A registered copy of TeraCopy may be used by the licensee exclusively on one or more computers, or used on a network non-simultaneously by multiple people, but not both.
+

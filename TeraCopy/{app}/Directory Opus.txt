@@ -1,0 +1,24 @@
+Copy this code to the clipboard, go to the Directory Opus, and 
+paste "Copy" button to the toolbar in the Customize mode. 
+
+<?xml version="1.0" encoding="UTF-8"?>
+<usercommand backcol="none" textcol="none">
+<label>TeraCopy_CopyFile</label>
+<tip>Copy files with TeraCopy</tip>
+<icon1>%ProgramFiles%\TeraCopy\TeraCopy.exe,1</icon1>
+<function type="normal">
+<instruction>%ProgramFiles%\TeraCopy\TeraCopy.exe Copy *{allfilepath|filem} {destpath}</instruction>
+</function>
+</usercommand>
+
+Repeat with this code to insert the "Move" button.
+
+<?xml version="1.0" encoding="UTF-8"?>
+<usercommand backcol="none" textcol="none">
+<label>TeraCopy_MoveFile</label>
+<tip>Move files with TeraCopy</tip>
+<icon1>%ProgramFiles%\TeraCopy\TeraCopy.exe,2</icon1>
+<function type="normal">
+<instruction>%ProgramFiles%\TeraCopy\TeraCopy.exe Move *{allfilepath|filem} {destpath}</instruction>
+</function>
+</usercommand>

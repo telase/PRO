@@ -1,0 +1,23 @@
+"Copy"
+ $list = eval('%appdata%')."\TeraCopy\FileList.dat";    
+ $teracopy = '"C:\Program Files\TeraCopy\teracopy.exe"';
+
+ if(getinfo("FocusedControl") == "T"){
+   $items="<focitem>";
+   $selitems=1
+ } else {
+   focus l;
+   $items=getinfo("SelectedItemsPathNames"); 
+   $selitems=getinfo("CountSelected");
+ } 
+
+ if($selitems<1){
+   status "Nothing selected!",$color_e,alert; 
+   end 1;
+ }
+
+ $files = replace($items, "|", "<crlf>");
+ writefile($list, $files);
+ 
+ $copycmd = $teracopy.' copy *"'.$list.'" "<get path i>"';
+ open $copycmd,w;

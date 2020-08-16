@@ -1,0 +1,1 @@
+Rename this file to 'Portable' (remove .txt) to keep settings in this folder.

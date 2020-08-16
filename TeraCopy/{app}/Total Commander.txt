@@ -1,0 +1,15 @@
+Drag TeraCopy.exe to the button bar in Total Commander, right click and select "Change..."
+
+Copy the next line to Parameters field: 
+
+Copy *"%UL" "%T"
+
+Next, copy path from 'Command' field to 'Icon file' field. Select icon #1.
+
+Repeat the same for Move button, just use 
+
+Move *"%UL" "%T"
+
+and select icon #2.
+
+Note: %UL produces a UTF-8 Unicode list file, you can also use %WL (UTF-16).

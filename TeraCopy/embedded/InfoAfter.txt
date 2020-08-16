@@ -1,0 +1,510 @@
+TeraCopy Change Log
+
+Version 3.5 beta 2
+
+- Window mode options for startup and finish.
+- Minor bugfixes.
+
+Version 3.5 beta
+
+- A new drag and drop confirmation dialog.
+- Create 7zip and WinRar archives with drag and drop.
+- Dark mode improvements.
+- Source button menu.
+- Close window with ESC key.
+- Better handling of network disconnections (Error 53).
+- Update the target folder path by typing or pasting.
+- Fixed: copying 3.99 GB files to the FAT32 filesystem.
+- Fixed: hash mismatch error after skipping files.
+- Fixed: incorrect total size formatting for some cases.
+- Fixed: crash when adding files via file dialog.
+- Fixed: a number of UI issues.
+
+Version 3.4 beta
+
+- 'Show notification' option.
+- File list mouse scroll fix.
+- Delete files using selectors.
+- Remember the width for both full and compact views.  
+- Better progress indication during file deletion and verification.
+- Update the total size when files added during file transfer.
+- Option to keep transfer history permanently.
+- Save and restore transfer options
+- Other minor bugfixes.
+
+Version 3.4 alpha
+
+- Support for Windows 10 Dark Mode.
+- Sidebar with a list of recent file transfers.
+- Better progress tracking system.
+- Selectors for processing failed/skipped files.
+- Custom toolbar with tooltips panel.
+- Two progress bars on the main screen.
+- Filelist scrolling with a touchscreen. 
+- Using GDI drawing routines instead of DirectDraw.
+
+Version 3.3 beta
+
+- Added: copy security information (ACL, Owner, Audit).
+- Added: relaunch TeraCopy in elevated mode.
+- Added: append a part of source path to a target path.
+- Added: an option to bypass Windows write cache.
+- Fixed: a few minor errors.
+
+Version 3.26
+
+- Added: option to execute PowerShell scripts on a job completion.
+- Added: a sample PowerShell script for Pushover.
+- Added: start verify process at any time from the context menu.
+- Added: load hash files in UTF8 format by default.
+- Added: show filenames of renamed files in the file list.
+- Fixed: minor scrolling issues in the file list.
+
+Version 3.21
+
+- Fixed: Deleting source files on canceling move operation with enabled verification.
+
+Version 3.2
+
+- Favorite folders editing.
+- Option to run a custom .cmd file on task completion.
+- md5sum format for most hashes.
+- Better icon for "Waiting for other transfers" status.
+
+Version 3.12
+
+- Fixed: SQL Engine error.
+- Fixed: random crash while scrolling files.
+- Updated: language files.
+
+Version 3.1
+
+- Added: multi-language support. 
+- Added: show all options in File Replace dialog.
+- Fixed: 'Keep both' now applies to one file only.
+- Added: 'Close panels' command.
+- Fixed: crash while scrolling the log.
+
+Version 3.0.8
+
+- "Clear Transfer History" menu item.
+- Closing application while copying.
+- Fixed: Drag and Drop from 7-Zip File Manager caused Unable to Access error.
+- Fixed: Drag and Drop from Filezilla caused Unable to Access error.
+- Fixed: TeraCopy does not handle command line as expected.
+- Fixed: folder names with dots are handled incorrectly by TeraCopy.
+- Fixed: copied files have their "Date Modified" set to the current date/time.
+- Fixed: the active area of "Close" buttons.
+
+Version 3.0
+
+- Improved: Destination File Dialog.
+- Pinnable expanded views.
+- Fixed: error in overlapped reading.
+- Fixed: Drag and Drop from 7-Zip File Manager causes Unable to Access error.
+- Fixed: checksum file saved in the wrong path.
+- Fixed: when started after install, an error occurs.
+- Fixed: crash at the end of each copy.
+- Fixed: no checksum verification when moving files.
+
+Version 3.0 RC 2
+
+- Handle copy/paste from a virtual machine.
+- Fixed "EListError: Duplicates not allowed" error.
+- Incorrect icons display on 125% scaling level.
+- Replace mode options in the main panel.
+- Keep Windows from entering Sleep Mode during transfer.
+- Show a popup menu with folders structure in Replace Dialog.
+- Faster Hash Algorithm: xxHash.
+- Auto-scroll file list during transfer.
+- Create shadow copy only once.
+- Fixed: Freeze when moving files.
+- Menu button added.
+
+Version 3.0 RC
+
+- Large progress bar.
+- Faster small files transfer.
+- Starting waiting tasks in correct order. 
+- Regular deletion of old file lists to save disk space.
+- Bugfixes.
+
+Version 3.0 beta 2
+
+- Faster Logical to physical disk mapping.
+- Mapped network drives detection.
+- Notifications fix.
+- Delete R/O files on replace.
+- Add entire drive to file list.
+- Quote comma in csv reports, export folders.
+- File date discrepancy increased to 2 sec.
+- Better completed state icon.
+- Smoother scrolling with touchpad.
+- Other bugfixes.
+
+Version 3.0 beta
+
+Engine:
+- Queue transfers for the same physical drive.
+- Wait for network or device recovery.
+- Insufficient space warning.
+- Save checksums to a file.
+- Panama, Tiger, RipeMD and Whirlpool hash methods.
+- Support for CRC32 in the file name.
+- Better reports (html and csv format).
+
+File list:
+- Show skipped/failed/transferred items only [Pro].
+- Remove all transferred files [Pro].
+- Keyboard navigation and menu.
+- Error messages below filenames.
+
+UI:
+- Progress in the taskbar.
+- Windows 8/10 notifications.
+- 'Rename all older target files' mode.
+- Replace mode and hash options.
+- Timer in the replace dialog.
+
+- Lot of bugfixes and UI improvements.
+
+
+Version 3.0 alpha 5
+
+- File list (view only).
+- Show files with errors only [Pro].
+
+
+Version 3.0 alpha 4
+
+- File replace dialog.
+- Clone files (copy/paste in same folder).
+- Support for Windows 10 and Ultra HD monitors.
+- Shutdown/Sleep/Hibernate on finish.
+- Play sound at finish.
+- Verify only copied files.
+- Lot of bugs fixed.
+
+
+Version 3.0 alpha 3
+
+- Moving files.
+- Delete/wipe files [youtu.be/MD7uVEofY0U].
+- Create a new folder with selected items using Explorer context menu [youtu.be/qwGwf779D1Q].
+- Select hash method for testing files.
+- Verify against hash in clipboard [youtu.be/geLuL2PE2_I].
+- Accept 'license' file from application folder (useful for portable version).
+- Fixed panels auto close bug.
+
+
+Version 3.0 alpha 2
+
+- Panel UI.
+- Test files after copy.
+- Verify checksum files (.md5, .sfv, .sha, .sha256, .sha512).
+- Test files and create checksum files (currently .md5 only).
+
+- Fixed Explorer context menu extension.
+
+
+Version 3.0 alpha
+
+- Faster copy.
+- Create MD5 checksum filelist on request.
+- Single tabbed interface for multiple file transfer operations.
+- Copy files using elevated Windows Service and Volume Shadow Copy.
+- Unlimited number of files, the internal file list stored on disk instead of memory.
+
+
+Version 2.3 
+
+ Minor bugfixes and UI improvements.
+
+
+Version 2.3 beta 2
+
+ Added: Support for Total Commander 8.01 x64.
+ Added: Auto-splitting files on FAT32 filesystems.
+ Added: Additional check for trimming file, useful on D-Link NAS devices.
+ Added: 'Confirm drag and drop' option.
+ Fixed: Removing files from filelist when not enough disk space.
+ Fixed: Skip button now works on error files.
+ Changed: Flashing window instead of tray notification.
+
+
+Version 2.3 beta
+
+ Added: Moving files within the same drive without launching TeraCopy.exe.
+ Added: '/Report' command line key.
+ Fixed: Problem copying some locked files.
+ Fixed: Unnecessary verification of skipped files.
+ Fixed: Conflict with Google Chrome on Windows XP.
+ Fixed: Dropping files into TC window now possible in Waiting mode.
+ Fixed: Use %UL instead of %L in Total Commander buttons for Unicode support.
+ Added: Resolving linked network folders to real path on Windows XP.
+ Added: Option CopyCreationTime to ini file.
+
+
+Version 2.27
+
+ Added: 'Remove other' to remove non-selected files from the list [Pro].
+ Added: Better handling multiple copy processes.
+ Added: Multiple retries to delete source files and folders after moving.
+ Added: Tray notification when adding files to the existing process.
+ Fixed: Problem with some non-latin filenames.
+ Fixed: Copied files now have a correct creation time.
+ Added: WaitBeforeMinimize option to ini file.
+
+
+Version 2.22
+
+ Added: All .exe files and installer now digitally signed.
+ Added: Export filelist to HTML (sortable columns) and CSV files [Pro].
+ Changed: Graphical buttons instead of pseudo-graphical.
+ Changed: If Shutdown option is selected, batch file PowerOff.cmd will be launched.
+ Fixed: Transfer.log now written in Unicode.
+ Fixed: Renaming multiple files with the same name.
+ Fixed: Waiting for other processes to finish testing after copying.
+
+
+Version 2.2
+
+ Fixed: Mounted volumes detection when choosing same/different devices mode.
+
+
+Version 2.2 beta 3
+
+ Added: Option 'CardReader' to ini file.
+        Specify a device name to unmount volumes instead of ejecting card reader.
+ Added: Better USB devices ejection.
+ Added: Option 'ForceSameDriveMode' to ini file.
+ Fixed: Crush when testing md5 files.
+ Fixed: Always test target folder and request admin privileges if needed.
+
+
+Version 2.2 beta 2
+
+ Added: Language files (can be corrected with Poedit).
+ Added: Ejection of source/target removable drives, mounted volumes detection.
+
+
+Version 2.2 beta
+
+ Added: Localisation. 
+ 
+ Added: Prevent system to enter sleep state.
+ Added: Moving files on same drive w/o enumerating files.
+ Added: Option to eject removable drives 
+ Added: New browse for folder dialog.
+ Added: Ignore system reparse points.
+ 
+ Fixed: Auto-resume all files.
+ Fixed: Windows reported wrong file sizes on Mac drives.
+ Fixed: Moving file with same name as folder. 
+
+
+Version 2.12
+
+ Fixed: Copy not started automatically.
+ Added: Multi-monitor support.
+ Added: Run additional app on finish (eject disk, etc).
+
+
+Version 2.1
+
+ Fixed: Error in CRC check of large files when moving. (#69).
+ Fixed: Error in waiting processes (#124).
+ 
+
+Version 2.07
+
+ Fixed: Copy stops in the middle of operation (#52).
+
+
+Version 2.05
+
+ Added: Option to use system write cache (#30).
+        Use for better compatibility with antiviruses and ftp-drives.
+ Fixed: Skipping files in move operation (#39).
+ Fixed: Deleting files without CRC test in move operation (#38).
+ Fixed: Problem with some Unicode names (#44).
+
+
+Version 2.01
+
+ Added: Links helper app enhanced. 
+
+
+Version 2.0
+
+ Added: Few options to the configuration dialog.
+ Fixed: Works better with UAC protected folders now.
+ Fixed: few minor bugs. 
+
+Version 2.0 nightly build (June 21)
+
+ Added: Additional check if Admin mode required to write files to the root folder.
+ Added: TeraCopy Links helper app.
+
+Version 2.0 nightly build (June 18)
+
+ Added: "TeraCopy..." entry in the 64-bit Explorer context menu.
+
+Version 2.0 nightly build (June 16)
+
+ Added: CheckFreeSpace option in options.ini file.
+ Added: handling long file paths (>256 characters).
+ Added: ini file settings: MaxPathLimit, NoClose.
+
+Version 2.0 nightly build (June 10)
+
+ Added: Support for Total Commander 7.5b4, Windows 7 Explorer.
+ Added: SetFileValidData function to avoid file fragmentation.
+ Added: /Close switch.
+
+Version 2.0 nightly build (May 31)
+
+ Added: Progress indicator in Windows 7 Taskbar.
+ Added: Auto-hiding waiting TeraCopy windows.
+ Added: Clearing read-only attribute when copying from optical drives.
+ Fixed: Problem with 7-Zip.
+ Fixed: Trim file errors.
+
+Version 2.0 nightly build (Feb 12)
+
+ Added: Favorite target folders [Pro].
+ Added: Auto-switch to Admin mode for UAC protected folders.
+ Added: Warning about FAT32 4gb file size limit.
+ Fixed: Waiting processes now starts in a correct order.
+ Fixed: Same/different drives detection under Vista.  
+
+Version 2.0 nightly build (Jan 31)
+
+ Fixed: Files added to the end of the queue if target folder and operation is the same.
+
+Version 2.0 nightly build (Jan 14)
+
+ Added: Manager that allows you pause/resume/switch to other TeraCopy windows.
+
+Version 2.0 nightly build (Dec 28)
+
+ Changed: Files added to the end of the queue if target folder is the same. 
+
+Version 2.0 nightly build (Dec 27)
+
+ Fixed: TeraCopy now keeps folders timestamp when copying.
+
+Version 2.0 nightly build (Dec 26)
+
+ Changed: When moving, source files deleted immediately (after comparing size).
+ Changed: Buffer for small files increased.
+ Fixed: Sizes in TB not displayed correctly.
+
+Version 2.0 beta 4a
+
+ Fixed: TeraCopy64.dll: removed dependency to atl80.dll.
+ Fixed: Error when copying entire drive.
+ Changed: Test result displayed as 'N files match, N errors'.
+ Changed: Rename files by appending _(number).
+ Added: 'WaitBeforeClose=N' option (ini file). Set to 1000 for 1 second.
+
+Version 2.0 beta 4
+
+ Added: Register copy handler from TeraCopy Preferences window.
+ Added: New Browse for folder dialog with 'Make New Folder' button.
+ Fixed: Problems with duplicating Windows Explorer File menu items.
+ Fixed: Moving files between remote UNC paths now faster.
+
+ Added: "Run in Admin mode" button.
+ Fixed: Setting as default copy handler under Vista Standard accounts.
+
+
+Version 2.0 beta 3 (Vista x64)
+ 
+ Added: Support for Vista x64 (Use TeraCopy as default copy handler).
+ Added: Option to disable TeraCopy while Num Lock is ON.
+ Fixed: Problem with DEP resolved.
+
+Version 2.0 beta 3
+
+ Fixed: Access violation error when calculating CRC.
+ Fixed: Hanging on same drive copy on single core CPU systems.
+ Changed: Sound is off by default.
+ Added: Progress bar color settings.
+ Added: 'TestAlways' option in the ini file.
+ Added: Switches: /SkipAll /OverwriteOlder /RenameAll /OverwriteAll /NoClose
+
+ ! Command line changed:
+
+   TeraCopy.exe Operation [*]Source Target [/SkipAll] [/OverwriteOlder] [/RenameAll] [/OverwriteAll] [/NoClose]
+
+     Operation:  Copy|Move|Delete
+     Source:     File,folder
+     *Source:    Path to filelist
+     Target:     Destination folder
+
+   Examples:
+
+     TeraCopy.exe Copy D:\Video.avi C:\My Documents
+     TeraCopy.exe Move *C:\Temp\filelist.cmd C:\My Documents /OverwriteAll /NoClose
+
+   Important!
+
+     If you're using Total Commander, please change button parameter from
+     Copy "%L" "%T" to Copy *"%L" "%T".
+
+Version 2.0 beta 2
+
+ Fixed: High CPU usage.
+ Added: Adding files in the separate thread.
+ Added: Sound related settings in the ini file.
+ Added: Number of retries in the ini file.
+
+Version 2.0 beta
+
+ Changed: Small files are processed much faster.
+ Added: Start new copy in a separate thread.
+ Added: sfv and md5 files support.
+ Added: Entry in the Explorer context menu.
+ Added: Reorder file list. [Pro]
+ Added: Open destination folder in Explorer. [Pro]
+ Added: Show shell menu for any file in the file list. [Pro]
+ Added: Play sound when operation is complete (>10 sec).
+ Added: 'Always on top' option in the TeraCopy system menu.
+ Added: Drag destination folder to the "Copy" or "Move" buttons.
+ Fixed: Free space detection.
+ Fixed: Folder attributes now copied.
+ Fixed: Time left now displayed correctly on 12h systems.
+
+Version 1.25 beta
+
+ Added: Option to run CRC test when file transfer is complete.
+ Added: Option to save report and shutdown system after file transfer.
+ Added: Support for 64 bit systems (beta).
+
+Version 1.22
+
+ Fixed: Problem with running TeraCopy on some Vista systems.
+ Fixed: Copying files to the root of the drive from Copy To menu.
+
+Version 1.2
+
+ Added: Unicode support.
+ Added: Timer to auto-close confirmation dialogs (Application Data\TeraCopy\Options.ini).
+ Added: Option to run Unlocker if destination file is used by another process.
+        You can download it at http://ccollomb.free.fr/unlocker
+ Fixed: Dragging files out of Recycle Bin.
+ Fixed: Keeping file attributes when copying.
+
+Version 1.1
+
+ Added: Create copy of folder by copy and paste at the same location.
+ Fixed: Copy to My Network Places shortcuts.
+ Fixed: Now files added to the end of file list.
+ Fixed: Problem with 7-zip. TeraCopy isn't handling files in the Temp folder now.
+
+Version 1.02
+
+ Fixed: Handle file over 4 GB in size.
+ Added: Copy/Move menu: displays current folders in Explorer and Total Commander.
+ Added: Select: all files, with the same extension, in the same folder. (Pro version)
