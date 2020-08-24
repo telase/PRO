@@ -1,0 +1,1 @@
+# moving subtitle text up,right,left in *.srt file format
