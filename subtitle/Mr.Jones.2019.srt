@@ -1,0 +1,32 @@
+1
+00:00:08,520 --> 00:00:10,643
+{\a11}Neden
+
+2
+00:00:10,861 --> 00:00:12,914
+{\a5}Ýþ hakkýnda yorum yapmak istemiyorum.
+
+3
+00:00:13,245 --> 00:00:17,141
+{\a6}Kendisi için konuþmuyorsa,
+bu bir baþarýsýzlýktýr.
+
+4
+00:00:17,746 --> 00:00:21,962
+{\a7}Herkesin kolayca anlayabileceði
+bir hikaye anlatmak istedim.
+
+5
+00:00:21,963 --> 00:00:24,887
+{\a8}Bir çocuðun bile anlayabileceði
+kadar basit bir hikaye.
+
+6
+00:00:25,421 --> 00:00:28,112
+{\a9}Gerçek baþka bir þekilde
+anlatamayacak kadar garipti.
+
+7
+00:00:31,520 --> 00:00:33,643
+{\a10}Böyle bir çaðda doðmak istemezdim.
+
