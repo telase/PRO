@@ -1,9 +1,9 @@
 ﻿;InnoSetupVersion=6.0.0 (Unicode)
 
 [Setup]
+AppId={{377ABAB2-1484-4C55-901A-DEE08BA0C5E3}
 AppName=SereneScreen Marine Aquarium 3
 AppVerName={cm:NameAndVersion,SereneScreen Marine Aquarium 3,3.3}
-AppId=SereneScreen Marine Aquarium 3
 AppVersion=3.3
 AppPublisher=Prolific Publishing, Inc.
 AppPublisherURL=
