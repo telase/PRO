@@ -1,0 +1,86 @@
+﻿END USER LICENSE AGREEMENT
+ 
+- REDISTRIBUTION NOT PERMITTED -
+ 
+ ATTENTION:
+THIS IS A LICENSE NOT A SALE. THIS PRODUCT IS PROVIDED  UNDER THE FOLLOWING LICENSE WHICH DEFINES WHAT YOU MAY DO  WITH THE PRODUCT, AND CONTAINS LIMITATIONS ON WARRANTIES  AND/OR REMEDIES. THIS LICENSE IS LIMITED, IS NON-EXCLUSIVE  AND IS GRANTED BY PROLIFIC PUBLISHING INC. FOR PRODUCTS  PURCHASED IN THE UNITED STATES.
+ 
+ BY CLICKING ON "I accept the agreement" AND THEN THE NEXT BUTTON OR USING THE ENCLOSED PROGRAM, YOU ARE CONSENTING TO BE BOUND BY THIS AGREEMENT.  IF YOU DO NOT AGREE TO ALL OF THE TERMS OF THIS AGREEMENT,  CLICK "I do not accept" AND THEN THE CANCEL BUTTON AND THE INSTALLATION  PROCESS WILL NOT CONTINUE. IF YOU HAVE ALREADY PAID FOR THE  PRODUCT BUT HAVE NOT USED IT, RETURN THE PRODUCT TO THE PLACE OF PURCHASE FOR A FULL REFUND OR RETURN IT BY MAIL  TO: PROLIFIC PUBLISHING, INC., P.O. BOX 5000 BURBANK, CA 91508-5000 FOR A FULL REFUND.
+ 
+  1. LICENSE.
+ 
+  The SERENESCREEN MARINE AQUARIUM 3 Software, and any related documentation accompanying this License (the "Software"), is the property of Prolific Publishing, Inc., ("Prolific") as the worldwide licensor of all rights from the copyright owner, SACHS ENTERPRISES, INC., and is protected by copyright law.   To the extent that any terms here in are confusing or seemingly contradictatory, please be guided by a sense of understanding and fairness that you have purchased a single license for your use and the use within your household and your use of the product should be within those constraints.
+
+Upon your acceptance of this License, your rights and obligations with respect to the use of this Software are as follows:
+ 
+    YOU MAY:
+ 
+    (i)  use the Software on the computers owned or controlled by your household..
+ 
+    (ii)  make one or more copies of the software for storage and back-up purposes only, in any medium. To the extent possible, you must reproduce on such copy Sachs Enterprises, Inc's copyright notice and any other proprietary legends that were on the original copy of the Software.
+ 
+    (iii)  transfer all your license rights in the Software, together with the backup copy of the Software, the related documentation and a copy of this License to another party, provided the other party reads and agrees to accept the terms and conditions of this License, and that you do not keep the original or any copies of the Software.
+ 
+     (iv)  use the Software on a personal or business network provided that you have a licensed copy of the Software for each computer that is not part of your household, which can access the Software over that network.
+ 
+  2. RESTRICTIONS.
+ 
+  The Software contains copyrighted material, trade secrets and other proprietary material. In order to protect them, and except as permitted above or by applicable legislation:
+ 
+    YOU MAY NOT:
+ 
+    (i)   convert, modify, translate, reverse engineer, decompile, disassemble (except to the extent applicable laws specifically prohibit such restriction), or create derivative works based on the Software.
+ 
+    (ii)  modify, network, rent, lend, loan, and distribute, or create derivative works based upon, the Software in whole or in part;
+ 
+    (iii)  use a previous version of the Software after you have received an upgraded revision of the Software as a replacement for the prior version through a promotion offering advantages to upgrade, or transfer or assign such previous version of the Software to another;
+ 
+    (iv)  permit other individuals to use the Software except under the terms listed above;
+ 
+ 
+    (v)  reduce the Software to a human- perceivable form in any manner or through any process;
+ 
+ 
+    (vi) transfer, license, rent, lease, grant a security interest in, or otherwise transfer rights to the Software; or
+ 
+    (vii)  remove any proprietary notices or labels on the Software.
+ 
+   3. TITLE:
+ 
+  Title, ownership rights, and intellectual property rights in the Software shall remain in or through Prolific. The Software is protected by all applicable  copyright laws and treaties. Title and related rights in the content accessed through the Software is the property of the applicable content owner and may be protected by applicable law. This License gives you no rights to such content.
+ 
+  4. TERMINATION.
+ 
+  This License is effective until terminated. You may terminate this License at any time by destroying the Software, related documentation and all copies thereof. This License will terminate immediately without notice from Prolific, if you fail to comply with any provision of this License. Upon termination you must destroy the Software, related documentation and all copies thereof.
+ 
+  5. EXPORT CONTROLS.
+ 
+  You agree and certify that neither the Software nor any other technical data received from Prolific, nor the direct product thereof, will be exported outside the United States except as authorized and as permitted by the laws and regulations of the United States. If the Software has been rightfully obtained by you outside of the United States, you agree that you will not re-export the Software nor any other technical data received from Prolific, nor the direct product thereof, except as permitted by the laws and regulations of the United States and the laws and regulations of the jurisdiction in which you obtained the Software. By downloading or using the Software, you are agreeing to the foregoing and you are representing that you are not causing a violation of such laws or regulations.
+ 
+ 
+  6. U.S. GOVERNMENT RESTRICTED RIGHTS.
+ 
+  Use, duplication or disclosure by the Government is subject to restrictions, as amended, as set forth in (i) this Agreement for all licenses and, insofar as they do not conflict with the terms of this Agreement, (ii) with the restrictions as set forth in subparagraphs (a) through (d) of the Commercial Computer- Restricted Rights clause at FAR 52.227-19 when applicable, or in subparagraph (c)(1)(ii) of the Rights in Technical Data and Computer Software clause at DFARS 252.227-7013, or at 252.211- 7015, or to Licensor's standard commercial license, as applicable, and in similar clauses in the NASA FAR Supplement. Contractor/manufacturer is a software publisher: Prolific Publishing, Inc., Prolific Publishing, Inc. P.O. BOX 5000 BURBANK, CA 91508-5000.
+ 
+  7. DISCLAIMER OF WARRANTY.
+ 
+  You expressly acknowledge and agree that use of the Software is at your sole risk. The Software and related documentation are provided "AS IS" and without warranty of any kind and PROLIFIC EXPRESSLY DISCLAIMS ALL WARRANTIES, EXPRESS AND/OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY, OF TITLE, OF NON-INFRINGEMENT AND OF FITNESS FOR A PARTICULAR PURPOSE. PROLIFIC DOES NOT WARRANT THAT THE FUNCTIONS CONTAINED IN THE SOFTWARE WILL MEET YOUR REQUIREMENTS, OR THAT THE OPERATION OF AND YOUR USE OF THE SOFTWARE WILL BE UNINTERRUPTED OR ERROR-FREE, OR THAT DEFECTS IN THE SOFTWARE WILL BE CORRECTED. IN ADDITION, THE SECURITY MECHANISMS, IF ANY, IMPLEMENTED IN THE SOFTWARE HAVE INHERENT LIMITATIONS AND THE COPY-PROTECTION SCHEME UTILIZED, IF ANY, MAY CAUSE INCONVENIENCE, INTERRUPTION OR DELAYS IN USE. THE ENTIRE RISK AS TO THE RESULTS AND PERFORMANCE OF THE SOFTWARE IS ASSUMED BY YOU. FURTHERMORE, PROLIFIC DOES NOT WARRANT OR MAKE ANY REPRESENTATIONS REGARDING 
+THE USE OR THE RESULTS OF THE USE OF THE SOFTWARE OR RELATED DOCUMENTATION IN TERMS OF THEIR CORRECTNESS, ACCURACY, RELIABILITY, CURRENTNESS, OR OTHERWISE. NO ORAL OR WRITTEN INFORMATION OR ADVICE GIVEN BY PROLIFIC OR PROLIFIC'S AUTHORIZED REPRESENTATIVE SHALL CREATE A WARRANTY OR IN ANY WAY INCREASE THE SCOPE OF THE WARRANTY. SHOULD THE SOFTWARE PROVE DEFECTIVE, YOU (AND NOT PROLIFIC OR PROLIFIC'S AUTHORIZED REPRESENTATIVE) ASSUME THE ENTIRE COST OF ALL NECESSARY SERVICING, REPAIR AND/OR CORRECTION. SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OF IMPLIED WARRANTIES, SO THE ABOVE EXCLUSION AND/OR LIMITATIONS MAY NOT APPLY TO YOU. YOU MAY HAVE OTHER RIGHTS WHICH VARY FROM STATE TO STATE.
+ 
+  8. LIMITATION OF LIABILITY.
+ 
+  UNDER NO CIRCUMSTANCES, INCLUDING BUT NOT LIMITED TO NEGLIGENCE AND REGARDLESS OF WHETHER ANY REMEDY SET FORTH IN THIS LICENSE FAILS OF ITS ESSENTIAL PURPOSE, NEITHER PROLIFIC, NOR ITS DIRECTORS, OFFICERS, EMPLOYEES, ATTORNEYS OR AGENTS, SHALL BE LIABLE TO YOU FOR ANY INCIDENTAL, INDIRECT, SPECIAL OR CONSEQUENTIAL DAMAGES (INCLUDING DAMAGES FOR LOSS OF BUSINESS PROFITS, BUSINESS INTERRUPTION, LOSS OF BUSINESS INFORMATION, AND THE LIKE) ARISING OUT OF THE USE, MISUSE OR INABILITY TO USE THE SOFTWARE OR RELATED DOCUMENTATION, EVEN IF PROLIFIC OR PROLIFIC'S AUTHORIZED REPRESENTATIVE HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. SOME JURISDICTIONS DO NOT ALLOW THE LIMITATION OR EXCLUSION OF LIABILITY FOR INCIDENTAL OR CONSEQUENTIAL DAMAGES, SO THE ABOVE LIMITATION OR EXCLUSION MAY NOT APPLY TO YOU.
+ 
+  IF PROLIFIC SHALL BE DETERMINED TO HAVE LIABILITY NOTWITHSTANDING THE DISCLAIMERS AND LIMITATIONS SET FORTH IN THIS AGREEMENT, THEN LICENSOR'S SOLE LIABILITY FOR ANY BREACH OF THIS WARRANTY SHALL BE, IN LICENSOR'S SOLE DISCRETION: (i) TO REPLACE YOUR DEFECTIVE MEDIA OR SOFTWARE; OR (ii) TO ADVISE YOU HOW TO ACHIEVE SUBSTANTIALLY THE SAME FUNCTIONALITY WITH THE SOFTWARE AS DESCRIBED IN THE DOCUMENTATION THROUGH A PROCEDURE DIFFERENT FROM THAT SET FORTH IN THE DOCUMENTATION; OR (iii) IF THE ABOVE REMEDIES ARE IMPRACTICABLE, TO REFUND THE LICENSE FEE YOU PAID FOR THE SOFTWARE. IN NO EVENT SHALL PROLIFIC'S TOTAL LIABILITY TO YOU FOR ALL DAMAGES, LOSSES, AND CAUSES OF ACTION (WHETHER IN CONTRACT, TORT (INCLUDING, BUT NOT LIMITED TO NEGLIGENCE) OR OTHERWISE) EXCEED THE AMOUNT PAID BY YOU FOR THE SOFTWARE.
+ 
+  9. HIGH RISK ACTIVITIES.
+ 
+  The Software is not fault-tolerant and is not designed, manufactured or intended for use or resale as on-line control equipment in hazardous environments requiring fail-safe performance, such as in the operation of nuclear facilities, aircraft navigation or communication systems, air traffic control, direct life support machines, or weapons systems, in which the failure of the Software could lead directly to death, personal injury, or severe physical or environmental damage ("High Risk Activities"). Licensor and its suppliers specifically disclaim any express or implied warranty of fitness for High Risk Activities.
+ 
+  10. CONTROLLING LAW AND SEVERABILITY.
+ 
+  This License shall be governed by the construed in accordance with the laws of the United States and the State of California, as applied to agreements entered into and to be performed entirely within California between California residents. If for any reason a court of competent jurisdiction finds any provision of this License or portion thereof, to be unenforceable, that provision of the License shall be enforced to the maximum extent permissible so as to effect the intent of the parties, and the remainder of this License shall continue in full force and effect.
+ 
+  11. COMPLETE AGREEMENT.
+ 
+  This License constitutes the entire agreement between the parties with respect to the use of the Software and the related documentation, and supersedes all prior or contemporaneous understandings or agreements, written or oral, regarding such subject matter. No amendment to or modification of this License will be binding unless in writing and signing by a duly authorized representative of PROLIFIC.

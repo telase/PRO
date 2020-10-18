@@ -1,0 +1,4 @@
+﻿Ekran koruyusunu ilk açtıktan sonra kapatmak için klavyeden ESC tuşuna basınız.
+Program ayarları için Ekran koruyucu çalışırken klavyeden Boşluk tuşuna basıp,ayarları yapabilirsiniz.
+
+TeLaSe
