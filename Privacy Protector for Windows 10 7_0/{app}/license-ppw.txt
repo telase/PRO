@@ -1,0 +1,59 @@
+Privacy Protector for Windows 10 License Agreement
+SoftOrbits Privacy Protector for Windows 10 END USER LICENSE AGREEMENT
+
+IMPORTANT: THIS SOFTWARE END USER LICENSE AGREEMENT ("EULA") IS A LEGAL AGREEMENT BETWEEN YOU AND SoftOrbits. 
+USE OF THE SOFTWARE PROVIDED WITH THIS AGREEMENT (THE "SOFTWARE") CONSTITUTES YOUR ACCEPTANCE OF THESE TERMS. 
+READ IT CAREFULLY BEFORE COMPLETING THE INSTALLATION PROCESS AND USING THE SOFTWARE. 
+IF YOU DO NOT AGREE TO THE TERMS OF THIS AGREEMENT, DO NOT INSTALL AND/OR USE THIS SOFTWARE. 
+BY INSTALLING, COPYING, OR OTHERWISE USING THE SOFTWARE PRODUCT, YOU AGREE TO BE BOUND BY THE TERMS OF THIS EULA. 
+
+1. LICENSE GRANT. SoftOrbits grants you a license to use one copy of the version of this SOFTWARE on a single computer. 
+"You" means the company, entity or individual whose funds are used to pay the license fee. 
+"Use" means storing, loading, installing, executing or displaying the SOFTWARE. 
+You may not modify the SOFTWARE or disable any licensing or control features of the SOFTWARE except as 
+an intended part of the SOFTWARE programming features. This license is not transferable to any other system, 
+or to another organization or individual. 
+
+2. TRIAL and REGISTRATION. You are granted the right to use the SOFTWARE without registration solely for the purposes
+of evaluating the performance of the SOFTWARE for a period of no more than 20 days. If after that time continued use 
+of the SOFTWARE is desired then the SOFTWARE must be registered with SoftOrbits subject to the terms as laid out in the 
+registration information which can be found in the documentation accompanying the SOFTWARE. You are expected to use
+the SOFTWARE on your system and to thoroughly evaluate its usefulness and functionality before making a purchase. 
+This "try before you buy" approach is the ultimate guarantee that the SOFTWARE will perform to your satisfaction. 
+
+3. OWNERSHIP. The SOFTWARE is owned and copyrighted by SoftOrbits. Your license confers no title or ownership in the
+SOFTWARE and should not be construed as a sale of any right in the SOFTWARE. 
+
+4. COPYRIGHT. The SOFTWARE and all rights, without limitation including proprietary rights therein, are owned by
+SoftOrbits or its suppliers and are protected by copyright laws and international copyright treaties, as well as other 
+intellectual property laws and treaties. The SOFTWARE is licensed, not sold. You acknowledge that no title to the
+intellectual property in the SOFTWARE is transferred to you. You further acknowledge that title and full ownership
+rights to the SOFTWARE will remain the exclusive property of SoftOrbits and you will not acquire any rights to the 
+SOFTWARE except as expressly set forth in this license. You agree that any copies of the SOFTWARE will contain
+the same proprietary notices which appear on and in the SOFTWARE. 
+ 
+5. REVERSE ENGINEERING. You agree that you will not attempt to reverse compile, modify, translate, or disassemble
+the SOFTWARE in whole or in part. 
+
+6. NO OTHER WARRANTIES. THE SOFTWARE PRODUCT IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND. SoftOrbits DISCLAIMS
+ALL OTHER WARRANTIES WITH RESPECT TO THE SOFTWARE, EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO 
+IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF THIRD PARTY RIGHTS.
+SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OF IMPLIED WARRANTIES OR LIMITATIONS ON HOW LONG AN IMPLIED WARRANTY
+MAY LAST, OR THE EXCLUSION OR LIMITATION OF INCIDENTAL OR CONSEQUENTIAL DAMAGES, SO THE ABOVE LIMITATIONS OR
+EXCLUSIONS MAY NOT APPLY TO YOU. THIS WARRANTY GIVES YOU SPECIFIC LEGAL RIGHTS AND YOU MAY ALSO HAVE OTHER RIGHTS 
+WHICH VARY FROM JURISDICTION TO JURISDICTION. 
+ 
+7. SEVERABILITY. In the event of invalidity of any provision of this license, the parties agree that such 
+invalidity shall not affect the validity of the remaining portions of this license. 
+
+8. NO LIABILITY FOR CONSEQUENTIAL DAMAGES. IN NO EVENT SHALL SoftOrbits OR ITS SUPPLIERS BE LIABLE TO YOU FOR 
+ANY CONSEQUENTIAL, SPECIAL, INCIDENTAL OR INDIRECT DAMAGES OF ANY KIND ARISING OUT OF THE DELIVERY,
+PERFORMANCE OR USE OF THE SOFTWARE, EVEN IF SoftOrbits HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. 
+IN NO EVENT WILL SoftOrbits LIABILITY FOR ANY CLAIM, WHETHER IN CONTRACT, TORT OR ANY OTHER THEORY OF LIABILITY,
+EXCEED THE LICENSE FEE PAID BY YOU, IF ANY. 
+
+9. GENERAL PROVISION. This is the entire agreement between you and SoftOrbits, which supersedes any prior agreement
+or understanding, whether written, or oral, relating to the subject matter of this license. If any part of this
+agreement is found void and unenforceable, it will not affect the validity of the balance of the agreement, which
+shall remain valid and enforceable according to its terms. This agreement shall automatically terminate upon 
+failure by you to comply with its terms. SoftOrbits, on its sole discretion, may modify this agreement in writing at any time. 

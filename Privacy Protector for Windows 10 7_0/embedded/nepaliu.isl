@@ -1,0 +1,12 @@
+[LangOptions]
+LanguageName=<0928><0947><092A><093E><0932><0940>
+LanguageID=$0461
+LanguageCodePage=0
+DialogFontName=Tahoma
+TitleFontName=Arial
+WelcomeFontName=Verdana
+CopyrightFontName=Arial
+DialogFontSize=10
+TitleFontSize=35
+WelcomeFontSize=15
+CopyrightFontSize=9

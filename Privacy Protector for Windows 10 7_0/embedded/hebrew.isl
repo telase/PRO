@@ -1,0 +1,13 @@
+[LangOptions]
+LanguageName=<05E2><05D1><05E8><05D9><05EA>
+LanguageID=$040D
+LanguageCodePage=0
+DialogFontName=Tahoma
+TitleFontName=Arial
+WelcomeFontName=Tahoma
+CopyrightFontName=Arial
+DialogFontSize=8
+TitleFontSize=29
+WelcomeFontSize=11
+CopyrightFontSize=8
+RightToLeft=yes

@@ -1,0 +1,952 @@
+; [Code] section dumped from CompiledCode.bin
+
+
+[TYPES]
+Type [0]: Pointer
+Type [1]: U32
+Type [2]: Variant
+Type [3]: PChar
+Type [4]: Currency
+Type [5]: Extended
+Type [6]: Double
+Type [7]: Single
+Type [8]: S64
+Type [9]: String
+Type [10]: U32
+Type [11]: S32
+Type [12]: S16
+Type [13]: U16
+Type [14]: S8
+Type [15]: ProcPtr Export: ANYMETHOD
+Type [16]: String
+Type [17]: UnicodeString
+Type [18]: UnicodeString
+Type [19]: String
+Type [20]: UnicodeString
+Type [21]: WideString
+Type [22]: WideChar
+Type [23]: WideChar
+Type [24]: Char
+Type [25]: U8
+Type [26]: U16
+Type [27]: U32
+Type [28]: U8 Export: BOOLEAN
+Type [29]: U8
+Type [30]: Class Export: TWIZARDFORM
+Type [31]: Class Export: TMAINFORM
+Type [32]: Class Export: TUNINSTALLPROGRESSFORM
+Type [33]: Class Export: TNEWEDIT
+Type [34]: Class Export: TNEWBUTTON
+Type [35]: Class Export: TBITMAPIMAGE
+Type [36]: Class Export: TNEWSTATICTEXT
+Type [37]: Class Export: TWIZARDPAGE
+Type [38]: Class Export: TLABEL
+Type [39]: Class Export: TBUTTON
+Type [40]: Array of UnicodeString Export: TARRAYOFSTRING
+Type [41]: U8 Export: TUNINSTALLSTEP
+Type [42]: U8 Export: TEXECWAIT
+Type [43]: Interface Export: IDISPATCH
+Type [44]: Array of Variant Export: !OPENARRAYOFVARIANT
+Type [45]: Array of Variant
+Type [46]: U8 Export: TMSGBOXTYPE
+Type [47]: Class Export: TOBJECT
+Type [48]: Class Export: TFONT
+Type [49]: Class Export: TBITMAP
+Type [50]: Array of UnicodeString Export: !OPENARRAYOFUNICODESTRING
+Type [51]: Class Export: TSTRINGS
+Type [52]: Class Export: TSTRINGLIST
+Type [53]: Class Export: TCONTROL
+Type [54]: Class Export: TCOMPONENT
+Type [55]: Class Export: TWINCONTROL
+Type [56]: Class Export: TNEWNOTEBOOKPAGE
+Type [57]: U8 Export: TFONTSTYLE
+Type [58]: Set Export: TFONTSTYLES
+Type [59]: ProcPtr Export: TNOTIFYEVENT
+Type [60]: Class Export: TPERSISTENT
+Type [61]: Class Export: TPANEL
+Type [62]: U8 Export: TSETUPMESSAGEID
+Type [63]: U8 Export: TPANELBEVEL
+Type [64]: U8 Export: TEDITCHARCASE
+Type [65]: U8 Export: TSETUPSTEP
+[VARS]
+Var [0]: 30 Class TWIZARDFORM
+Var [1]: 31 Class TMAINFORM
+Var [2]: 32 Class TUNINSTALLPROGRESSFORM
+Var [3]: 11 S32 
+Var [4]: 33 Class TNEWEDIT
+Var [5]: 34 Class TNEWBUTTON
+Var [6]: 34 Class TNEWBUTTON
+Var [7]: 34 Class TNEWBUTTON
+Var [8]: 35 Class TBITMAPIMAGE
+Var [9]: 18 UnicodeString 
+Var [10]: 36 Class TNEWSTATICTEXT
+Var [11]: 18 UnicodeString 
+Var [12]: 11 S32 
+Var [13]: 18 UnicodeString 
+Var [14]: 18 UnicodeString 
+Var [15]: 11 S32 
+Var [16]: 28 U8 BOOLEAN
+Var [17]: 18 UnicodeString 
+Var [18]: 18 UnicodeString 
+Var [19]: 18 UnicodeString 
+Var [20]: 37 Class TWIZARDPAGE
+Var [21]: 38 Class TLABEL
+Var [22]: 38 Class TLABEL
+Var [23]: 38 Class TLABEL
+Var [24]: 38 Class TLABEL
+Var [25]: 38 Class TLABEL
+Var [26]: 38 Class TLABEL
+Var [27]: 39 Class TBUTTON
+Var [28]: 39 Class TBUTTON
+Var [29]: 28 U8 BOOLEAN
+Var [30]: 28 U8 BOOLEAN
+Var [31]: 28 U8 BOOLEAN
+[PROCS]
+Proc [0] Export: !MAIN -1
+ [0] RET
+Proc [1]: External Decl: dll:user32.dll\00OpenClipboard\00\03\00\00\01\00 
+Proc [2]: External Decl: dll:user32.dll\00GetClipboardData\00\03\00\00\01\00 
+Proc [3]: External Decl: dll:user32.dll\00CloseClipboard\00\03\00\00\01 
+Proc [4]: External Decl: dll:kernel32.dll\00GlobalLock\00\03\00\00\01\00 
+Proc [5]: External Decl: dll:kernel32.dll\00GlobalUnlock\00\03\00\00\01\00 
+Proc [6] Export: GETUTMCONTENT 18 @18
+ [0] PUSHTYPE 18(UnicodeString) // 1
+ [5] ASSIGN Base[1], GlobalVar[18]
+ [16] PUSHTYPE 11(S32) // 2
+ [21] PUSHTYPE 28(U8) // 3
+ [26] ASSIGN Base[3], [1]
+ [38] PUSHTYPE 18(UnicodeString) // 4
+ [43] ASSIGN Base[4], []
+ [54] PUSHVAR GlobalVar[2424832] // 5
+ Disasm Error
+Proc [7]: External Decl: \01\01\00\00\00 STRINGCHANGEEX
+Proc [8]: External Decl: \01\00 EXPANDCONSTANT
+Proc [9] Export: GETDEALPARAMS 18 @18
+ [0] PUSHTYPE 20(UnicodeString) // 1
+ [5] ASSIGN Base[1], []
+ [16] COMPARE into GlobalVar[1023440384]: GlobalVar[3014711] >= 
+ [29] ASSIGN , GlobalVar[6226017]
+ Disasm Error
+Proc [10] Export: SPLIT 40 @18 @18
+ [0] PUSHTYPE 11(S32) // 1
+ [5] PUSHTYPE 40(Array of UnicodeString) // 2
+ [10] PUSHTYPE 18(UnicodeString) // 3
+ [15] ASSIGN Base[1], [0]
+ [30] ASSIGN Base[3], Base[-2]
+ [41] PUSHTYPE 28(U8) // 4
+ [46] PUSHTYPE 11(S32) // 5
+ [51] ASSIGN Base[5], Base[1]
+ [62] CALC Base[5] + [1]
+ [78] PUSHTYPE 0(Pointer) // 6
+ [83] SETPOINTER Base[6]: Base[2]
+ [94] CALL 11
+ [99] POP // 5
+ [100] POP // 4
+ [101] PUSHTYPE 28(U8) // 5
+ [106] PUSHTYPE 11(S32) // 6
+ [111] PUSHTYPE 18(UnicodeString) // 7
+ [116] ASSIGN Base[7], Base[3]
+ [127] PUSHTYPE 18(UnicodeString) // 8
+ [132] ASSIGN Base[8], Base[-3]
+ [143] PUSHVAR Base[6] // 9
+ [149] CALL 12
+ [154] POP // 8
+ [155] POP // 7
+ [156] POP // 6
+ [157] COMPARE into Base[5]: Base[6] > [0]
+ [178] POP // 5
+ [179] SETFLAG NOT Base[5]
+ [186] POP // 4
+ [187] FLAGGOTO currpos + 306 [498]
+ [192] PUSHTYPE 11(S32) // 5
+ [197] PUSHTYPE 18(UnicodeString) // 6
+ [202] ASSIGN Base[6], Base[3]
+ [213] PUSHTYPE 18(UnicodeString) // 7
+ [218] ASSIGN Base[7], Base[-3]
+ [229] PUSHVAR Base[5] // 8
+ [235] CALL 12
+ [240] POP // 7
+ [241] POP // 6
+ [242] POP // 5
+ [243] CALC Base[5] - [1]
+ [259] PUSHTYPE 11(S32) // 6
+ [264] ASSIGN Base[6], [1]
+ [279] PUSHTYPE 18(UnicodeString) // 7
+ [284] ASSIGN Base[7], Base[3]
+ [295] PUSHVAR Base[2].Base[1] // 8
+ [305] CALL 13
+ [310] POP // 7
+ [311] POP // 6
+ [312] POP // 5
+ [313] POP // 4
+ [314] PUSHTYPE 11(S32) // 5
+ [319] PUSHTYPE 18(UnicodeString) // 6
+ [324] ASSIGN Base[6], Base[3]
+ [335] PUSHVAR Base[5] // 7
+ [341] CALL 14
+ [346] POP // 6
+ [347] POP // 5
+ [348] PUSHTYPE 11(S32) // 6
+ [353] PUSHTYPE 18(UnicodeString) // 7
+ [358] ASSIGN Base[7], Base[3]
+ [369] PUSHTYPE 18(UnicodeString) // 8
+ [374] ASSIGN Base[8], Base[-3]
+ [385] PUSHVAR Base[6] // 9
+ [391] CALL 12
+ [396] POP // 8
+ [397] POP // 7
+ [398] POP // 6
+ [399] PUSHTYPE 11(S32) // 7
+ [404] PUSHTYPE 18(UnicodeString) // 8
+ [409] ASSIGN Base[8], Base[-3]
+ [420] PUSHVAR Base[7] // 9
+ [426] CALL 14
+ [431] POP // 8
+ [432] POP // 7
+ [433] CALC Base[6] + Base[7]
+ [445] POP // 6
+ [446] PUSHTYPE 18(UnicodeString) // 7
+ [451] ASSIGN Base[7], Base[3]
+ [462] PUSHVAR Base[3] // 8
+ [468] CALL 13
+ [473] POP // 7
+ [474] POP // 6
+ [475] POP // 5
+ [476] POP // 4
+ [477] CALC Base[1] + [1]
+ [493] GOTO currpos + 30 [528]
+ [498] ASSIGN Base[2].Base[1], Base[3]
+ [513] ASSIGN Base[3], []
+ [524] ASSIGN GlobalVar[185270272], GlobalVar[302710784]
+ [535] ASSIGN GlobalVar[100663296], GlobalVar[50356224]
+ [546] ASSIGN GlobalVar[83886944], GlobalVar[235233280]
+ [557] ASSIGN GlobalVar[201589760], 
+ [564] ASSIGN , GlobalVar[83910656]
+ [571] ASSIGN GlobalVar[721248], GlobalVar[0]
+ [582] ASSIGN , 
+ Disasm Error
+Proc [11]: External Decl: \00 SETARRAYLENGTH
+Proc [12]: External Decl: \01\00\00 POS
+Proc [13]: External Decl: \01\00\00\00 COPY
+Proc [14]: External Decl: \01 LENGTH
+Proc [15] Export: STRINARRAY 28 @18 @40
+ [0] PUSHTYPE 11(S32) // 1
+ [5] ASSIGN Base[-1], [0]
+ [17] PUSHTYPE 8(S64) // 2
+ [22] PUSHTYPE 40(Array of UnicodeString) // 3
+ [27] ASSIGN Base[3], Base[-3]
+ [38] PUSHVAR Base[2] // 4
+ [44] CALL 16
+ [49] POP // 3
+ [50] POP // 2
+ [51] ASSIGN Base[1], Base[2]
+ [62] POP // 1
+ [63] PUSHTYPE 28(U8) // 2
+ [68] PUSHTYPE 8(S64) // 3
+ [73] PUSHTYPE 40(Array of UnicodeString) // 4
+ [78] ASSIGN Base[4], Base[-3]
+ [89] PUSHVAR Base[3] // 5
+ [95] CALL 17
+ [100] POP // 4
+ [101] POP // 3
+ [102] COMPARE into Base[2]: Base[1] <= Base[3]
+ [119] POP // 2
+ [120] COND_NOT_GOTO currpos + 79 Base[2] [209]
+ [130] PUSHTYPE 28(U8) // 3
+ [135] PUSHTYPE 28(U8) // 4
+ [140] COMPARE into Base[4]: Base[-2] = Base[-3].Base[1]
+ [161] ASSIGN Base[3], Base[4]
+ [172] POP // 3
+ [173] SETFLAG NOT Base[3]
+ [180] POP // 2
+ [181] FLAGGOTO currpos + 12 [198]
+ [186] ASSIGN Base[-1], [1]
+ [198] INC Base[1]
+ [204] GOTO currpos + 4294967155 [68]
+ [209] POP // 1
+ [210] RET
+Proc [16]: External Decl: \01 LOW
+Proc [17]: External Decl: \01 HIGH
+Proc [18] Export: GETCLIPBOARDTEXT 18
+ [0] PUSHTYPE 11(S32) // 1
+ [5] ASSIGN Base[-1], []
+ [16] ASSIGN GlobalVar[470482944], GlobalVar[453705728]
+ [27] ASSIGN GlobalVar[723712], GlobalVar[67108864]
+ [38] ASSIGN GlobalVar[721248], GlobalVar[0]
+ [49] ASSIGN GlobalVar[768].GlobalVar[66912], GlobalVar[263168]
+ [64] ASSIGN GlobalVar[6291456].[1610612739], 
+ [75] SETFLAG NOT Base[2]
+ [82] POP // 0
+ [83] FLAGGOTO currpos + 231 [319]
+ [88] PUSHEXCEPTION 120 4294967295 4294967295 214
+ [105] PUSHTYPE 10(U32) // 1
+ [110] ASSIGN Base[2], [1]
+ [125] PUSHVAR Base[1] // 2
+ [131] CALL 2
+ [136] POP // 1
+ [137] POP // 0
+ [138] PUSHTYPE 28(U8) // 1
+ [143] COMPARE into Base[2]: Base[1] <> [0]
+ [164] SETFLAG NOT Base[2]
+ [171] POP // 0
+ [172] FLAGGOTO currpos + 46 [223]
+ [177] PUSHTYPE 3(PChar) // 1
+ [182] PUSHTYPE 11(S32) // 2
+ [187] ASSIGN Base[3], Base[1]
+ [198] PUSHVAR Base[2] // 3
+ [204] CALL 4
+ [209] POP // 2
+ [210] POP // 1
+ [211] ASSIGN Base[-1], Base[2]
+ [222] POP // 0
+ [223] POPEXCEPTION 0
+ [225] PUSHTYPE 28(U8) // 1
+ [230] COMPARE into Base[2]: Base[1] <> [0]
+ [251] SETFLAG NOT Base[2]
+ [258] POP // 0
+ [259] FLAGGOTO currpos + 35 [299]
+ [264] PUSHTYPE 27(U32) // 1
+ [269] PUSHTYPE 11(S32) // 2
+ [274] ASSIGN Base[3], Base[1]
+ [285] PUSHVAR Base[2] // 3
+ [291] CALL 5
+ [296] POP // 2
+ [297] POP // 1
+ [298] POP // 0
+ [299] PUSHTYPE 27(U32) // 1
+ [304] PUSHVAR Base[2] // 2
+ [310] CALL 3
+ [315] POP // 1
+ [316] POP // 0
+ [317] POPEXCEPTION 1
+ [319] RET
+Proc [19] Export: CURUNINSTALLSTEPCHANGED -1 @41
+ [0] PUSHTYPE 28(U8) // 1
+ [5] COMPARE into Base[1]: Base[-1] = [1]
+ [23] SETFLAG NOT Base[1]
+ [30] POP // 0
+ [31] FLAGGOTO currpos + 525 [561]
+ [36] PUSHTYPE 28(U8) // 1
+ [41] PUSHTYPE 0(Pointer) // 2
+ [46] SETPOINTER Base[2]: GlobalVar[3]
+ [57] PUSHTYPE 42(U8) // 3
+ [62] ASSIGN Base[3], [0]
+ [74] PUSHTYPE 11(S32) // 4
+ [79] ASSIGN Base[4], [1]
+ [94] PUSHTYPE 18(UnicodeString) // 5
+ [99] ASSIGN Base[5], []
+ [110] ASSIGN GlobalVar[302710784], GlobalVar[0]
+ [121] GOTO currpos + 23068672 [23068798]
+ [126] POPEXCEPTION 0
+ [128] ASSIGN GlobalVar[0], 
+ [135] FLAGGOTO currpos + 184549376 [184549516]
+ [140] POPEXCEPTION 0
+ [142] ASSIGN GlobalVar[524288], GlobalVar[1311072]
+ [153] ASSIGN GlobalVar[54], 
+ [160] ASSIGN , GlobalVar[7340148]
+ Disasm Error
+Proc [20]: External Decl: \01\00\00\00\00\00\00\01 SHELLEXEC
+Proc [21] Export: HTTPGET 18 @18
+ [0] PUSHTYPE 2(Variant) // 1
+ [5] ASSIGN Base[-1], []
+ [16] ASSIGN GlobalVar[722141184], GlobalVar[302710784]
+ [27] ASSIGN GlobalVar[50331648], GlobalVar[335634432]
+ [38] ASSIGN GlobalVar[6656], GlobalVar[6881367]
+ Disasm Error
+Proc [22]: External Decl: \01\00 CREATEOLEOBJECT
+Proc [23]: External Decl: \01\00\00\00\00 IDISPATCHINVOKE
+Proc [24]: External Decl: \01\00\00\00 MSGBOX
+Proc [25]: External Decl: \01\00 CUSTOMMESSAGE
+Proc [26] Export: LOADPARTNERINFO 28
+ [0] PUSHTYPE 18(UnicodeString) // 1
+ [5] PUSHTYPE 40(Array of UnicodeString) // 2
+ [10] ASSIGN GlobalVar[19], []
+ [21] RET
+ [22] ASSIGN Base[352331776], GlobalVar[7012462]
+ Disasm Error
+Proc [27]: External Decl: \01\01\00 WSTRGET
+Proc [28]: External Decl: \01\00\00 STRTOINTDEF
+Proc [29]: External Decl: \01\00 TRIM
+Proc [30]: External Decl: \01\00 INTTOSTR
+Proc [31]: External Decl: \01\00\00\00\00 REGWRITEDWORDVALUE
+Proc [32]: External Decl: \01\00\00\00\00 REGWRITESTRINGVALUE
+Proc [33] Export: BUTTONACTIVATEONCLICK -1 @47
+ [0] PUSHTYPE 18(UnicodeString) // 1
+ [5] PUSHTYPE 18(UnicodeString) // 2
+ [10] PUSHTYPE 40(Array of UnicodeString) // 3
+ [15] PUSHTYPE 18(UnicodeString) // 4
+ [20] PUSHTYPE 18(UnicodeString) // 5
+ [25] PUSHTYPE 20(UnicodeString) // 6
+ [30] ASSIGN Base[6], []
+ Disasm Error
+Proc [34]: External Decl: class:TEDIT|TEXT|\01\00\00\00 
+Proc [35]: External Decl: class:TCONTROL|VISIBLE@|\01\00\00\00 
+Proc [36]: External Decl: class:TNEWSTATICTEXT|CAPTION@|\01\00\00\00 
+Proc [37]: External Decl: class:TNEWSTATICTEXT|FONT|\01\00\00\00 
+Proc [38]: External Decl: class:TFONT|COLOR@|\01\00\00\00 
+Proc [39]: External Decl: \00\00 EXTRACTTEMPORARYFILE
+Proc [40]: External Decl: \01\00 EXTRACTFILENAME
+Proc [41]: External Decl: class:TBITMAPIMAGE|BITMAP|\01\00\00\00 
+Proc [42]: External Decl: class:TGRAPHIC|LOADFROMFILE|\00\00\00 
+Proc [43]: External Decl: class:TWIZARDFORM|NEXTBUTTON|\01\00\00\00 
+Proc [44]: External Decl: class:TCONTROL|ENABLED@|\01\00\00\00 
+Proc [45]: External Decl: \01\00\00 FMTMESSAGE
+Proc [46] Export: BUTTONGETKEYONCLICK -1 @47
+ [0] PUSHTYPE 28(U8) // 1
+ [5] PUSHTYPE 0(Pointer) // 2
+ [10] SETPOINTER Base[2]: GlobalVar[3]
+ [21] PUSHTYPE 42(U8) // 3
+ [26] ASSIGN Base[3], [0]
+ [38] PUSHTYPE 11(S32) // 4
+ [43] ASSIGN Base[4], [1]
+ [58] PUSHTYPE 18(UnicodeString) // 5
+ [63] ASSIGN Base[5], []
+ [74] ASSIGN GlobalVar[302710784], GlobalVar[0]
+ [85] GOTO currpos + 23068672 [23068762]
+ [90] POPEXCEPTION 0
+ [92] ASSIGN GlobalVar[0], 
+ [99] FLAGGOTO currpos + 184549376 [184549480]
+ [104] POPEXCEPTION 0
+ [106] ASSIGN GlobalVar[524288], GlobalVar[1311072]
+ [117] ASSIGN GlobalVar[65], 
+ [124] ASSIGN , GlobalVar[7340148]
+ Disasm Error
+Proc [47] Export: BUTTONPASTEONCLICK -1 @47
+ [0] PUSHTYPE 18(UnicodeString) // 1
+ [5] PUSHVAR Base[1] // 2
+ [11] CALL 18
+ [16] POP // 1
+ [17] PUSHTYPE 33(Class) // 2
+ [22] ASSIGN Base[2], GlobalVar[4]
+ [33] CALL 48
+ [38] POP // 1
+ [39] POP // 0
+ [40] RET
+Proc [48]: External Decl: class:TEDIT|TEXT@|\01\00\00\00 
+Proc [49] Export: RUNYAINSTALL -1 @28
+ [0] PUSHTYPE 11(S32) // 1
+ [5] PUSHTYPE 18(UnicodeString) // 2
+ [10] PUSHTYPE 18(UnicodeString) // 3
+ [15] PUSHTYPE 18(UnicodeString) // 4
+ [20] ASSIGN Base[4], []
+ [31] POPEXCEPTION 0
+ [33] ASSIGN GlobalVar[7602299], 
+ [40] ASSIGN , GlobalVar[6029437]
+ Disasm Error
+Proc [50]: External Decl: \00\00 LOG
+Proc [51]: External Decl: \01\00\00\00\00\00\01 EXEC
+Proc [52] Export: GOTONEXTPAGE -1
+ [0] PUSHTYPE 11(S32) // 1
+ [5] PUSHTYPE 11(S32) // 2
+ [10] ASSIGN Base[2], [0]
+ [25] PUSHTYPE 11(S32) // 3
+ [30] ASSIGN Base[3], [0]
+ [45] PUSHTYPE 11(S32) // 4
+ [50] ASSIGN Base[4], [513]
+ [65] PUSHTYPE 11(S32) // 5
+ [70] PUSHTYPE 34(Class) // 6
+ [75] PUSHTYPE 30(Class) // 7
+ [80] ASSIGN Base[7], GlobalVar[0]
+ [91] PUSHVAR Base[6] // 8
+ [97] CALL 43
+ [102] POP // 7
+ [103] POP // 6
+ [104] PUSHVAR Base[5] // 7
+ [110] CALL 54
+ [115] POP // 6
+ [116] POP // 5
+ [117] PUSHVAR Base[1] // 6
+ [123] CALL 53
+ [128] POP // 5
+ [129] POP // 4
+ [130] POP // 3
+ [131] POP // 2
+ [132] POP // 1
+ [133] POP // 0
+ [134] PUSHTYPE 11(S32) // 1
+ [139] PUSHTYPE 11(S32) // 2
+ [144] ASSIGN Base[2], [0]
+ [159] PUSHTYPE 11(S32) // 3
+ [164] ASSIGN Base[3], [0]
+ [179] PUSHTYPE 11(S32) // 4
+ [184] ASSIGN Base[4], [514]
+ [199] PUSHTYPE 11(S32) // 5
+ [204] PUSHTYPE 34(Class) // 6
+ [209] PUSHTYPE 30(Class) // 7
+ [214] ASSIGN Base[7], GlobalVar[0]
+ [225] PUSHVAR Base[6] // 8
+ [231] CALL 43
+ [236] POP // 7
+ [237] POP // 6
+ [238] PUSHVAR Base[5] // 7
+ [244] CALL 54
+ [249] POP // 6
+ [250] POP // 5
+ [251] PUSHVAR Base[1] // 6
+ [257] CALL 53
+ [262] POP // 5
+ [263] POP // 4
+ [264] POP // 3
+ [265] POP // 2
+ [266] POP // 1
+ [267] POP // 0
+ [268] RET
+Proc [53]: External Decl: \01\00\00\00\00 SENDMESSAGE
+Proc [54]: External Decl: class:TWINCONTROL|HANDLE|\01\00\00\00 
+Proc [55] Export: CUSTOMFORM_ACCEPTBTNONCLICK -1 @47
+ [0] PUSHTYPE 11(S32) // 1
+ [5] PUSHTYPE 10(U32) // 2
+ [10] ASSIGN GlobalVar[30], [1]
+ [22] PUSHTYPE 28(U8) // 3
+ [27] ASSIGN Base[3], [0]
+ [39] CALL 49
+ [44] POP // 2
+ [45] CALL 52
+ [50] RET
+Proc [56] Export: CUSTOMFORM_DECLINEBTNONCLICK -1 @47
+ [0] PUSHTYPE 11(S32) // 1
+ [5] ASSIGN GlobalVar[30], [0]
+ [17] CALL 52
+ [22] RET
+Proc [57] Export: CUSTOMFORM_URLLABEL1ONCLICK -1 @47
+ [0] PUSHTYPE 11(S32) // 1
+ [5] PUSHTYPE 18(UnicodeString) // 2
+ [10] ASSIGN Base[2], []
+ Disasm Error
+Proc [58] Export: CUSTOMFORM_URLLABEL2ONCLICK -1 @47
+ [0] PUSHTYPE 11(S32) // 1
+ [5] PUSHTYPE 18(UnicodeString) // 2
+ [10] ASSIGN Base[2], []
+ Disasm Error
+Proc [59] Export: CUSTOMFORM_URLLABEL3ONCLICK -1 @47
+ [0] PUSHTYPE 11(S32) // 1
+ [5] PUSHTYPE 18(UnicodeString) // 2
+ [10] ASSIGN Base[2], []
+ Disasm Error
+Proc [60] Export: GETTHESTRPOS -1 @18 @18 !11 !11 !18
+ [0] PUSHTYPE 51(Class) // 1
+ [5] PUSHTYPE 11(S32) // 2
+ [10] PUSHTYPE 11(S32) // 3
+ [15] ASSIGN Base[-3], [0]
+ [30] ASSIGN Base[-4], [0]
+ [45] ASSIGN Base[-5], []
+ [56] ASSIGN GlobalVar[873136128], GlobalVar[168493056]
+ [67] ASSIGN GlobalVar[83886080], GlobalVar[167862272]
+ [78] ASSIGN GlobalVar[13312], GlobalVar[262147]
+ [89] ASSIGN , 
+ Disasm Error
+Proc [61]: External Decl: class:TSTRINGLIST|CREATE|\00\01 
+Proc [62]: External Decl: class:TSTRINGS|TEXT@|\01\00\00\00 
+Proc [63]: External Decl: class:TSTRINGS|COUNT|\01\00\00\00 
+Proc [64]: External Decl: class:TSTRINGS|STRINGS|\02\00\00\00 
+Proc [65] Export: YANDEXFORM_CREATEPAGE 11 @11
+ [0] PUSHTYPE 11(S32) // 1
+ [5] PUSHTYPE 11(S32) // 2
+ [10] PUSHTYPE 11(S32) // 3
+ [15] PUSHTYPE 11(S32) // 4
+ [20] PUSHTYPE 11(S32) // 5
+ [25] PUSHTYPE 11(S32) // 6
+ [30] PUSHTYPE 18(UnicodeString) // 7
+ [35] PUSHTYPE 18(UnicodeString) // 8
+ [40] PUSHTYPE 18(UnicodeString) // 9
+ [45] ASSIGN Base[5], [8]
+ [60] ASSIGN Base[6], [3]
+ [75] PUSHTYPE 18(UnicodeString) // 10
+ [80] PUSHTYPE 18(UnicodeString) // 11
+ [85] PUSHTYPE 18(UnicodeString) // 12
+ [90] ASSIGN Base[12], []
+ [101] ASSIGN GlobalVar[302710784], GlobalVar[0]
+ [112] CALLVAR GlobalVar[335634432]
+ [118] ASSIGN GlobalVar[0], GlobalVar[4619]
+ [129] ASSIGN GlobalVar[3584], 
+Proc [66]: External Decl: \01\00\00\00 CREATECUSTOMPAGE
+Proc [67]: External Decl: \01\00\00\00 EXPANDCONSTANTEX
+Proc [68]: External Decl: class:TCONTROL|CREATE|\00\01\00 
+Proc [69]: External Decl: class:TWIZARDPAGE|SURFACE|\01\00\00\00 
+Proc [70]: External Decl: class:TCONTROL|PARENT@|\01\00\00\00 
+Proc [71]: External Decl: class:TLABEL|FONT|\01\00\00\00 
+Proc [72]: External Decl: class:TFONT|SIZE@|\01\00\00\00 
+Proc [73]: External Decl: class:TLABEL|AUTOSIZE@|\01\00\00\00 
+Proc [74]: External Decl: \01\00 SCALEX
+Proc [75]: External Decl: class:TCONTROL|WIDTH@|\01\00\00\00 
+Proc [76]: External Decl: \01\00 SCALEY
+Proc [77]: External Decl: class:TCONTROL|HEIGHT@|\01\00\00\00 
+Proc [78]: External Decl: class:TLABEL|WORDWRAP@|\01\00\00\00 
+Proc [79]: External Decl: class:TLABEL|CAPTION@|\01\00\00\00 
+Proc [80]: External Decl: class:TCONTROL|LEFT@|\01\00\00\00 
+Proc [81]: External Decl: class:TCONTROL|TOP@|\01\00\00\00 
+Proc [82]: External Decl: class:TCONTROL|TOP|\01\00\00\00 
+Proc [83]: External Decl: class:TCONTROL|HEIGHT|\01\00\00\00 
+Proc [84]: External Decl: class:TFONT|SIZE|\01\00\00\00 
+Proc [85]: External Decl: class:TFONT|STYLE@|\01\00\00\00 
+Proc [86]: External Decl: class:TCONTROL|LEFT|\01\00\00\00 
+Proc [87]: External Decl: class:TCONTROL|WIDTH|\01\00\00\00 
+Proc [88]: External Decl: class:TCONTROL|CURSOR@|\01\00\00\00 
+Proc [89]: External Decl: class:TLABEL|ONCLICK@|\01\00\00\00 
+Proc [90]: External Decl: class:TWIZARDPAGE|ID|\01\00\00\00 
+Proc [91] Export: CUSTOMFORM_SHOWCOMSCOREBUTTON -1
+ [0] PUSHTYPE 28(U8) // 1
+ [5] PUSHTYPE 39(Class) // 2
+ [10] PUSHTYPE 0(Pointer) // 3
+ [15] SETPOINTER Base[3]: Base[2]
+ [26] CALL 92
+ [31] POP // 2
+ [32] COMPARE into Base[1]: GlobalVar[28] = Base[2]
+ [49] POP // 1
+ [50] SETFLAG NOT Base[1]
+ [57] POP // 0
+ [58] FLAGGOTO currpos + 769 [832]
+ [63] PUSHTYPE 54(Class) // 1
+ [68] PUSHTYPE 34(Class) // 2
+ [73] PUSHTYPE 30(Class) // 3
+ [78] ASSIGN Base[3], GlobalVar[0]
+ [89] PUSHVAR Base[2] // 4
+ [95] CALL 93
+ [100] POP // 3
+ [101] POP // 2
+ [102] PUSHVAR Base[1] // 3
+ [108] CALL 94
+ [113] POP // 2
+ [114] POP // 1
+ [115] PUSHTYPE 10(U32) // 2
+ [120] ASSIGN Base[2], [39]
+ [135] PUSHVAR GlobalVar[28] // 3
+ [141] CALL 68
+ [146] POP // 2
+ [147] POP // 1
+ [148] POP // 0
+ [149] PUSHTYPE 0(Pointer) // 1
+ [154] SETPOINTER Base[1]: GlobalVar[28]
+ [165] PUSHTYPE 55(Class) // 2
+ [170] PUSHTYPE 34(Class) // 3
+ [175] PUSHTYPE 30(Class) // 4
+ [180] ASSIGN Base[4], GlobalVar[0]
+ [191] PUSHVAR Base[3] // 5
+ [197] CALL 93
+ [202] POP // 4
+ [203] POP // 3
+ [204] PUSHVAR Base[2] // 4
+ [210] CALL 95
+ [215] POP // 3
+ [216] POP // 2
+ [217] PUSHTYPE 39(Class) // 3
+ [222] ASSIGN Base[3], Base[1]
+ [233] CALL 70
+ [238] POP // 2
+ [239] POP // 1
+ [240] PUSHTYPE 11(S32) // 2
+ [245] ASSIGN Base[2], [20]
+ [260] PUSHTYPE 39(Class) // 3
+ [265] ASSIGN Base[3], Base[1]
+ [276] CALL 80
+ [281] POP // 2
+ [282] POP // 1
+ [283] PUSHTYPE 11(S32) // 2
+ [288] PUSHTYPE 34(Class) // 3
+ [293] PUSHTYPE 30(Class) // 4
+ [298] ASSIGN Base[4], GlobalVar[0]
+ [309] PUSHVAR Base[3] // 5
+ [315] CALL 93
+ [320] POP // 4
+ [321] POP // 3
+ [322] PUSHVAR Base[2] // 4
+ [328] CALL 82
+ [333] POP // 3
+ [334] POP // 2
+ [335] PUSHTYPE 39(Class) // 3
+ [340] ASSIGN Base[3], Base[1]
+ [351] CALL 81
+ [356] POP // 2
+ [357] POP // 1
+ [358] PUSHTYPE 11(S32) // 2
+ [363] PUSHTYPE 34(Class) // 3
+ [368] PUSHTYPE 30(Class) // 4
+ [373] ASSIGN Base[4], GlobalVar[0]
+ [384] PUSHVAR Base[3] // 5
+ [390] CALL 93
+ [395] POP // 4
+ [396] POP // 3
+ [397] PUSHVAR Base[2] // 4
+ [403] CALL 87
+ [408] POP // 3
+ [409] POP // 2
+ [410] PUSHTYPE 39(Class) // 3
+ [415] ASSIGN Base[3], Base[1]
+ [426] CALL 75
+ [431] POP // 2
+ [432] POP // 1
+ [433] PUSHTYPE 11(S32) // 2
+ [438] PUSHTYPE 34(Class) // 3
+ [443] PUSHTYPE 30(Class) // 4
+ [448] ASSIGN Base[4], GlobalVar[0]
+ [459] PUSHVAR Base[3] // 5
+ [465] CALL 93
+ [470] POP // 4
+ [471] POP // 3
+ [472] PUSHVAR Base[2] // 4
+ [478] CALL 83
+ [483] POP // 3
+ [484] POP // 2
+ [485] PUSHTYPE 39(Class) // 3
+ [490] ASSIGN Base[3], Base[1]
+ [501] CALL 77
+ [506] POP // 2
+ [507] POP // 1
+ [508] PUSHTYPE 60(Class) // 2
+ [513] PUSHTYPE 48(Class) // 3
+ [518] PUSHTYPE 34(Class) // 4
+ [523] PUSHTYPE 30(Class) // 5
+ [528] ASSIGN Base[5], GlobalVar[0]
+ [539] PUSHVAR Base[4] // 6
+ [545] CALL 93
+ [550] POP // 5
+ [551] POP // 4
+ [552] PUSHVAR Base[3] // 5
+ [558] CALL 96
+ [563] POP // 4
+ [564] POP // 3
+ [565] ASSIGN Base[2], Base[3]
+ [576] POP // 2
+ [577] PUSHTYPE 48(Class) // 3
+ [582] PUSHTYPE 39(Class) // 4
+ [587] ASSIGN Base[4], Base[1]
+ [598] PUSHVAR Base[3] // 5
+ [604] CALL 96
+ [609] POP // 4
+ [610] POP // 3
+ [611] CALL 97
+ [616] POP // 2
+ [617] POP // 1
+ [618] PUSHTYPE 18(UnicodeString) // 2
+ [623] PUSHTYPE 18(UnicodeString) // 3
+ [628] ASSIGN Base[3], []
+ [639] CALLVAR GlobalVar[8060928]
+ Disasm Error
+Proc [92]: External Decl: class:- 
+Proc [93]: External Decl: class:TWIZARDFORM|CANCELBUTTON|\01\00\00\00 
+Proc [94]: External Decl: class:TCOMPONENT|OWNER|\01\00\00\00 
+Proc [95]: External Decl: class:TCONTROL|PARENT|\01\00\00\00 
+Proc [96]: External Decl: class:TBUTTON|FONT|\01\00\00\00 
+Proc [97]: External Decl: class:TPERSISTENT|ASSIGN|\00\00\00 
+Proc [98]: External Decl: class:TBUTTON|CAPTION@|\01\00\00\00 
+Proc [99]: External Decl: class:TBUTTON|ONCLICK@|\01\00\00\00 
+Proc [100]: External Decl: class:TWINCONTROL|TABORDER@|\01\00\00\00 
+Proc [101]: External Decl: class:TWINCONTROL|TABSTOP@|\01\00\00\00 
+Proc [102]: External Decl: class:TWIZARDFORM|BACKBUTTON|\01\00\00\00 
+Proc [103] Export: CREATETHEWIZARDPAGES -1
+ [0] PUSHTYPE 37(Class) // 1
+ [5] PUSHTYPE 61(Class) // 2
+ [10] PUSHTYPE 36(Class) // 3
+ [15] PUSHTYPE 36(Class) // 4
+ [20] PUSHTYPE 18(UnicodeString) // 5
+ [25] PUSHTYPE 50(Array of UnicodeString) // 6
+ [30] PUSHTYPE 50(Array of UnicodeString) // 7
+ [35] PUSHTYPE 11(S32) // 8
+ [40] ASSIGN Base[8], [1]
+ [55] PUSHVAR Base[7] // 9
+ [61] CALL 11
+ [66] POP // 8
+ [67] POP // 7
+ [68] ASSIGN Base[7].[0], []
+ Disasm Error
+Proc [104]: External Decl: \01\00 SETUPMESSAGE
+Proc [105]: External Decl: class:TNEWSTATICTEXT|AUTOSIZE@|\01\00\00\00 
+Proc [106]: External Decl: class:TFONT|STYLE|\01\00\00\00 
+Proc [107]: External Decl: class:TWIZARDPAGE|SURFACEHEIGHT|\01\00\00\00 
+Proc [108]: External Decl: class:TWIZARDPAGE|SURFACEWIDTH|\01\00\00\00 
+Proc [109]: External Decl: class:TPANEL|BEVELOUTER@|\01\00\00\00 
+Proc [110]: External Decl: class:TPANEL|CAPTION@|\01\00\00\00 
+Proc [111]: External Decl: class:TPANEL|COLOR@|\01\00\00\00 
+Proc [112]: External Decl: class:TWINCONTROL|PARENTBACKGROUND@|\01\00\00\00 
+Proc [113]: External Decl: class:TBITMAPIMAGE|AUTOSIZE@|\01\00\00\00 
+Proc [114]: External Decl: class:TEDIT|CHARCASE@|\01\00\00\00 
+Proc [115]: External Decl: class:TEDIT|MAXLENGTH@|\01\00\00\00 
+Proc [116] Export: INITIALIZEWIZARD -1
+ [0] PUSHTYPE 18(UnicodeString) // 1
+ [5] PUSHTYPE 11(S32) // 2
+ [10] PUSHTYPE 11(S32) // 3
+ [15] PUSHTYPE 11(S32) // 4
+ [20] PUSHTYPE 18(UnicodeString) // 5
+ [25] ASSIGN GlobalVar[16], [0]
+ [37] PUSHTYPE 18(UnicodeString) // 6
+ [42] ASSIGN Base[6], []
+ [53] COND_NOT_GOTO currpos + 2063597568 GlobalVar[7471219] [2063597631]
+ Disasm Error
+Proc [117]: External Decl: \01\00\00 CHARLENGTH
+Proc [118]: External Decl: class:TWIZARDFORM|INNERPAGE|\01\00\00\00 
+Proc [119]: External Decl: class:TNEWNOTEBOOKPAGE|COLOR@|\01\00\00\00 
+Proc [120] Export: CUSTOMFORM_HIDECOMSCOREBUTTON -1
+ [0] PUSHTYPE 28(U8) // 1
+ [5] ASSIGN Base[1], [0]
+ [17] PUSHTYPE 39(Class) // 2
+ [22] ASSIGN Base[2], GlobalVar[27]
+ [33] CALL 35
+ [38] POP // 1
+ [39] POP // 0
+ [40] PUSHTYPE 28(U8) // 1
+ [45] ASSIGN Base[1], [0]
+ [57] PUSHTYPE 39(Class) // 2
+ [62] ASSIGN Base[2], GlobalVar[28]
+ [73] CALL 35
+ [78] POP // 1
+ [79] POP // 0
+ [80] PUSHTYPE 28(U8) // 1
+ [85] ASSIGN Base[1], [1]
+ [97] PUSHTYPE 34(Class) // 2
+ [102] PUSHTYPE 30(Class) // 3
+ [107] ASSIGN Base[3], GlobalVar[0]
+ [118] PUSHVAR Base[2] // 4
+ [124] CALL 43
+ [129] POP // 3
+ [130] POP // 2
+ [131] CALL 35
+ [136] POP // 1
+ [137] POP // 0
+ [138] PUSHTYPE 28(U8) // 1
+ [143] ASSIGN Base[1], [1]
+ [155] PUSHTYPE 34(Class) // 2
+ [160] PUSHTYPE 30(Class) // 3
+ [165] ASSIGN Base[3], GlobalVar[0]
+ [176] PUSHVAR Base[2] // 4
+ [182] CALL 102
+ [187] POP // 3
+ [188] POP // 2
+ [189] CALL 35
+ [194] POP // 1
+ [195] POP // 0
+ [196] PUSHTYPE 28(U8) // 1
+ [201] ASSIGN Base[1], [1]
+ [213] PUSHTYPE 34(Class) // 2
+ [218] PUSHTYPE 30(Class) // 3
+ [223] ASSIGN Base[3], GlobalVar[0]
+ [234] PUSHVAR Base[2] // 4
+ [240] CALL 93
+ [245] POP // 3
+ [246] POP // 2
+ [247] CALL 101
+ [252] POP // 1
+ [253] POP // 0
+ [254] RET
+Proc [121] Export: CURPAGECHANGED -1 @11
+ [0] PUSHTYPE 11(S32) // 1
+ [5] ASSIGN Base[1], Base[-1]
+ [16] PUSHTYPE 28(U8) // 2
+ [21] COMPARE into Base[2]: [1] = Base[1]
+ [42] COND_NOT_GOTO currpos + 48 Base[2] [100]
+ [52] PUSHTYPE 11(S32) // 3
+ [57] ASSIGN Base[3], [16777215]
+ [72] PUSHTYPE 30(Class) // 4
+ [77] ASSIGN Base[4], GlobalVar[0]
+ [88] CALL 122
+ [93] POP // 3
+ [94] POP // 2
+ [95] GOTO currpos + 237 [337]
+ [100] COMPARE into Base[2]: [14] = Base[1]
+ [121] COND_NOT_GOTO currpos + 106 Base[2] [237]
+ [131] PUSHTYPE 11(S32) // 3
+ [136] ASSIGN Base[3], [16777215]
+ [151] PUSHTYPE 30(Class) // 4
+ [156] ASSIGN Base[4], GlobalVar[0]
+ [167] CALL 122
+ [172] POP // 3
+ [173] POP // 2
+ [174] PUSHTYPE 28(U8) // 3
+ [179] ASSIGN Base[3], [1]
+ [191] PUSHTYPE 34(Class) // 4
+ [196] PUSHTYPE 30(Class) // 5
+ [201] ASSIGN Base[5], GlobalVar[0]
+ [212] PUSHVAR Base[4] // 6
+ [218] CALL 43
+ [223] POP // 5
+ [224] POP // 4
+ [225] CALL 35
+ [230] POP // 3
+ [231] POP // 2
+ [232] GOTO currpos + 100 [337]
+ [237] PUSHTYPE 11(S32) // 3
+ [242] ASSIGN Base[3], [16777215]
+ [257] PUSHTYPE 30(Class) // 4
+ [262] ASSIGN Base[4], GlobalVar[0]
+ [273] CALL 122
+ [278] POP // 3
+ [279] POP // 2
+ [280] PUSHTYPE 28(U8) // 3
+ [285] ASSIGN Base[3], GlobalVar[16]
+ [296] PUSHTYPE 34(Class) // 4
+ [301] PUSHTYPE 30(Class) // 5
+ [306] ASSIGN Base[5], GlobalVar[0]
+ [317] PUSHVAR Base[4] // 6
+ [323] CALL 43
+ [328] POP // 5
+ [329] POP // 4
+ [330] CALL 35
+ [335] POP // 3
+ [336] POP // 2
+ [337] POP // 1
+ [338] POP // 0
+ [339] PUSHTYPE 28(U8) // 1
+ [344] PUSHTYPE 37(Class) // 2
+ [349] PUSHTYPE 0(Pointer) // 3
+ [354] SETPOINTER Base[3]: Base[2]
+ [365] CALL 123
+ [370] POP // 2
+ [371] COMPARE into Base[1]: GlobalVar[20] <> Base[2]
+ [388] POP // 1
+ [389] COND_NOT_GOTO currpos + 70 Base[1] [469]
+ [399] PUSHTYPE 28(U8) // 2
+ [404] PUSHTYPE 11(S32) // 3
+ [409] PUSHTYPE 37(Class) // 4
+ [414] ASSIGN Base[4], GlobalVar[20]
+ [425] PUSHVAR Base[3] // 5
+ [431] CALL 90
+ [436] POP // 4
+ [437] POP // 3
+ [438] COMPARE into Base[2]: Base[-1] = Base[3]
+ [455] POP // 2
+ [456] CALC Base[1] AND Base[2]
+ [468] POP // 1
+ [469] SETFLAG NOT Base[1]
+ [476] POP // 0
+ [477] FLAGGOTO currpos + 22 [504]
+ [482] ASSIGN GlobalVar[29], [1]
+ [494] CALL 91
+ [499] GOTO currpos + 109 [613]
+ [504] PUSHTYPE 28(U8) // 1
+ [509] ASSIGN Base[1], GlobalVar[29]
+ [520] SETFLAG NOT Base[1]
+ [527] POP // 0
+ [528] FLAGGOTO currpos + 80 [613]
+ [533] ASSIGN GlobalVar[29], [0]
+ [545] CALL 120
+ [550] PUSHTYPE 28(U8) // 1
+ [555] ASSIGN Base[1], GlobalVar[30]
+ [566] BNOT Base[1]
+ [572] PUSHTYPE 34(Class) // 2
+ [577] PUSHTYPE 30(Class) // 3
+ [582] ASSIGN Base[3], GlobalVar[0]
+ [593] PUSHVAR Base[2] // 4
+ [599] CALL 102
+ [604] POP // 3
+ [605] POP // 2
+ [606] CALL 35
+ [611] POP // 1
+ [612] POP // 0
+ [613] RET
+Proc [122]: External Decl: class:TFORM|COLOR@|\01\00\00\00 
+Proc [123]: External Decl: class:- 
+Proc [124] Export: CURSTEPCHANGED -1 @65
+ [0] PUSHTYPE 11(S32) // 1
+ [5] PUSHTYPE 18(UnicodeString) // 2
+ [10] PUSHTYPE 18(UnicodeString) // 3
+ [15] PUSHTYPE 28(U8) // 4
+ [20] COMPARE into Base[4]: Base[-1] = [3]
+ [38] COND_NOT_GOTO currpos + 13 Base[4] [61]
+ [48] CALC Base[4] AND [1]
+ [61] SETFLAG NOT Base[4]
+ [68] POP // 3
+ [69] FLAGGOTO currpos + 717 [791]
+ [74] ASSIGN Base[2], []
+ [85] ASSIGN GlobalVar[0], GlobalVar[23068672].GlobalVar[20]
+ [100] MINUS GlobalVar[2490368]
+ Disasm Error
+

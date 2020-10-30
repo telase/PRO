@@ -1,0 +1,12 @@
+[LangOptions]
+LanguageName=<010C>e<0161>tina
+LanguageID=$0405
+LanguageCodePage=0
+DialogFontName=Tahoma
+TitleFontName=Arial
+WelcomeFontName=Verdana
+CopyrightFontName=Arial
+DialogFontSize=8
+TitleFontSize=29
+WelcomeFontSize=12
+CopyrightFontSize=8
