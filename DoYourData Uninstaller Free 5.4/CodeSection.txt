@@ -1,0 +1,3340 @@
+; [Code] section dumped from CompiledCode.bin
+
+
+[TYPES]
+Type [0]: Pointer
+Type [1]: U32
+Type [2]: Variant
+Type [3]: Unknown 14
+Type [4]: Unknown 24
+Type [5]: Extended
+Type [6]: Double
+Type [7]: Single
+Type [8]: String
+Type [9]: U32
+Type [10]: S32
+Type [11]: S16
+Type [12]: U16
+Type [13]: S8
+Type [14]: Char
+Type [15]: U32
+Type [16]: U8 Export: BOOLEAN
+Type [17]: U8
+Type [18]: StaticArray[128] of Char
+Type [19]: Record(S32,S32,S32,S32,S32,StaticArray[128] of Char,S16,S16,S16,S8,S8)
+Type [20]: Record(U32,U32,U32,U32,U32,U8,U8,U16)
+Type [21]: Record(S16,S16,S16,S16,S16,S16,S16,S16)
+Type [22]: Class Export: TNEWCHECKLISTBOX
+Type [23]: Class Export: TINPUTQUERYWIZARDPAGE
+Type [24]: Class Export: TNEWCHECKBOX
+Type [25]: Class Export: TNEWMEMO
+Type [26]: Class Export: TBITMAPIMAGE
+Type [27]: Class Export: TNEWSTATICTEXT
+Type [28]: Class Export: TCHECKBOX
+Type [29]: Class Export: TFONT
+Type [30]: U8
+Type [31]: Set
+Type [32]: Array of Variant
+Type [33]: Class Export: TOBJECT
+Type [34]: Class Export: TWIZARDFORM
+Type [35]: Class Export: TNEWBUTTON
+Type [36]: Class Export: TWIZARDPAGE
+Type [37]: Class Export: TRICHEDITVIEWER
+Type [38]: Class Export: TEDIT
+Type [39]: Class Export: TCONTROL
+Type [40]: Class Export: TCOMPONENT
+Type [41]: Class Export: TNEWNOTEBOOKPAGE
+Type [42]: Class Export: TWINCONTROL
+Type [43]: U8
+Type [44]: U8
+Type [45]: Class Export: TNEWRADIOBUTTON
+Type [46]: Array of String
+Type [47]: Record(U32,U32)
+Type [48]: Record(String,U32,U32,U32,Record(U32,U32),Record(U32,U32),Record(U32,U32),String,S32)
+[VARS]
+Var [0]: 19 Record(S32,S32,S32,S32,S32,StaticArray[128] of Char,S16,S16,S16,S8,S8) 
+Var [1]: 20 Record(U32,U32,U32,U32,U32,U8,U8,U16) 
+Var [2]: 8 String 
+Var [3]: 8 String 
+Var [4]: 10 S32 
+Var [5]: 21 Record(S16,S16,S16,S16,S16,S16,S16,S16) 
+Var [6]: 10 S32 
+Var [7]: 22 Class TNEWCHECKLISTBOX
+Var [8]: 23 Class TINPUTQUERYWIZARDPAGE
+Var [9]: 24 Class TNEWCHECKBOX
+Var [10]: 24 Class TNEWCHECKBOX
+Var [11]: 25 Class TNEWMEMO
+Var [12]: 10 S32 
+Var [13]: 8 String 
+Var [14]: 8 String 
+Var [15]: 8 String 
+Var [16]: 8 String 
+Var [17]: 8 String 
+Var [18]: 16 U8 BOOLEAN
+Var [19]: 16 U8 BOOLEAN
+Var [20]: 16 U8 BOOLEAN
+Var [21]: 26 Class TBITMAPIMAGE
+Var [22]: 8 String 
+Var [23]: 27 Class TNEWSTATICTEXT
+Var [24]: 28 Class TCHECKBOX
+Var [25]: 8 String 
+[PROCS]
+Proc [0] Export: !MAIN -1
+ [0] RET
+Proc [1]: External Decl: dll:kernel32.dll\00GetSystemTime\00\03\00\00\01\01 
+Proc [2]: External Decl: dll:kernel32.dll\00GetVersionExW\00\03\00\00\01\01 
+Proc [3]: External Decl: dll:kernel32.dll\00ExitProcess\00\03\00\00\01\00 
+Proc [4]: External Decl: dll:shell32.dll\00ShellExecuteA\00\03\00\00\01\00\00\00\00\00\00 
+Proc [5] Export: INIDRWUIINFO 16
+ [0] PUSHTYPE 8(String) // 1
+ [5] PUSHTYPE 8(String) // 2
+ [10] PUSHTYPE 8(String) // 3
+ [15] ASSIGN Base[3], ['{language}']
+ [40] PUSHVAR Base[1] // 4
+ [46] CALL 6
+ [51] POP // 3
+ [52] POP // 2
+ [53] PUSHTYPE 16(U8) // 3
+ [58] COMPARE into Base[3]: Base[1] = ['en']
+ [81] SETFLAG NOT Base[3]
+ [88] POP // 2
+ [89] FLAGGOTO currpos + 114 [208]
+ [94] ASSIGN Base[1], ['To prevent further data loss, please don''t install on the drive you want to recover data from.']
+ [203] GOTO currpos + 984 [1192]
+ [208] PUSHTYPE 16(U8) // 3
+ [213] COMPARE into Base[3]: Base[1] = ['de']
+ [236] SETFLAG NOT Base[3]
+ [243] POP // 2
+ [244] FLAGGOTO currpos + 140 [389]
+ [249] ASSIGN Base[1], ['Bitte nicht auf das Laufwerk installieren, das Sie Daten wiederherstellen wollen, um weiteren Datenverlust zu vermeiden.']
+ [384] GOTO currpos + 803 [1192]
+ [389] PUSHTYPE 16(U8) // 3
+ [394] COMPARE into Base[3]: Base[1] = ['jp']
+ [417] SETFLAG NOT Base[3]
+ [424] POP // 2
+ [425] FLAGGOTO currpos + 186 [616]
+ [430] ASSIGN Base[1], ['ïúå≥ÇµÇΩÇ¢ÉfÅ[É^ÇÃÇ†ÇÈÉhÉâÉCÉuÇ…ÉCÉìÉXÉgÅ[ÉãÇ∑ÇÈÇ∆ÅAÇªÇÃÉfÅ[É^Ç™è„èëÇ´Ç≥ÇÍÇÈèÍçáÇ™Ç†ÇËÇ‹Ç∑ÅBÉäÉJÉoÉäÅ[ÇÃê¨å˜ó¶Çà€éùÇ∑ÇÈÇΩÇﬂÅAëºÇÃÉhÉâÉCÉuÇ…ÉCÉìÉXÉgÅ[ÉãÇµÇƒÇ≠ÇæÇ≥Ç¢ÅB']
+ [611] GOTO currpos + 576 [1192]
+ [616] PUSHTYPE 16(U8) // 3
+ [621] COMPARE into Base[3]: Base[1] = ['fr']
+ [644] SETFLAG NOT Base[3]
+ [651] POP // 2
+ [652] FLAGGOTO currpos + 201 [858]
+ [657] ASSIGN Base[1], ['Si possible, installez DoYourData Uninstaller sur un lecteur autre que celui sur lequel vos fichiers ont Èt?perdus afin d''Èviter d''autres dommages ou la perte de donnÈes permanente.']
+ [853] GOTO currpos + 334 [1192]
+ [858] PUSHTYPE 16(U8) // 3
+ [863] COMPARE into Base[3]: Base[1] = ['sp']
+ [886] SETFLAG NOT Base[3]
+ [893] POP // 2
+ [894] FLAGGOTO currpos + 134 [1033]
+ [899] ASSIGN Base[1], ['Para evitar una mayor pÈrdida de datos, por favor, no lo instale en el disco duro donde desea recuperar los datos.']
+ [1028] GOTO currpos + 159 [1192]
+ [1033] PUSHTYPE 16(U8) // 3
+ [1038] COMPARE into Base[3]: Base[1] = ['pobr']
+ [1063] SETFLAG NOT Base[3]
+ [1070] POP // 2
+ [1071] FLAGGOTO currpos + 116 [1192]
+ [1076] ASSIGN Base[1], ['Para evitar perder mais dados, por favor, n„o instale no disco rÌgido onde deseja recuperar os dados.']
+ [1192] PUSHTYPE 31(Set) // 3
+ [1197] PUSHTYPE 29(Class) // 4
+ [1202] PUSHTYPE 27(Class) // 5
+ [1207] ASSIGN Base[5], GlobalVar[23]
+ [1218] PUSHVAR Base[4] // 6
+ [1224] CALL 7
+ [1229] POP // 5
+ [1230] POP // 4
+ [1231] PUSHVAR Base[3] // 5
+ [1237] CALL 8
+ [1242] POP // 4
+ [1243] POP // 3
+ [1244] CALC Base[3] + [#1]
+ [1257] PUSHTYPE 29(Class) // 4
+ [1262] PUSHTYPE 27(Class) // 5
+ [1267] ASSIGN Base[5], GlobalVar[23]
+ [1278] PUSHVAR Base[4] // 6
+ [1284] CALL 7
+ [1289] POP // 5
+ [1290] POP // 4
+ [1291] CALL 9
+ [1296] POP // 3
+ [1297] POP // 2
+ [1298] PUSHTYPE 8(String) // 3
+ [1303] ASSIGN Base[3], Base[1]
+ [1314] PUSHTYPE 27(Class) // 4
+ [1319] ASSIGN Base[4], GlobalVar[23]
+ [1330] CALL 10
+ [1335] POP // 3
+ [1336] POP // 2
+ [1337] ASSIGN Base[-1], [1]
+ [1349] RET
+Proc [6]: External Decl: \01\00 EXPANDCONSTANT
+Proc [7]: External Decl: class:TNEWSTATICTEXT|FONT|\01\00\00\00 
+Proc [8]: External Decl: class:TFONT|STYLE|\01\00\00\00 
+Proc [9]: External Decl: class:TFONT|STYLE@|\01\00\00\00 
+Proc [10]: External Decl: class:TNEWSTATICTEXT|CAPTION@|\01\00\00\00 
+Proc [11] Export: ISWIN8 16
+ [0] PUSHTYPE 20(Record(U32,U32,U32,U32,U32,U8,U8,U16)) // 1
+ [5] PUSHTYPE 0(Pointer) // 2
+ [10] SETPOINTER Base[2]: Base[1]
+ [21] CALL 12
+ [26] POP // 1
+ [27] PUSHTYPE 16(U8) // 2
+ [32] COMPARE into Base[2]: Base[1].[0] = [6]
+ [57] COND_NOT_GOTO currpos + 54 Base[2] [121]
+ [67] PUSHTYPE 16(U8) // 3
+ [72] PUSHTYPE 16(U8) // 4
+ [77] PUSHVAR Base[4] // 5
+ [83] CALL 13
+ [88] POP // 4
+ [89] COMPARE into Base[3]: Base[4] = [0]
+ [107] POP // 3
+ [108] CALC Base[2] AND Base[3]
+ [120] POP // 2
+ [121] SETFLAG NOT Base[2]
+ [128] POP // 1
+ [129] FLAGGOTO currpos + 60 [194]
+ [134] PUSHTYPE 16(U8) // 2
+ [139] COMPARE into Base[2]: Base[1].[1] = [2]
+ [164] SETFLAG NOT Base[2]
+ [171] POP // 1
+ [172] FLAGGOTO currpos + 12 [189]
+ [177] ASSIGN Base[-1], [1]
+ [189] GOTO currpos + 12 [206]
+ [194] ASSIGN Base[-1], [0]
+ [206] RET
+Proc [12]: External Decl: \00\01 GETWINDOWSVERSIONEX
+Proc [13]: External Decl: \01 ISWIN64
+Proc [14] Export: ISWIN8_64 16
+ [0] PUSHTYPE 20(Record(U32,U32,U32,U32,U32,U8,U8,U16)) // 1
+ [5] PUSHTYPE 0(Pointer) // 2
+ [10] SETPOINTER Base[2]: Base[1]
+ [21] CALL 12
+ [26] POP // 1
+ [27] PUSHTYPE 16(U8) // 2
+ [32] COMPARE into Base[2]: Base[1].[0] = [6]
+ [57] COND_NOT_GOTO currpos + 30 Base[2] [97]
+ [67] PUSHTYPE 16(U8) // 3
+ [72] PUSHVAR Base[3] // 4
+ [78] CALL 13
+ [83] POP // 3
+ [84] CALC Base[2] AND Base[3]
+ [96] POP // 2
+ [97] SETFLAG NOT Base[2]
+ [104] POP // 1
+ [105] FLAGGOTO currpos + 60 [170]
+ [110] PUSHTYPE 16(U8) // 2
+ [115] COMPARE into Base[2]: Base[1].[1] = [2]
+ [140] SETFLAG NOT Base[2]
+ [147] POP // 1
+ [148] FLAGGOTO currpos + 12 [165]
+ [153] ASSIGN Base[-1], [1]
+ [165] GOTO currpos + 12 [182]
+ [170] ASSIGN Base[-1], [0]
+ [182] RET
+Proc [15] Export: ISVISTA 16
+ [0] PUSHTYPE 20(Record(U32,U32,U32,U32,U32,U8,U8,U16)) // 1
+ [5] PUSHTYPE 0(Pointer) // 2
+ [10] SETPOINTER Base[2]: Base[1]
+ [21] CALL 12
+ [26] POP // 1
+ [27] PUSHTYPE 16(U8) // 2
+ [32] COMPARE into Base[2]: Base[1].[0] = [6]
+ [57] COND_NOT_GOTO currpos + 54 Base[2] [121]
+ [67] PUSHTYPE 16(U8) // 3
+ [72] PUSHTYPE 16(U8) // 4
+ [77] PUSHVAR Base[4] // 5
+ [83] CALL 13
+ [88] POP // 4
+ [89] COMPARE into Base[3]: Base[4] = [0]
+ [107] POP // 3
+ [108] CALC Base[2] AND Base[3]
+ [120] POP // 2
+ [121] SETFLAG NOT Base[2]
+ [128] POP // 1
+ [129] FLAGGOTO currpos + 17 [151]
+ [134] ASSIGN Base[-1], [1]
+ [146] GOTO currpos + 12 [163]
+ [151] ASSIGN Base[-1], [0]
+ [163] RET
+Proc [16] Export: ISVISTA64 16
+ [0] PUSHTYPE 20(Record(U32,U32,U32,U32,U32,U8,U8,U16)) // 1
+ [5] PUSHTYPE 0(Pointer) // 2
+ [10] SETPOINTER Base[2]: Base[1]
+ [21] CALL 12
+ [26] POP // 1
+ [27] PUSHTYPE 16(U8) // 2
+ [32] COMPARE into Base[2]: Base[1].[0] = [6]
+ [57] COND_NOT_GOTO currpos + 30 Base[2] [97]
+ [67] PUSHTYPE 16(U8) // 3
+ [72] PUSHVAR Base[3] // 4
+ [78] CALL 13
+ [83] POP // 3
+ [84] CALC Base[2] AND Base[3]
+ [96] POP // 2
+ [97] SETFLAG NOT Base[2]
+ [104] POP // 1
+ [105] FLAGGOTO currpos + 17 [127]
+ [110] ASSIGN Base[-1], [1]
+ [122] GOTO currpos + 12 [139]
+ [127] ASSIGN Base[-1], [0]
+ [139] RET
+Proc [17] Export: ISWINXP 16
+ [0] PUSHTYPE 20(Record(U32,U32,U32,U32,U32,U8,U8,U16)) // 1
+ [5] PUSHTYPE 0(Pointer) // 2
+ [10] SETPOINTER Base[2]: Base[1]
+ [21] CALL 12
+ [26] POP // 1
+ [27] PUSHTYPE 16(U8) // 2
+ [32] COMPARE into Base[2]: Base[1].[1] = [1]
+ [57] COND_NOT_GOTO currpos + 43 Base[2] [110]
+ [67] PUSHTYPE 16(U8) // 3
+ [72] COMPARE into Base[3]: Base[1].[0] = [5]
+ [97] CALC Base[2] AND Base[3]
+ [109] POP // 2
+ [110] COND_NOT_GOTO currpos + 54 Base[2] [174]
+ [120] PUSHTYPE 16(U8) // 3
+ [125] PUSHTYPE 16(U8) // 4
+ [130] PUSHVAR Base[4] // 5
+ [136] CALL 13
+ [141] POP // 4
+ [142] COMPARE into Base[3]: Base[4] = [0]
+ [160] POP // 3
+ [161] CALC Base[2] AND Base[3]
+ [173] POP // 2
+ [174] SETFLAG NOT Base[2]
+ [181] POP // 1
+ [182] FLAGGOTO currpos + 17 [204]
+ [187] ASSIGN Base[-1], [1]
+ [199] GOTO currpos + 12 [216]
+ [204] ASSIGN Base[-1], [0]
+ [216] RET
+Proc [18] Export: ISWINNET 16
+ [0] PUSHTYPE 20(Record(U32,U32,U32,U32,U32,U8,U8,U16)) // 1
+ [5] PUSHTYPE 0(Pointer) // 2
+ [10] SETPOINTER Base[2]: Base[1]
+ [21] CALL 12
+ [26] POP // 1
+ [27] PUSHTYPE 16(U8) // 2
+ [32] COMPARE into Base[2]: Base[1].[1] = [2]
+ [57] COND_NOT_GOTO currpos + 43 Base[2] [110]
+ [67] PUSHTYPE 16(U8) // 3
+ [72] COMPARE into Base[3]: Base[1].[0] = [5]
+ [97] CALC Base[2] AND Base[3]
+ [109] POP // 2
+ [110] COND_NOT_GOTO currpos + 54 Base[2] [174]
+ [120] PUSHTYPE 16(U8) // 3
+ [125] PUSHTYPE 16(U8) // 4
+ [130] PUSHVAR Base[4] // 5
+ [136] CALL 13
+ [141] POP // 4
+ [142] COMPARE into Base[3]: Base[4] = [0]
+ [160] POP // 3
+ [161] CALC Base[2] AND Base[3]
+ [173] POP // 2
+ [174] SETFLAG NOT Base[2]
+ [181] POP // 1
+ [182] FLAGGOTO currpos + 17 [204]
+ [187] ASSIGN Base[-1], [1]
+ [199] GOTO currpos + 12 [216]
+ [204] ASSIGN Base[-1], [0]
+ [216] RET
+Proc [19] Export: ISWINNET64 16
+ [0] PUSHTYPE 20(Record(U32,U32,U32,U32,U32,U8,U8,U16)) // 1
+ [5] PUSHTYPE 0(Pointer) // 2
+ [10] SETPOINTER Base[2]: Base[1]
+ [21] CALL 12
+ [26] POP // 1
+ [27] PUSHTYPE 16(U8) // 2
+ [32] COMPARE into Base[2]: Base[1].[1] = [2]
+ [57] COND_NOT_GOTO currpos + 43 Base[2] [110]
+ [67] PUSHTYPE 16(U8) // 3
+ [72] COMPARE into Base[3]: Base[1].[0] = [5]
+ [97] CALC Base[2] AND Base[3]
+ [109] POP // 2
+ [110] COND_NOT_GOTO currpos + 30 Base[2] [150]
+ [120] PUSHTYPE 16(U8) // 3
+ [125] PUSHVAR Base[3] // 4
+ [131] CALL 13
+ [136] POP // 3
+ [137] CALC Base[2] AND Base[3]
+ [149] POP // 2
+ [150] SETFLAG NOT Base[2]
+ [157] POP // 1
+ [158] FLAGGOTO currpos + 17 [180]
+ [163] ASSIGN Base[-1], [1]
+ [175] GOTO currpos + 12 [192]
+ [180] ASSIGN Base[-1], [0]
+ [192] RET
+Proc [20] Export: ISWIN2K 16
+ [0] PUSHTYPE 20(Record(U32,U32,U32,U32,U32,U8,U8,U16)) // 1
+ [5] PUSHTYPE 0(Pointer) // 2
+ [10] SETPOINTER Base[2]: Base[1]
+ [21] CALL 12
+ [26] POP // 1
+ [27] PUSHTYPE 16(U8) // 2
+ [32] COMPARE into Base[2]: Base[1].[1] = [0]
+ [57] COND_NOT_GOTO currpos + 43 Base[2] [110]
+ [67] PUSHTYPE 16(U8) // 3
+ [72] COMPARE into Base[3]: Base[1].[0] = [5]
+ [97] CALC Base[2] AND Base[3]
+ [109] POP // 2
+ [110] SETFLAG NOT Base[2]
+ [117] POP // 1
+ [118] FLAGGOTO currpos + 17 [140]
+ [123] ASSIGN Base[-1], [1]
+ [135] GOTO currpos + 12 [152]
+ [140] ASSIGN Base[-1], [0]
+ [152] RET
+Proc [21] Export: ISWINSERVER 16
+ [0] PUSHTYPE 20(Record(U32,U32,U32,U32,U32,U8,U8,U16)) // 1
+ [5] PUSHTYPE 0(Pointer) // 2
+ [10] SETPOINTER Base[2]: Base[1]
+ [21] CALL 12
+ [26] POP // 1
+ [27] PUSHTYPE 16(U8) // 2
+ [32] COMPARE into Base[2]: Base[1].[6] = [3]
+ [57] COND_GOTO currpos + 43 Base[2] [110]
+ [67] PUSHTYPE 16(U8) // 3
+ [72] COMPARE into Base[3]: Base[1].[6] = [2]
+ [97] CALC Base[2] OR Base[3]
+ [109] POP // 2
+ [110] SETFLAG NOT Base[2]
+ [117] POP // 1
+ [118] FLAGGOTO currpos + 17 [140]
+ [123] ASSIGN Base[-1], [1]
+ [135] GOTO currpos + 12 [152]
+ [140] ASSIGN Base[-1], [0]
+ [152] RET
+Proc [22] Export: BUTTONONCLICK -1 @33
+ [0] PUSHTYPE 16(U8) // 1
+ [5] PUSHTYPE 16(U8) // 2
+ [10] PUSHTYPE 10(S32) // 3
+ [15] ASSIGN Base[3], [1]
+ [30] PUSHTYPE 22(Class) // 4
+ [35] ASSIGN Base[4], GlobalVar[7]
+ [46] PUSHVAR Base[2] // 5
+ [52] CALL 23
+ [57] POP // 4
+ [58] POP // 3
+ [59] POP // 2
+ [60] COMPARE into Base[1]: Base[2] = [1]
+ [78] POP // 1
+ [79] SETFLAG NOT Base[1]
+ [86] POP // 0
+ [87] FLAGGOTO currpos + 64 [156]
+ [92] PUSHTYPE 16(U8) // 1
+ [97] ASSIGN Base[1], [1]
+ [109] PUSHTYPE 35(Class) // 2
+ [114] PUSHTYPE 34(Class) // 3
+ [119] PUSHVAR Base[3] // 4
+ [125] CALL 24
+ [130] POP // 3
+ [131] PUSHVAR Base[2] // 4
+ [137] CALL 25
+ [142] POP // 3
+ [143] POP // 2
+ [144] CALL 26
+ [149] POP // 1
+ [150] POP // 0
+ [151] GOTO currpos + 151 [307]
+ [156] PUSHTYPE 16(U8) // 1
+ [161] PUSHTYPE 16(U8) // 2
+ [166] PUSHTYPE 10(S32) // 3
+ [171] ASSIGN Base[3], [2]
+ [186] PUSHTYPE 22(Class) // 4
+ [191] ASSIGN Base[4], GlobalVar[7]
+ [202] PUSHVAR Base[2] // 5
+ [208] CALL 23
+ [213] POP // 4
+ [214] POP // 3
+ [215] POP // 2
+ [216] COMPARE into Base[1]: Base[2] = [1]
+ [234] POP // 1
+ [235] SETFLAG NOT Base[1]
+ [242] POP // 0
+ [243] FLAGGOTO currpos + 59 [307]
+ [248] PUSHTYPE 16(U8) // 1
+ [253] ASSIGN Base[1], [0]
+ [265] PUSHTYPE 35(Class) // 2
+ [270] PUSHTYPE 34(Class) // 3
+ [275] PUSHVAR Base[3] // 4
+ [281] CALL 24
+ [286] POP // 3
+ [287] PUSHVAR Base[2] // 4
+ [293] CALL 25
+ [298] POP // 3
+ [299] POP // 2
+ [300] CALL 26
+ [305] POP // 1
+ [306] POP // 0
+ [307] RET
+Proc [23]: External Decl: class:TNEWCHECKLISTBOX|CHECKED|\02\00\00\00 
+Proc [24]: External Decl: \01 WIZARDFORM
+Proc [25]: External Decl: class:TWIZARDFORM|NEXTBUTTON|\01\00\00\00 
+Proc [26]: External Decl: class:TCONTROL|ENABLED@|\01\00\00\00 
+Proc [27] Export: CREATETHEWIZARDPAGES -1
+ [0] PUSHTYPE 36(Class) // 1
+ [5] PUSHTYPE 8(String) // 2
+ [10] PUSHTYPE 8(String) // 3
+ [15] PUSHTYPE 8(String) // 4
+ [20] PUSHTYPE 8(String) // 5
+ [25] PUSHTYPE 8(String) // 6
+ [30] PUSHTYPE 8(String) // 7
+ [35] PUSHTYPE 8(String) // 8
+ [40] PUSHTYPE 8(String) // 9
+ [45] PUSHTYPE 8(String) // 10
+ [50] PUSHTYPE 8(String) // 11
+ [55] PUSHTYPE 8(String) // 12
+ [60] PUSHTYPE 8(String) // 13
+ [65] ASSIGN Base[13], ['{language}']
+ [90] PUSHVAR Base[2] // 14
+ [96] CALL 6
+ [101] POP // 13
+ [102] POP // 12
+ [103] PUSHTYPE 16(U8) // 13
+ [108] COMPARE into Base[13]: Base[2] = ['en']
+ [131] SETFLAG NOT Base[13]
+ [138] POP // 12
+ [139] FLAGGOTO currpos + 294 [438]
+ [144] ASSIGN Base[4], ['Installation was successful']
+ [186] ASSIGN Base[5], ['Setup has finished installing DoYourData Uninstaller 5.4 on your computer.']
+ [275] ASSIGN Base[9], ['Confirm Install Location']
+ [314] ASSIGN Base[11], [' Launch DoYourData Uninstaller']
+ [359] ASSIGN Base[12], [' Participate in the Customer Experience Improvement Program']
+ [433] GOTO currpos + 2355 [2793]
+ [438] PUSHTYPE 16(U8) // 13
+ [443] COMPARE into Base[13]: Base[2] = ['de']
+ [466] SETFLAG NOT Base[13]
+ [473] POP // 12
+ [474] FLAGGOTO currpos + 558 [1037]
+ [479] ASSIGN Base[2], ['Ich habe die Warnung gelesen']
+ [522] ASSIGN Base[3], ['Ich habe die Warnung noch nicht gelesen']
+ [576] ASSIGN Base[4], ['Installation erfolgreich durchgef¸hrt']
+ [628] ASSIGN Base[5], ['Bitte registrieren Sie sich um die neusten Produktinformationen zu erhalten (Neuigkeiten, Tipps und Werbegeschenke).']
+ [759] ASSIGN Base[6], ['Vorname:']
+ [782] ASSIGN Base[7], ['Nachname:']
+ [806] ASSIGN Base[8], ['Email:']
+ [827] ASSIGN Base[9], ['Installationsziel best‰tigen']
+ [870] ASSIGN Base[10], ['Bitte sorgf‰ltig lesen']
+ [907] ASSIGN Base[11], [' DoYourData Uninstaller starten']
+ [953] ASSIGN Base[12], [' Beteiligen Sie sich an dem Kundenerlebnis-Verbesserungsprogramm']
+ [1032] GOTO currpos + 1756 [2793]
+ [1037] PUSHTYPE 16(U8) // 13
+ [1042] COMPARE into Base[13]: Base[2] = ['jp']
+ [1065] SETFLAG NOT Base[13]
+ [1072] POP // 12
+ [1073] FLAGGOTO currpos + 475 [1553]
+ [1078] ASSIGN Base[2], ['éÑÇÕä˘Ç…åxçêèÓïÒÇâ{ì«ÇµÇΩ']
+ [1119] ASSIGN Base[3], ['éÑÇÕÇ‹ÇæåxçêèÓïÒÇâ{ì«ÇµÇƒÇ¢Ç»Ç¢']
+ [1166] ASSIGN Base[4], ['ê¨å˜ìIÇ…ÉCÉìÉXÉgÅ[ÉãÇµÇΩ']
+ [1205] ASSIGN Base[5], ['ãMï˚ÇÃè⁄ç◊èÓïÒÇìoãLÇµÅAêªïiÇÃèÓïÒÅAÉjÉÖÅ[ÉXÅAíÒé¶ãyÇ—ë°ÇËï®ÇälìæÇ∑ÇÈÅB']
+ [1292] ASSIGN Base[6], ['éÅñº:']
+ [1312] ASSIGN Base[7], ['ê©éÅ:']
+ [1332] ASSIGN Base[8], ['ÉÅÅ[ÉãÉ{ÉbÉNÉX:']
+ [1362] ASSIGN Base[9], ['ÉCÉìÉXÉgÅ[Éãà íuÇämîFÇ∑ÇÈ']
+ [1403] ASSIGN Base[10], ['ç◊Ç©Ç≠â{ì«ÇµÇƒâ∫Ç≥Ç¢']
+ [1438] ASSIGN Base[11], [' DoYourData UninstallerÇãNìÆÇ∑ÇÈ']
+ [1486] ASSIGN Base[12], [' ÉJÉXÉ^É}Å[ÉGÉNÉXÉyÉäÉGÉìÉXå¸è„ÉvÉçÉOÉâÉÄÇ…éQâ¡']
+ [1548] GOTO currpos + 1240 [2793]
+ [1553] PUSHTYPE 16(U8) // 13
+ [1558] COMPARE into Base[13]: Base[2] = ['fr']
+ [1581] SETFLAG NOT Base[13]
+ [1588] POP // 12
+ [1589] FLAGGOTO currpos + 501 [2095]
+ [1594] ASSIGN Base[2], ['J''ai lu líattention.']
+ [1629] ASSIGN Base[3], ['Je níai pas lu líattention.']
+ [1671] ASSIGN Base[4], ['L''installation a rÈussi']
+ [1709] ASSIGN Base[5], ['DoYourData Uninstaller 5.4 a ÈtÈ installÈ sur votre ordinateur avec succËs.']
+ [1799] ASSIGN Base[6], ['PrÈnom:']
+ [1821] ASSIGN Base[7], ['Nom:']
+ [1840] ASSIGN Base[8], ['Email:']
+ [1861] ASSIGN Base[9], ['Confirmer l''emplacement d''installation']
+ [1914] ASSIGN Base[10], ['Veillez lire attentivement']
+ [1955] ASSIGN Base[11], ['Faites Fonctionner DoYourData Uninstaller']
+ [2011] ASSIGN Base[12], ['Participer au Programme d''amÈlioration de l''expÈrience de client']
+ [2090] GOTO currpos + 698 [2793]
+ [2095] PUSHTYPE 16(U8) // 13
+ [2100] COMPARE into Base[13]: Base[2] = ['sp']
+ [2123] SETFLAG NOT Base[13]
+ [2130] POP // 12
+ [2131] FLAGGOTO currpos + 315 [2451]
+ [2136] ASSIGN Base[4], ['InstalaciÛn exitosa']
+ [2170] ASSIGN Base[5], ['DoYourData Uninstaller 5.4 se ha instalado exitosamente en su computadora.']
+ [2259] ASSIGN Base[9], ['Confirmar la LocalizaciÛn de InstalaciÛn']
+ [2314] ASSIGN Base[11], ['Funcionar DoYourData Uninstaller']
+ [2361] ASSIGN Base[12], ['Participar en el Programa para la Mejora de la Experiencia del Usuario']
+ [2446] GOTO currpos + 342 [2793]
+ [2451] PUSHTYPE 16(U8) // 13
+ [2456] COMPARE into Base[13]: Base[2] = ['pobr']
+ [2481] SETFLAG NOT Base[13]
+ [2488] POP // 12
+ [2489] FLAGGOTO currpos + 299 [2793]
+ [2494] ASSIGN Base[4], ['A instalaÁ„o foi bem sucedida']
+ [2538] ASSIGN Base[5], ['O DoYourData Uninstaller 5.4 est· bem instalado no seu computador.']
+ [2619] ASSIGN Base[9], ['Confirme o local de instalaÁ„o']
+ [2664] ASSIGN Base[11], ['Execute o DoYourData Uninstaller']
+ [2711] ASSIGN Base[12], ['Participar do Programa de AperfeiÁoamento da ExperiÍncia do Cliente']
+ [2793] PUSHTYPE 10(S32) // 13
+ [2798] PUSHTYPE 37(Class) // 14
+ [2803] PUSHTYPE 34(Class) // 15
+ [2808] PUSHVAR Base[15] // 16
+ [2814] CALL 24
+ [2819] POP // 15
+ [2820] PUSHVAR Base[14] // 16
+ [2826] CALL 28
+ [2831] POP // 15
+ [2832] POP // 14
+ [2833] PUSHVAR Base[13] // 15
+ [2839] CALL 29
+ [2844] POP // 14
+ [2845] POP // 13
+ [2846] CALC Base[13] + [35]
+ [2862] PUSHTYPE 37(Class) // 14
+ [2867] PUSHTYPE 34(Class) // 15
+ [2872] PUSHVAR Base[15] // 16
+ [2878] CALL 24
+ [2883] POP // 15
+ [2884] PUSHVAR Base[14] // 16
+ [2890] CALL 28
+ [2895] POP // 15
+ [2896] POP // 14
+ [2897] CALL 30
+ [2902] POP // 13
+ [2903] POP // 12
+ [2904] PUSHTYPE 10(S32) // 13
+ [2909] ASSIGN Base[13], [17]
+ [2924] PUSHTYPE 26(Class) // 14
+ [2929] PUSHTYPE 34(Class) // 15
+ [2934] PUSHVAR Base[15] // 16
+ [2940] CALL 24
+ [2945] POP // 15
+ [2946] PUSHVAR Base[14] // 16
+ [2952] CALL 31
+ [2957] POP // 15
+ [2958] POP // 14
+ [2959] CALL 32
+ [2964] POP // 13
+ [2965] POP // 12
+ [2966] PUSHTYPE 10(S32) // 13
+ [2971] PUSHTYPE 26(Class) // 14
+ [2976] PUSHTYPE 34(Class) // 15
+ [2981] PUSHVAR Base[15] // 16
+ [2987] CALL 24
+ [2992] POP // 15
+ [2993] PUSHVAR Base[14] // 16
+ [2999] CALL 31
+ [3004] POP // 15
+ [3005] POP // 14
+ [3006] PUSHVAR Base[13] // 15
+ [3012] CALL 34
+ [3017] POP // 14
+ [3018] POP // 13
+ [3019] CALC Base[13] + [10]
+ [3035] PUSHTYPE 27(Class) // 14
+ [3040] PUSHTYPE 34(Class) // 15
+ [3045] PUSHVAR Base[15] // 16
+ [3051] CALL 24
+ [3056] POP // 15
+ [3057] PUSHVAR Base[14] // 16
+ [3063] CALL 33
+ [3068] POP // 15
+ [3069] POP // 14
+ [3070] CALL 32
+ [3075] POP // 13
+ [3076] POP // 12
+ [3077] PUSHTYPE 10(S32) // 13
+ [3082] PUSHTYPE 26(Class) // 14
+ [3087] PUSHTYPE 34(Class) // 15
+ [3092] PUSHVAR Base[15] // 16
+ [3098] CALL 24
+ [3103] POP // 15
+ [3104] PUSHVAR Base[14] // 16
+ [3110] CALL 31
+ [3115] POP // 15
+ [3116] POP // 14
+ [3117] PUSHVAR Base[13] // 15
+ [3123] CALL 34
+ [3128] POP // 14
+ [3129] POP // 13
+ [3130] PUSHTYPE 10(S32) // 14
+ [3135] PUSHTYPE 26(Class) // 15
+ [3140] PUSHTYPE 34(Class) // 16
+ [3145] PUSHVAR Base[16] // 17
+ [3151] CALL 24
+ [3156] POP // 16
+ [3157] PUSHVAR Base[15] // 17
+ [3163] CALL 31
+ [3168] POP // 16
+ [3169] POP // 15
+ [3170] PUSHVAR Base[14] // 16
+ [3176] CALL 29
+ [3181] POP // 15
+ [3182] POP // 14
+ [3183] CALC Base[13] + Base[14]
+ [3195] POP // 13
+ [3196] CALC Base[13] + [10]
+ [3212] PUSHTYPE 27(Class) // 14
+ [3217] PUSHTYPE 34(Class) // 15
+ [3222] PUSHVAR Base[15] // 16
+ [3228] CALL 24
+ [3233] POP // 15
+ [3234] PUSHVAR Base[14] // 16
+ [3240] CALL 35
+ [3245] POP // 15
+ [3246] POP // 14
+ [3247] CALL 32
+ [3252] POP // 13
+ [3253] POP // 12
+ [3254] PUSHTYPE 10(S32) // 13
+ [3259] PUSHTYPE 27(Class) // 14
+ [3264] PUSHTYPE 34(Class) // 15
+ [3269] PUSHVAR Base[15] // 16
+ [3275] CALL 24
+ [3280] POP // 15
+ [3281] PUSHVAR Base[14] // 16
+ [3287] CALL 35
+ [3292] POP // 15
+ [3293] POP // 14
+ [3294] PUSHVAR Base[13] // 15
+ [3300] CALL 34
+ [3305] POP // 14
+ [3306] POP // 13
+ [3307] PUSHTYPE 10(S32) // 14
+ [3312] PUSHTYPE 27(Class) // 15
+ [3317] PUSHTYPE 34(Class) // 16
+ [3322] PUSHVAR Base[16] // 17
+ [3328] CALL 24
+ [3333] POP // 16
+ [3334] PUSHVAR Base[15] // 17
+ [3340] CALL 35
+ [3345] POP // 16
+ [3346] POP // 15
+ [3347] PUSHVAR Base[14] // 16
+ [3353] CALL 29
+ [3358] POP // 15
+ [3359] POP // 14
+ [3360] CALC Base[13] + Base[14]
+ [3372] POP // 13
+ [3373] CALC Base[13] + [10]
+ [3389] PUSHTYPE 38(Class) // 14
+ [3394] PUSHTYPE 34(Class) // 15
+ [3399] PUSHVAR Base[15] // 16
+ [3405] CALL 24
+ [3410] POP // 15
+ [3411] PUSHVAR Base[14] // 16
+ [3417] CALL 36
+ [3422] POP // 15
+ [3423] POP // 14
+ [3424] CALL 32
+ [3429] POP // 13
+ [3430] POP // 12
+ [3431] PUSHTYPE 10(S32) // 13
+ [3436] PUSHTYPE 27(Class) // 14
+ [3441] PUSHTYPE 34(Class) // 15
+ [3446] PUSHVAR Base[15] // 16
+ [3452] CALL 24
+ [3457] POP // 15
+ [3458] PUSHVAR Base[14] // 16
+ [3464] CALL 35
+ [3469] POP // 15
+ [3470] POP // 14
+ [3471] PUSHVAR Base[13] // 15
+ [3477] CALL 34
+ [3482] POP // 14
+ [3483] POP // 13
+ [3484] PUSHTYPE 10(S32) // 14
+ [3489] PUSHTYPE 27(Class) // 15
+ [3494] PUSHTYPE 34(Class) // 16
+ [3499] PUSHVAR Base[16] // 17
+ [3505] CALL 24
+ [3510] POP // 16
+ [3511] PUSHVAR Base[15] // 17
+ [3517] CALL 35
+ [3522] POP // 16
+ [3523] POP // 15
+ [3524] PUSHVAR Base[14] // 16
+ [3530] CALL 29
+ [3535] POP // 15
+ [3536] POP // 14
+ [3537] CALC Base[13] + Base[14]
+ [3549] POP // 13
+ [3550] CALC Base[13] + [10]
+ [3566] PUSHTYPE 35(Class) // 14
+ [3571] PUSHTYPE 34(Class) // 15
+ [3576] PUSHVAR Base[15] // 16
+ [3582] CALL 24
+ [3587] POP // 15
+ [3588] PUSHVAR Base[14] // 16
+ [3594] CALL 37
+ [3599] POP // 15
+ [3600] POP // 14
+ [3601] CALL 32
+ [3606] POP // 13
+ [3607] POP // 12
+ [3608] PUSHTYPE 40(Class) // 13
+ [3613] PUSHTYPE 41(Class) // 14
+ [3618] PUSHTYPE 34(Class) // 15
+ [3623] PUSHVAR Base[15] // 16
+ [3629] CALL 24
+ [3634] POP // 15
+ [3635] PUSHVAR Base[14] // 16
+ [3641] CALL 39
+ [3646] POP // 15
+ [3647] POP // 14
+ [3648] ASSIGN Base[13], Base[14]
+ [3659] POP // 13
+ [3660] PUSHTYPE 9(U32) // 14
+ [3665] ASSIGN Base[14], [26]
+ [3680] PUSHVAR GlobalVar[21] // 15
+ [3686] CALL 38
+ [3691] POP // 14
+ [3692] POP // 13
+ [3693] POP // 12
+ [3694] PUSHTYPE 42(Class) // 13
+ [3699] PUSHTYPE 41(Class) // 14
+ [3704] PUSHTYPE 34(Class) // 15
+ [3709] PUSHVAR Base[15] // 16
+ [3715] CALL 24
+ [3720] POP // 15
+ [3721] PUSHVAR Base[14] // 16
+ [3727] CALL 39
+ [3732] POP // 15
+ [3733] POP // 14
+ [3734] ASSIGN Base[13], Base[14]
+ [3745] POP // 13
+ [3746] PUSHTYPE 26(Class) // 14
+ [3751] ASSIGN Base[14], GlobalVar[21]
+ [3762] CALL 40
+ [3767] POP // 13
+ [3768] POP // 12
+ [3769] PUSHTYPE 10(S32) // 13
+ [3774] PUSHTYPE 35(Class) // 14
+ [3779] PUSHTYPE 34(Class) // 15
+ [3784] PUSHVAR Base[15] // 16
+ [3790] CALL 24
+ [3795] POP // 15
+ [3796] PUSHVAR Base[14] // 16
+ [3802] CALL 37
+ [3807] POP // 15
+ [3808] POP // 14
+ [3809] PUSHVAR Base[13] // 15
+ [3815] CALL 34
+ [3820] POP // 14
+ [3821] POP // 13
+ [3822] PUSHTYPE 10(S32) // 14
+ [3827] PUSHTYPE 10(S32) // 15
+ [3832] ASSIGN Base[15], [70]
+ [3847] PUSHVAR Base[14] // 16
+ [3853] CALL 41
+ [3858] POP // 15
+ [3859] POP // 14
+ [3860] CALC Base[13] + Base[14]
+ [3872] POP // 13
+ [3873] PUSHTYPE 26(Class) // 14
+ [3878] ASSIGN Base[14], GlobalVar[21]
+ [3889] CALL 32
+ [3894] POP // 13
+ [3895] POP // 12
+ [3896] PUSHTYPE 10(S32) // 13
+ [3901] ASSIGN Base[13], [45]
+ [3916] PUSHTYPE 26(Class) // 14
+ [3921] ASSIGN Base[14], GlobalVar[21]
+ [3932] CALL 42
+ [3937] POP // 13
+ [3938] POP // 12
+ [3939] PUSHTYPE 10(S32) // 13
+ [3944] ASSIGN Base[13], [41]
+ [3959] PUSHTYPE 26(Class) // 14
+ [3964] ASSIGN Base[14], GlobalVar[21]
+ [3975] CALL 30
+ [3980] POP // 13
+ [3981] POP // 12
+ [3982] PUSHTYPE 16(U8) // 13
+ [3987] ASSIGN Base[13], [0]
+ [3999] PUSHTYPE 26(Class) // 14
+ [4004] ASSIGN Base[14], GlobalVar[21]
+ [4015] CALL 43
+ [4020] POP // 13
+ [4021] POP // 12
+ [4022] PUSHTYPE 8(String) // 13
+ [4027] ASSIGN Base[13], ['BrowseWarning.bmp']
+ [4059] CALL 44
+ [4064] POP // 12
+ [4065] PUSHTYPE 8(String) // 13
+ [4070] ASSIGN Base[13], ['{tmp}\BrowseWarning.bmp']
+ [4108] PUSHVAR GlobalVar[22] // 14
+ [4114] CALL 6
+ [4119] POP // 13
+ [4120] POP // 12
+ [4121] PUSHTYPE 40(Class) // 13
+ [4126] PUSHTYPE 41(Class) // 14
+ [4131] PUSHTYPE 34(Class) // 15
+ [4136] PUSHVAR Base[15] // 16
+ [4142] CALL 24
+ [4147] POP // 15
+ [4148] PUSHVAR Base[14] // 16
+ [4154] CALL 39
+ [4159] POP // 15
+ [4160] POP // 14
+ [4161] ASSIGN Base[13], Base[14]
+ [4172] POP // 13
+ [4173] PUSHTYPE 9(U32) // 14
+ [4178] ASSIGN Base[14], [27]
+ [4193] PUSHVAR GlobalVar[23] // 15
+ [4199] CALL 38
+ [4204] POP // 14
+ [4205] POP // 13
+ [4206] POP // 12
+ [4207] PUSHTYPE 27(Class) // 13
+ [4212] ASSIGN Base[13], GlobalVar[23]
+ [4223] PUSHTYPE 42(Class) // 14
+ [4228] PUSHTYPE 41(Class) // 15
+ [4233] PUSHTYPE 34(Class) // 16
+ [4238] PUSHVAR Base[16] // 17
+ [4244] CALL 24
+ [4249] POP // 16
+ [4250] PUSHVAR Base[15] // 17
+ [4256] CALL 39
+ [4261] POP // 16
+ [4262] POP // 15
+ [4263] ASSIGN Base[14], Base[15]
+ [4274] POP // 14
+ [4275] PUSHTYPE 27(Class) // 15
+ [4280] ASSIGN Base[15], Base[13]
+ [4291] CALL 40
+ [4296] POP // 14
+ [4297] POP // 13
+ [4298] PUSHTYPE 10(S32) // 14
+ [4303] PUSHTYPE 26(Class) // 15
+ [4308] ASSIGN Base[15], GlobalVar[21]
+ [4319] PUSHVAR Base[14] // 16
+ [4325] CALL 45
+ [4330] POP // 15
+ [4331] POP // 14
+ [4332] CALC Base[14] + [16]
+ [4348] PUSHTYPE 27(Class) // 15
+ [4353] ASSIGN Base[15], Base[13]
+ [4364] CALL 46
+ [4369] POP // 14
+ [4370] POP // 13
+ [4371] PUSHTYPE 16(U8) // 14
+ [4376] PUSHTYPE 8(String) // 15
+ [4381] PUSHTYPE 8(String) // 16
+ [4386] ASSIGN Base[16], ['{language}']
+ [4411] PUSHVAR Base[15] // 17
+ [4417] CALL 6
+ [4422] POP // 16
+ [4423] POP // 15
+ [4424] COMPARE into Base[14]: Base[15] = ['fr']
+ [4447] POP // 14
+ [4448] SETFLAG NOT Base[14]
+ [4455] POP // 13
+ [4456] FLAGGOTO currpos + 62 [4523]
+ [4461] PUSHTYPE 10(S32) // 14
+ [4466] PUSHTYPE 26(Class) // 15
+ [4471] ASSIGN Base[15], GlobalVar[21]
+ [4482] PUSHVAR Base[14] // 16
+ [4488] CALL 34
+ [4493] POP // 15
+ [4494] POP // 14
+ [4495] PUSHTYPE 27(Class) // 15
+ [4500] ASSIGN Base[15], Base[13]
+ [4511] CALL 32
+ [4516] POP // 14
+ [4517] POP // 13
+ [4518] GOTO currpos + 73 [4596]
+ [4523] PUSHTYPE 10(S32) // 14
+ [4528] PUSHTYPE 26(Class) // 15
+ [4533] ASSIGN Base[15], GlobalVar[21]
+ [4544] PUSHVAR Base[14] // 16
+ [4550] CALL 34
+ [4555] POP // 15
+ [4556] POP // 14
+ [4557] CALC Base[14] + [5]
+ [4573] PUSHTYPE 27(Class) // 15
+ [4578] ASSIGN Base[15], Base[13]
+ [4589] CALL 32
+ [4594] POP // 14
+ [4595] POP // 13
+ [4596] PUSHTYPE 10(S32) // 14
+ [4601] PUSHTYPE 41(Class) // 15
+ [4606] PUSHTYPE 34(Class) // 16
+ [4611] PUSHVAR Base[16] // 17
+ [4617] CALL 24
+ [4622] POP // 16
+ [4623] PUSHVAR Base[15] // 17
+ [4629] CALL 39
+ [4634] POP // 16
+ [4635] POP // 15
+ [4636] PUSHVAR Base[14] // 16
+ [4642] CALL 45
+ [4647] POP // 15
+ [4648] POP // 14
+ [4649] PUSHTYPE 10(S32) // 15
+ [4654] PUSHTYPE 26(Class) // 16
+ [4659] ASSIGN Base[16], GlobalVar[21]
+ [4670] PUSHVAR Base[15] // 17
+ [4676] CALL 45
+ [4681] POP // 16
+ [4682] POP // 15
+ [4683] CALC Base[14] - Base[15]
+ [4695] POP // 14
+ [4696] CALC Base[14] - [16]
+ [4712] PUSHTYPE 27(Class) // 15
+ [4717] ASSIGN Base[15], Base[13]
+ [4728] CALL 42
+ [4733] POP // 14
+ [4734] POP // 13
+ [4735] PUSHTYPE 16(U8) // 14
+ [4740] ASSIGN Base[14], [1]
+ [4752] PUSHTYPE 27(Class) // 15
+ [4757] ASSIGN Base[15], Base[13]
+ [4768] CALL 47
+ [4773] POP // 14
+ [4774] POP // 13
+ [4775] POP // 12
+ [4776] PUSHTYPE 8(String) // 13
+ [4781] ASSIGN Base[13], Base[5]
+ [4792] PUSHTYPE 8(String) // 14
+ [4797] ASSIGN Base[14], ['']
+ [4812] PUSHTYPE 8(String) // 15
+ [4817] ASSIGN Base[15], Base[4]
+ [4828] PUSHTYPE 10(S32) // 16
+ [4833] ASSIGN Base[16], [12]
+ [4848] PUSHVAR GlobalVar[8] // 17
+ [4854] CALL 48
+ [4859] POP // 16
+ [4860] POP // 15
+ [4861] POP // 14
+ [4862] POP // 13
+ [4863] POP // 12
+ [4864] PUSHTYPE 40(Class) // 13
+ [4869] ASSIGN Base[13], GlobalVar[8]
+ [4880] PUSHTYPE 9(U32) // 14
+ [4885] ASSIGN Base[14], [24]
+ [4900] PUSHVAR GlobalVar[9] // 15
+ [4906] CALL 38
+ [4911] POP // 14
+ [4912] POP // 13
+ [4913] POP // 12
+ [4914] PUSHTYPE 42(Class) // 13
+ [4919] PUSHTYPE 41(Class) // 14
+ [4924] PUSHTYPE 23(Class) // 15
+ [4929] ASSIGN Base[15], GlobalVar[8]
+ [4940] PUSHVAR Base[14] // 16
+ [4946] CALL 49
+ [4951] POP // 15
+ [4952] POP // 14
+ [4953] ASSIGN Base[13], Base[14]
+ [4964] POP // 13
+ [4965] PUSHTYPE 24(Class) // 14
+ [4970] ASSIGN Base[14], GlobalVar[9]
+ [4981] CALL 40
+ [4986] POP // 13
+ [4987] POP // 12
+ [4988] PUSHTYPE 10(S32) // 13
+ [4993] ASSIGN Base[13], [100]
+ [5008] PUSHTYPE 24(Class) // 14
+ [5013] ASSIGN Base[14], GlobalVar[9]
+ [5024] CALL 32
+ [5029] POP // 13
+ [5030] POP // 12
+ [5031] PUSHTYPE 10(S32) // 13
+ [5036] ASSIGN Base[13], [500]
+ [5051] PUSHTYPE 24(Class) // 14
+ [5056] ASSIGN Base[14], GlobalVar[9]
+ [5067] CALL 42
+ [5072] POP // 13
+ [5073] POP // 12
+ [5074] PUSHTYPE 16(U8) // 13
+ [5079] ASSIGN Base[13], [1]
+ [5091] PUSHTYPE 24(Class) // 14
+ [5096] ASSIGN Base[14], GlobalVar[9]
+ [5107] CALL 50
+ [5112] POP // 13
+ [5113] POP // 12
+ [5114] PUSHTYPE 8(String) // 13
+ [5119] ASSIGN Base[13], Base[11]
+ [5130] PUSHTYPE 24(Class) // 14
+ [5135] ASSIGN Base[14], GlobalVar[9]
+ [5146] CALL 51
+ [5151] POP // 13
+ [5152] POP // 12
+ [5153] RET
+Proc [28]: External Decl: class:TWIZARDFORM|LICENSEMEMO|\01\00\00\00 
+Proc [29]: External Decl: class:TCONTROL|HEIGHT|\01\00\00\00 
+Proc [30]: External Decl: class:TCONTROL|HEIGHT@|\01\00\00\00 
+Proc [31]: External Decl: class:TWIZARDFORM|SELECTDIRBITMAPIMAGE|\01\00\00\00 
+Proc [32]: External Decl: class:TCONTROL|TOP@|\01\00\00\00 
+Proc [33]: External Decl: class:TWIZARDFORM|SELECTDIRLABEL|\01\00\00\00 
+Proc [34]: External Decl: class:TCONTROL|TOP|\01\00\00\00 
+Proc [35]: External Decl: class:TWIZARDFORM|SELECTDIRBROWSELABEL|\01\00\00\00 
+Proc [36]: External Decl: class:TWIZARDFORM|DIREDIT|\01\00\00\00 
+Proc [37]: External Decl: class:TWIZARDFORM|DIRBROWSEBUTTON|\01\00\00\00 
+Proc [38]: External Decl: class:TCONTROL|CREATE|\00\01\00 
+Proc [39]: External Decl: class:TWIZARDFORM|SELECTDIRPAGE|\01\00\00\00 
+Proc [40]: External Decl: class:TCONTROL|PARENT@|\01\00\00\00 
+Proc [41]: External Decl: \01\00 SCALEY
+Proc [42]: External Decl: class:TCONTROL|WIDTH@|\01\00\00\00 
+Proc [43]: External Decl: class:TBITMAPIMAGE|STRETCH@|\01\00\00\00 
+Proc [44]: External Decl: \00\00 EXTRACTTEMPORARYFILE
+Proc [45]: External Decl: class:TCONTROL|WIDTH|\01\00\00\00 
+Proc [46]: External Decl: class:TCONTROL|LEFT@|\01\00\00\00 
+Proc [47]: External Decl: class:TNEWSTATICTEXT|WORDWRAP@|\01\00\00\00 
+Proc [48]: External Decl: \01\00\00\00\00 CREATEINPUTQUERYPAGE
+Proc [49]: External Decl: class:TWIZARDPAGE|SURFACE|\01\00\00\00 
+Proc [50]: External Decl: class:TCHECKBOX|CHECKED@|\01\00\00\00 
+Proc [51]: External Decl: class:TCHECKBOX|CAPTION@|\01\00\00\00 
+Proc [52] Export: INITIALIZEWIZARD -1
+ [0] CALL 27
+ [5] RET
+Proc [53] Export: INITIALIZESETUP 16
+ [0] PUSHTYPE 8(String) // 1
+ [5] PUSHTYPE 8(String) // 2
+ [10] ASSIGN Base[2], ['{language}']
+ [35] PUSHVAR Base[1] // 3
+ [41] CALL 6
+ [46] POP // 2
+ [47] POP // 1
+ [48] PUSHTYPE 16(U8) // 2
+ [53] COMPARE into Base[2]: Base[1] = ['en']
+ [76] SETFLAG NOT Base[2]
+ [83] POP // 1
+ [84] FLAGGOTO currpos + 59 [148]
+ [89] ASSIGN Base[1], ['DoYourData Uninstaller setup is running']
+ [143] GOTO currpos + 619 [767]
+ [148] PUSHTYPE 16(U8) // 2
+ [153] COMPARE into Base[2]: Base[1] = ['de']
+ [176] SETFLAG NOT Base[2]
+ [183] POP // 1
+ [184] FLAGGOTO currpos + 62 [251]
+ [189] ASSIGN Base[1], ['DoYourData Uninstaller setup l‰uft bereits']
+ [246] GOTO currpos + 516 [767]
+ [251] PUSHTYPE 16(U8) // 2
+ [256] COMPARE into Base[2]: Base[1] = ['jp']
+ [279] SETFLAG NOT Base[2]
+ [286] POP // 1
+ [287] FLAGGOTO currpos + 79 [371]
+ [292] ASSIGN Base[1], ['DoYourData Uninstaller ÉCÉìÉXÉgÅ[ÉãÉvÉçÉOÉâÉÄÇÕâ^çsíÜÇ≈Ç†ÇÈ']
+ [366] GOTO currpos + 396 [767]
+ [371] PUSHTYPE 16(U8) // 2
+ [376] COMPARE into Base[2]: Base[1] = ['fr']
+ [399] SETFLAG NOT Base[2]
+ [406] POP // 1
+ [407] FLAGGOTO currpos + 100 [512]
+ [412] ASSIGN Base[1], ['En cours de fonctionnement du programme díinstallation de DoYourData Uninstaller']
+ [507] GOTO currpos + 255 [767]
+ [512] PUSHTYPE 16(U8) // 2
+ [517] COMPARE into Base[2]: Base[1] = ['sp']
+ [540] SETFLAG NOT Base[2]
+ [547] POP // 1
+ [548] FLAGGOTO currpos + 89 [642]
+ [553] ASSIGN Base[1], ['El programa de instalaciÛn de DoYourData Uninstaller est· funcionando']
+ [637] GOTO currpos + 125 [767]
+ [642] PUSHTYPE 16(U8) // 2
+ [647] COMPARE into Base[2]: Base[1] = ['pobr']
+ [672] SETFLAG NOT Base[2]
+ [679] POP // 1
+ [680] FLAGGOTO currpos + 82 [767]
+ [685] ASSIGN Base[1], ['O programa de instalaÁ„o do DoYourData Uninstaller est· executando.']
+ [767] PUSHTYPE 16(U8) // 2
+ [772] PUSHTYPE 16(U8) // 3
+ [777] PUSHTYPE 8(String) // 4
+ [782] ASSIGN Base[4], ['DRW_Setup']
+ [806] PUSHVAR Base[3] // 5
+ [812] CALL 54
+ [817] POP // 4
+ [818] POP // 3
+ [819] COMPARE into Base[2]: Base[3] = [1]
+ [837] POP // 2
+ [838] SETFLAG NOT Base[2]
+ [845] POP // 1
+ [846] FLAGGOTO currpos + 91 [942]
+ [851] PUSHTYPE 10(S32) // 2
+ [856] PUSHTYPE 10(S32) // 3
+ [861] ASSIGN Base[3], [0]
+ [876] PUSHTYPE 43(U8) // 4
+ [881] ASSIGN Base[4], [0]
+ [893] PUSHTYPE 8(String) // 5
+ [898] ASSIGN Base[5], Base[1]
+ [909] PUSHVAR Base[2] // 6
+ [915] CALL 55
+ [920] POP // 5
+ [921] POP // 4
+ [922] POP // 3
+ [923] POP // 2
+ [924] POP // 1
+ [925] ASSIGN Base[-1], [0]
+ [937] GOTO currpos + 47 [989]
+ [942] PUSHTYPE 8(String) // 2
+ [947] ASSIGN Base[2], ['DRW_Setup']
+ [971] CALL 56
+ [976] POP // 1
+ [977] ASSIGN Base[-1], [1]
+ [989] RET
+Proc [54]: External Decl: \01\00 CHECKFORMUTEXES
+Proc [55]: External Decl: \01\00\00\00 MSGBOX
+Proc [56]: External Decl: \00\00 CREATEMUTEX
+Proc [57] Export: FINISHEDINSTALL -1
+ [0] PUSHTYPE 8(String) // 1
+ [5] PUSHTYPE 8(String) // 2
+ [10] PUSHTYPE 8(String) // 3
+ [15] PUSHTYPE 8(String) // 4
+ [20] PUSHTYPE 8(String) // 5
+ [25] PUSHTYPE 8(String) // 6
+ [30] PUSHTYPE 16(U8) // 7
+ [35] PUSHTYPE 10(S32) // 8
+ [40] PUSHTYPE 8(String) // 9
+ [45] PUSHTYPE 8(String) // 10
+ [50] ASSIGN Base[10], ['{language}']
+ [75] PUSHVAR Base[9] // 11
+ [81] CALL 6
+ [86] POP // 10
+ [87] POP // 9
+ [88] PUSHTYPE 16(U8) // 10
+ [93] COMPARE into Base[10]: Base[9] = ['en']
+ [116] SETFLAG NOT Base[10]
+ [123] POP // 9
+ [124] FLAGGOTO currpos + 241 [370]
+ [129] PUSHTYPE 16(U8) // 10
+ [134] PUSHTYPE 0(Pointer) // 11
+ [139] SETPOINTER Base[11]: Base[8]
+ [150] PUSHTYPE 44(U8) // 12
+ [155] ASSIGN Base[12], [0]
+ [167] PUSHTYPE 10(S32) // 13
+ [172] ASSIGN Base[13], [1]
+ [187] PUSHTYPE 8(String) // 14
+ [192] ASSIGN Base[14], ['']
+ [207] PUSHTYPE 8(String) // 15
+ [212] ASSIGN Base[15], ['']
+ [227] PUSHTYPE 8(String) // 16
+ [232] ASSIGN Base[16], ['http://www.doyourdata.com/install/doyourdata-uninstaller-free-windows.html']
+ [321] PUSHTYPE 8(String) // 17
+ [326] ASSIGN Base[17], ['open']
+ [345] PUSHVAR Base[10] // 18
+ [351] CALL 58
+ [356] POP // 17
+ [357] POP // 16
+ [358] POP // 15
+ [359] POP // 14
+ [360] POP // 13
+ [361] POP // 12
+ [362] POP // 11
+ [363] POP // 10
+ [364] POP // 9
+ [365] GOTO currpos + 1362 [1732]
+ [370] PUSHTYPE 16(U8) // 10
+ [375] COMPARE into Base[10]: Base[9] = ['de']
+ [398] SETFLAG NOT Base[10]
+ [405] POP // 9
+ [406] FLAGGOTO currpos + 232 [643]
+ [411] PUSHTYPE 16(U8) // 10
+ [416] PUSHTYPE 0(Pointer) // 11
+ [421] SETPOINTER Base[11]: Base[8]
+ [432] PUSHTYPE 44(U8) // 12
+ [437] ASSIGN Base[12], [0]
+ [449] PUSHTYPE 10(S32) // 13
+ [454] ASSIGN Base[13], [1]
+ [469] PUSHTYPE 8(String) // 14
+ [474] ASSIGN Base[14], ['']
+ [489] PUSHTYPE 8(String) // 15
+ [494] ASSIGN Base[15], ['']
+ [509] PUSHTYPE 8(String) // 16
+ [514] ASSIGN Base[16], ['http://www.doyourdata.com/install/do-your-data-recovery-free.html']
+ [594] PUSHTYPE 8(String) // 17
+ [599] ASSIGN Base[17], ['open']
+ [618] PUSHVAR Base[10] // 18
+ [624] CALL 58
+ [629] POP // 17
+ [630] POP // 16
+ [631] POP // 15
+ [632] POP // 14
+ [633] POP // 13
+ [634] POP // 12
+ [635] POP // 11
+ [636] POP // 10
+ [637] POP // 9
+ [638] GOTO currpos + 1089 [1732]
+ [643] PUSHTYPE 16(U8) // 10
+ [648] COMPARE into Base[10]: Base[9] = ['jp']
+ [671] SETFLAG NOT Base[10]
+ [678] POP // 9
+ [679] FLAGGOTO currpos + 232 [916]
+ [684] PUSHTYPE 16(U8) // 10
+ [689] PUSHTYPE 0(Pointer) // 11
+ [694] SETPOINTER Base[11]: Base[8]
+ [705] PUSHTYPE 44(U8) // 12
+ [710] ASSIGN Base[12], [0]
+ [722] PUSHTYPE 10(S32) // 13
+ [727] ASSIGN Base[13], [1]
+ [742] PUSHTYPE 8(String) // 14
+ [747] ASSIGN Base[14], ['']
+ [762] PUSHTYPE 8(String) // 15
+ [767] ASSIGN Base[15], ['']
+ [782] PUSHTYPE 8(String) // 16
+ [787] ASSIGN Base[16], ['http://www.doyourdata.com/install/do-your-data-recovery-free.html']
+ [867] PUSHTYPE 8(String) // 17
+ [872] ASSIGN Base[17], ['open']
+ [891] PUSHVAR Base[10] // 18
+ [897] CALL 58
+ [902] POP // 17
+ [903] POP // 16
+ [904] POP // 15
+ [905] POP // 14
+ [906] POP // 13
+ [907] POP // 12
+ [908] POP // 11
+ [909] POP // 10
+ [910] POP // 9
+ [911] GOTO currpos + 816 [1732]
+ [916] PUSHTYPE 16(U8) // 10
+ [921] COMPARE into Base[10]: Base[9] = ['fr']
+ [944] SETFLAG NOT Base[10]
+ [951] POP // 9
+ [952] FLAGGOTO currpos + 232 [1189]
+ [957] PUSHTYPE 16(U8) // 10
+ [962] PUSHTYPE 0(Pointer) // 11
+ [967] SETPOINTER Base[11]: Base[8]
+ [978] PUSHTYPE 44(U8) // 12
+ [983] ASSIGN Base[12], [0]
+ [995] PUSHTYPE 10(S32) // 13
+ [1000] ASSIGN Base[13], [1]
+ [1015] PUSHTYPE 8(String) // 14
+ [1020] ASSIGN Base[14], ['']
+ [1035] PUSHTYPE 8(String) // 15
+ [1040] ASSIGN Base[15], ['']
+ [1055] PUSHTYPE 8(String) // 16
+ [1060] ASSIGN Base[16], ['http://www.doyourdata.com/install/do-your-data-recovery-free.html']
+ [1140] PUSHTYPE 8(String) // 17
+ [1145] ASSIGN Base[17], ['open']
+ [1164] PUSHVAR Base[10] // 18
+ [1170] CALL 58
+ [1175] POP // 17
+ [1176] POP // 16
+ [1177] POP // 15
+ [1178] POP // 14
+ [1179] POP // 13
+ [1180] POP // 12
+ [1181] POP // 11
+ [1182] POP // 10
+ [1183] POP // 9
+ [1184] GOTO currpos + 543 [1732]
+ [1189] PUSHTYPE 16(U8) // 10
+ [1194] COMPARE into Base[10]: Base[9] = ['sp']
+ [1217] SETFLAG NOT Base[10]
+ [1224] POP // 9
+ [1225] FLAGGOTO currpos + 232 [1462]
+ [1230] PUSHTYPE 16(U8) // 10
+ [1235] PUSHTYPE 0(Pointer) // 11
+ [1240] SETPOINTER Base[11]: Base[8]
+ [1251] PUSHTYPE 44(U8) // 12
+ [1256] ASSIGN Base[12], [0]
+ [1268] PUSHTYPE 10(S32) // 13
+ [1273] ASSIGN Base[13], [1]
+ [1288] PUSHTYPE 8(String) // 14
+ [1293] ASSIGN Base[14], ['']
+ [1308] PUSHTYPE 8(String) // 15
+ [1313] ASSIGN Base[15], ['']
+ [1328] PUSHTYPE 8(String) // 16
+ [1333] ASSIGN Base[16], ['http://www.doyourdata.com/install/do-your-data-recovery-free.html']
+ [1413] PUSHTYPE 8(String) // 17
+ [1418] ASSIGN Base[17], ['open']
+ [1437] PUSHVAR Base[10] // 18
+ [1443] CALL 58
+ [1448] POP // 17
+ [1449] POP // 16
+ [1450] POP // 15
+ [1451] POP // 14
+ [1452] POP // 13
+ [1453] POP // 12
+ [1454] POP // 11
+ [1455] POP // 10
+ [1456] POP // 9
+ [1457] GOTO currpos + 270 [1732]
+ [1462] PUSHTYPE 16(U8) // 10
+ [1467] COMPARE into Base[10]: Base[9] = ['pobr']
+ [1492] SETFLAG NOT Base[10]
+ [1499] POP // 9
+ [1500] FLAGGOTO currpos + 227 [1732]
+ [1505] PUSHTYPE 16(U8) // 10
+ [1510] PUSHTYPE 0(Pointer) // 11
+ [1515] SETPOINTER Base[11]: Base[8]
+ [1526] PUSHTYPE 44(U8) // 12
+ [1531] ASSIGN Base[12], [0]
+ [1543] PUSHTYPE 10(S32) // 13
+ [1548] ASSIGN Base[13], [1]
+ [1563] PUSHTYPE 8(String) // 14
+ [1568] ASSIGN Base[14], ['']
+ [1583] PUSHTYPE 8(String) // 15
+ [1588] ASSIGN Base[15], ['']
+ [1603] PUSHTYPE 8(String) // 16
+ [1608] ASSIGN Base[16], ['http://www.doyourdata.com/install/do-your-data-recovery-free.html']
+ [1688] PUSHTYPE 8(String) // 17
+ [1693] ASSIGN Base[17], ['open']
+ [1712] PUSHVAR Base[10] // 18
+ [1718] CALL 58
+ [1723] POP // 17
+ [1724] POP // 16
+ [1725] POP // 15
+ [1726] POP // 14
+ [1727] POP // 13
+ [1728] POP // 12
+ [1729] POP // 11
+ [1730] POP // 10
+ [1731] POP // 9
+ [1732] PUSHTYPE 16(U8) // 10
+ [1737] PUSHTYPE 16(U8) // 11
+ [1742] ASSIGN Base[11], [0]
+ [1754] PUSHTYPE 8(String) // 12
+ [1759] PUSHTYPE 8(String) // 13
+ [1764] ASSIGN Base[13], ['{app}\Configure.dat']
+ [1798] PUSHVAR Base[12] // 14
+ [1804] CALL 6
+ [1809] POP // 13
+ [1810] POP // 12
+ [1811] PUSHTYPE 8(String) // 13
+ [1816] PUSHTYPE 8(String) // 14
+ [1821] ASSIGN Base[14], GlobalVar[25]
+ [1832] PUSHVAR Base[13] // 15
+ [1838] CALL 6
+ [1843] POP // 14
+ [1844] POP // 13
+ [1845] PUSHVAR Base[10] // 14
+ [1851] CALL 59
+ [1856] POP // 13
+ [1857] POP // 12
+ [1858] POP // 11
+ [1859] POP // 10
+ [1860] POP // 9
+ [1861] PUSHTYPE 16(U8) // 10
+ [1866] PUSHVAR Base[10] // 11
+ [1872] CALL 13
+ [1877] POP // 10
+ [1878] SETFLAG NOT Base[10]
+ [1885] POP // 9
+ [1886] FLAGGOTO currpos + 913 [2804]
+ [1891] PUSHTYPE 16(U8) // 10
+ [1896] PUSHTYPE 16(U8) // 11
+ [1901] PUSHTYPE 0(Pointer) // 12
+ [1906] SETPOINTER Base[12]: Base[4]
+ [1917] PUSHTYPE 8(String) // 13
+ [1922] ASSIGN Base[13], ['Key']
+ [1940] PUSHTYPE 8(String) // 14
+ [1945] ASSIGN Base[14], ['Software\DoYourData\WinUninstaller\Key']
+ [1998] PUSHTYPE 10(S32) // 15
+ [2003] ASSIGN Base[15], [-2147483646]
+ [2018] PUSHVAR Base[11] // 16
+ [2024] CALL 60
+ [2029] POP // 15
+ [2030] POP // 14
+ [2031] POP // 13
+ [2032] POP // 12
+ [2033] POP // 11
+ [2034] COMPARE into Base[10]: Base[11] = [1]
+ [2052] POP // 10
+ [2053] SETFLAG NOT Base[10]
+ [2060] POP // 9
+ [2061] FLAGGOTO currpos + 443 [2509]
+ [2066] PUSHTYPE 16(U8) // 10
+ [2071] PUSHTYPE 10(S32) // 11
+ [2076] PUSHTYPE 8(String) // 12
+ [2081] ASSIGN Base[12], Base[4]
+ [2092] PUSHVAR Base[11] // 13
+ [2098] CALL 61
+ [2103] POP // 12
+ [2104] POP // 11
+ [2105] COMPARE into Base[10]: Base[11] > [0]
+ [2126] POP // 10
+ [2127] SETFLAG NOT Base[10]
+ [2134] POP // 9
+ [2135] FLAGGOTO currpos + 0 [2140]
+ [2140] PUSHTYPE 16(U8) // 10
+ [2145] PUSHTYPE 10(S32) // 11
+ [2150] PUSHTYPE 8(String) // 12
+ [2155] ASSIGN Base[12], Base[4]
+ [2166] PUSHVAR Base[11] // 13
+ [2172] CALL 61
+ [2177] POP // 12
+ [2178] POP // 11
+ [2179] COMPARE into Base[10]: Base[11] = [0]
+ [2200] POP // 10
+ [2201] SETFLAG NOT Base[10]
+ [2208] POP // 9
+ [2209] FLAGGOTO currpos + 290 [2504]
+ [2214] PUSHTYPE 16(U8) // 10
+ [2219] PUSHTYPE 8(String) // 11
+ [2224] ASSIGN Base[11], ['']
+ [2239] PUSHTYPE 8(String) // 12
+ [2244] ASSIGN Base[12], ['Key']
+ [2262] PUSHTYPE 8(String) // 13
+ [2267] ASSIGN Base[13], ['Software\DoYourData\WinUninstaller\Key']
+ [2320] PUSHTYPE 10(S32) // 14
+ [2325] ASSIGN Base[14], [-2147483646]
+ [2340] PUSHVAR Base[10] // 15
+ [2346] CALL 62
+ [2351] POP // 14
+ [2352] POP // 13
+ [2353] POP // 12
+ [2354] POP // 11
+ [2355] POP // 10
+ [2356] POP // 9
+ [2357] PUSHTYPE 16(U8) // 10
+ [2362] PUSHTYPE 8(String) // 11
+ [2367] ASSIGN Base[11], Base[5]
+ [2378] PUSHTYPE 8(String) // 12
+ [2383] ASSIGN Base[12], ['Version']
+ [2405] PUSHTYPE 8(String) // 13
+ [2410] ASSIGN Base[13], ['Software\DoYourData\WinUninstaller\Version']
+ [2467] PUSHTYPE 10(S32) // 14
+ [2472] ASSIGN Base[14], [-2147483646]
+ [2487] PUSHVAR Base[10] // 15
+ [2493] CALL 62
+ [2498] POP // 14
+ [2499] POP // 13
+ [2500] POP // 12
+ [2501] POP // 11
+ [2502] POP // 10
+ [2503] POP // 9
+ [2504] GOTO currpos + 290 [2799]
+ [2509] PUSHTYPE 16(U8) // 10
+ [2514] PUSHTYPE 8(String) // 11
+ [2519] ASSIGN Base[11], Base[5]
+ [2530] PUSHTYPE 8(String) // 12
+ [2535] ASSIGN Base[12], ['Version']
+ [2557] PUSHTYPE 8(String) // 13
+ [2562] ASSIGN Base[13], ['Software\DoYourData\WinUninstaller\Version']
+ [2619] PUSHTYPE 10(S32) // 14
+ [2624] ASSIGN Base[14], [-2147483646]
+ [2639] PUSHVAR Base[10] // 15
+ [2645] CALL 62
+ [2650] POP // 14
+ [2651] POP // 13
+ [2652] POP // 12
+ [2653] POP // 11
+ [2654] POP // 10
+ [2655] POP // 9
+ [2656] PUSHTYPE 16(U8) // 10
+ [2661] PUSHTYPE 8(String) // 11
+ [2666] ASSIGN Base[11], ['']
+ [2681] PUSHTYPE 8(String) // 12
+ [2686] ASSIGN Base[12], ['Key']
+ [2704] PUSHTYPE 8(String) // 13
+ [2709] ASSIGN Base[13], ['Software\DoYourData\WinUninstaller\Key']
+ [2762] PUSHTYPE 10(S32) // 14
+ [2767] ASSIGN Base[14], [-2147483646]
+ [2782] PUSHVAR Base[10] // 15
+ [2788] CALL 62
+ [2793] POP // 14
+ [2794] POP // 13
+ [2795] POP // 12
+ [2796] POP // 11
+ [2797] POP // 10
+ [2798] POP // 9
+ [2799] GOTO currpos + 908 [3712]
+ [2804] PUSHTYPE 16(U8) // 10
+ [2809] PUSHTYPE 16(U8) // 11
+ [2814] PUSHTYPE 0(Pointer) // 12
+ [2819] SETPOINTER Base[12]: Base[4]
+ [2830] PUSHTYPE 8(String) // 13
+ [2835] ASSIGN Base[13], ['Key']
+ [2853] PUSHTYPE 8(String) // 14
+ [2858] ASSIGN Base[14], ['Software\DoYourData\WinUninstaller\Key']
+ [2911] PUSHTYPE 10(S32) // 15
+ [2916] ASSIGN Base[15], [-2147483646]
+ [2931] PUSHVAR Base[11] // 16
+ [2937] CALL 60
+ [2942] POP // 15
+ [2943] POP // 14
+ [2944] POP // 13
+ [2945] POP // 12
+ [2946] POP // 11
+ [2947] COMPARE into Base[10]: Base[11] = [1]
+ [2965] POP // 10
+ [2966] SETFLAG NOT Base[10]
+ [2973] POP // 9
+ [2974] FLAGGOTO currpos + 443 [3422]
+ [2979] PUSHTYPE 16(U8) // 10
+ [2984] PUSHTYPE 10(S32) // 11
+ [2989] PUSHTYPE 8(String) // 12
+ [2994] ASSIGN Base[12], Base[4]
+ [3005] PUSHVAR Base[11] // 13
+ [3011] CALL 61
+ [3016] POP // 12
+ [3017] POP // 11
+ [3018] COMPARE into Base[10]: Base[11] > [0]
+ [3039] POP // 10
+ [3040] SETFLAG NOT Base[10]
+ [3047] POP // 9
+ [3048] FLAGGOTO currpos + 0 [3053]
+ [3053] PUSHTYPE 16(U8) // 10
+ [3058] PUSHTYPE 10(S32) // 11
+ [3063] PUSHTYPE 8(String) // 12
+ [3068] ASSIGN Base[12], Base[4]
+ [3079] PUSHVAR Base[11] // 13
+ [3085] CALL 61
+ [3090] POP // 12
+ [3091] POP // 11
+ [3092] COMPARE into Base[10]: Base[11] = [0]
+ [3113] POP // 10
+ [3114] SETFLAG NOT Base[10]
+ [3121] POP // 9
+ [3122] FLAGGOTO currpos + 290 [3417]
+ [3127] PUSHTYPE 16(U8) // 10
+ [3132] PUSHTYPE 8(String) // 11
+ [3137] ASSIGN Base[11], Base[5]
+ [3148] PUSHTYPE 8(String) // 12
+ [3153] ASSIGN Base[12], ['Version']
+ [3175] PUSHTYPE 8(String) // 13
+ [3180] ASSIGN Base[13], ['Software\DoYourData\WinUninstaller\Version']
+ [3237] PUSHTYPE 10(S32) // 14
+ [3242] ASSIGN Base[14], [-2147483646]
+ [3257] PUSHVAR Base[10] // 15
+ [3263] CALL 62
+ [3268] POP // 14
+ [3269] POP // 13
+ [3270] POP // 12
+ [3271] POP // 11
+ [3272] POP // 10
+ [3273] POP // 9
+ [3274] PUSHTYPE 16(U8) // 10
+ [3279] PUSHTYPE 8(String) // 11
+ [3284] ASSIGN Base[11], ['']
+ [3299] PUSHTYPE 8(String) // 12
+ [3304] ASSIGN Base[12], ['Key']
+ [3322] PUSHTYPE 8(String) // 13
+ [3327] ASSIGN Base[13], ['Software\DoYourData\WinUninstaller\Key']
+ [3380] PUSHTYPE 10(S32) // 14
+ [3385] ASSIGN Base[14], [-2147483646]
+ [3400] PUSHVAR Base[10] // 15
+ [3406] CALL 62
+ [3411] POP // 14
+ [3412] POP // 13
+ [3413] POP // 12
+ [3414] POP // 11
+ [3415] POP // 10
+ [3416] POP // 9
+ [3417] GOTO currpos + 290 [3712]
+ [3422] PUSHTYPE 16(U8) // 10
+ [3427] PUSHTYPE 8(String) // 11
+ [3432] ASSIGN Base[11], Base[5]
+ [3443] PUSHTYPE 8(String) // 12
+ [3448] ASSIGN Base[12], ['Version']
+ [3470] PUSHTYPE 8(String) // 13
+ [3475] ASSIGN Base[13], ['Software\DoYourData\WinUninstaller\Version']
+ [3532] PUSHTYPE 10(S32) // 14
+ [3537] ASSIGN Base[14], [-2147483646]
+ [3552] PUSHVAR Base[10] // 15
+ [3558] CALL 62
+ [3563] POP // 14
+ [3564] POP // 13
+ [3565] POP // 12
+ [3566] POP // 11
+ [3567] POP // 10
+ [3568] POP // 9
+ [3569] PUSHTYPE 16(U8) // 10
+ [3574] PUSHTYPE 8(String) // 11
+ [3579] ASSIGN Base[11], ['']
+ [3594] PUSHTYPE 8(String) // 12
+ [3599] ASSIGN Base[12], ['Key']
+ [3617] PUSHTYPE 8(String) // 13
+ [3622] ASSIGN Base[13], ['Software\DoYourData\WinUninstaller\Key']
+ [3675] PUSHTYPE 10(S32) // 14
+ [3680] ASSIGN Base[14], [-2147483646]
+ [3695] PUSHVAR Base[10] // 15
+ [3701] CALL 62
+ [3706] POP // 14
+ [3707] POP // 13
+ [3708] POP // 12
+ [3709] POP // 11
+ [3710] POP // 10
+ [3711] POP // 9
+ [3712] RET
+Proc [58]: External Decl: \01\00\00\00\00\00\00\01 SHELLEXEC
+Proc [59]: External Decl: \01\00\00\00 FILECOPY
+Proc [60]: External Decl: \01\00\00\00\01 REGQUERYSTRINGVALUE
+Proc [61]: External Decl: \01\00 LENGTH
+Proc [62]: External Decl: \01\00\00\00\00 REGWRITESTRINGVALUE
+Proc [63] Export: CURPAGECHANGED -1 @10
+ [0] PUSHTYPE 8(String) // 1
+ [5] PUSHTYPE 8(String) // 2
+ [10] ASSIGN Base[2], ['{language}']
+ [35] PUSHVAR Base[1] // 3
+ [41] CALL 6
+ [46] POP // 2
+ [47] POP // 1
+ [48] PUSHTYPE 10(S32) // 2
+ [53] ASSIGN Base[2], Base[-1]
+ [64] PUSHTYPE 16(U8) // 3
+ [69] PUSHTYPE 10(S32) // 4
+ [74] PUSHTYPE 23(Class) // 5
+ [79] ASSIGN Base[5], GlobalVar[8]
+ [90] PUSHVAR Base[4] // 6
+ [96] CALL 64
+ [101] POP // 5
+ [102] POP // 4
+ [103] COMPARE into Base[3]: Base[4] = Base[2]
+ [120] POP // 3
+ [121] COND_NOT_GOTO currpos + 470 Base[3] [601]
+ [131] PUSHTYPE 16(U8) // 4
+ [136] COMPARE into Base[4]: Base[1] = ['en']
+ [159] SETFLAG NOT Base[4]
+ [166] POP // 3
+ [167] FLAGGOTO currpos + 26 [198]
+ [172] ASSIGN Base[1], ['Finish']
+ [193] GOTO currpos + 340 [538]
+ [198] PUSHTYPE 16(U8) // 4
+ [203] COMPARE into Base[4]: Base[1] = ['de']
+ [226] SETFLAG NOT Base[4]
+ [233] POP // 3
+ [234] FLAGGOTO currpos + 33 [272]
+ [239] ASSIGN Base[1], ['Fertigstellen']
+ [267] GOTO currpos + 266 [538]
+ [272] PUSHTYPE 16(U8) // 4
+ [277] COMPARE into Base[4]: Base[1] = ['jp']
+ [300] SETFLAG NOT Base[4]
+ [307] POP // 3
+ [308] FLAGGOTO currpos + 24 [337]
+ [313] ASSIGN Base[1], ['äÆóπ']
+ [332] GOTO currpos + 201 [538]
+ [337] PUSHTYPE 16(U8) // 4
+ [342] COMPARE into Base[4]: Base[1] = ['fr']
+ [365] SETFLAG NOT Base[4]
+ [372] POP // 3
+ [373] FLAGGOTO currpos + 27 [405]
+ [378] ASSIGN Base[1], ['TerminÈ']
+ [400] GOTO currpos + 133 [538]
+ [405] PUSHTYPE 16(U8) // 4
+ [410] COMPARE into Base[4]: Base[1] = ['sp']
+ [433] SETFLAG NOT Base[4]
+ [440] POP // 3
+ [441] FLAGGOTO currpos + 28 [474]
+ [446] ASSIGN Base[1], ['Terminar']
+ [469] GOTO currpos + 64 [538]
+ [474] PUSHTYPE 16(U8) // 4
+ [479] COMPARE into Base[4]: Base[1] = ['pobr']
+ [504] SETFLAG NOT Base[4]
+ [511] POP // 3
+ [512] FLAGGOTO currpos + 21 [538]
+ [517] ASSIGN Base[1], ['Acabar']
+ [538] PUSHTYPE 8(String) // 4
+ [543] ASSIGN Base[4], Base[1]
+ [554] PUSHTYPE 35(Class) // 5
+ [559] PUSHTYPE 34(Class) // 6
+ [564] PUSHVAR Base[6] // 7
+ [570] CALL 24
+ [575] POP // 6
+ [576] PUSHVAR Base[5] // 7
+ [582] CALL 25
+ [587] POP // 6
+ [588] POP // 5
+ [589] CALL 65
+ [594] POP // 4
+ [595] POP // 3
+ [596] GOTO currpos + 1261 [1862]
+ [601] COMPARE into Base[3]: [2] = Base[2]
+ [622] COND_NOT_GOTO currpos + 246 Base[3] [878]
+ [632] PUSHTYPE 45(Class) // 4
+ [637] PUSHTYPE 34(Class) // 5
+ [642] PUSHVAR Base[5] // 6
+ [648] CALL 24
+ [653] POP // 5
+ [654] PUSHVAR Base[4] // 6
+ [660] CALL 66
+ [665] POP // 5
+ [666] POP // 4
+ [667] CALL 67
+ [672] POP // 3
+ [673] PUSHTYPE 45(Class) // 4
+ [678] PUSHTYPE 34(Class) // 5
+ [683] PUSHVAR Base[5] // 6
+ [689] CALL 24
+ [694] POP // 5
+ [695] PUSHVAR Base[4] // 6
+ [701] CALL 68
+ [706] POP // 5
+ [707] POP // 4
+ [708] CALL 67
+ [713] POP // 3
+ [714] PUSHTYPE 16(U8) // 4
+ [719] ASSIGN Base[4], [1]
+ [731] PUSHTYPE 45(Class) // 5
+ [736] PUSHTYPE 34(Class) // 6
+ [741] PUSHVAR Base[6] // 7
+ [747] CALL 24
+ [752] POP // 6
+ [753] PUSHVAR Base[5] // 7
+ [759] CALL 66
+ [764] POP // 6
+ [765] POP // 5
+ [766] CALL 69
+ [771] POP // 4
+ [772] POP // 3
+ [773] PUSHTYPE 8(String) // 4
+ [778] PUSHTYPE 8(String) // 5
+ [783] ASSIGN Base[5], ['{cm:LicenseAccepted}']
+ [818] PUSHVAR Base[4] // 6
+ [824] CALL 6
+ [829] POP // 5
+ [830] POP // 4
+ [831] PUSHTYPE 35(Class) // 5
+ [836] PUSHTYPE 34(Class) // 6
+ [841] PUSHVAR Base[6] // 7
+ [847] CALL 24
+ [852] POP // 6
+ [853] PUSHVAR Base[5] // 7
+ [859] CALL 25
+ [864] POP // 6
+ [865] POP // 5
+ [866] CALL 65
+ [871] POP // 4
+ [872] POP // 3
+ [873] GOTO currpos + 984 [1862]
+ [878] COMPARE into Base[3]: [6] = Base[2]
+ [899] COND_NOT_GOTO currpos + 97 Base[3] [1006]
+ [909] PUSHTYPE 8(String) // 4
+ [914] PUSHTYPE 8(String) // 5
+ [919] ASSIGN Base[5], ['{cm:Confirm}']
+ [946] PUSHVAR Base[4] // 6
+ [952] CALL 6
+ [957] POP // 5
+ [958] POP // 4
+ [959] PUSHTYPE 35(Class) // 5
+ [964] PUSHTYPE 34(Class) // 6
+ [969] PUSHVAR Base[6] // 7
+ [975] CALL 24
+ [980] POP // 6
+ [981] PUSHVAR Base[5] // 7
+ [987] CALL 25
+ [992] POP // 6
+ [993] POP // 5
+ [994] CALL 65
+ [999] POP // 4
+ [1000] POP // 3
+ [1001] GOTO currpos + 856 [1862]
+ [1006] COMPARE into Base[3]: [9] = Base[2]
+ [1027] COND_NOT_GOTO currpos + 482 Base[3] [1519]
+ [1037] PUSHTYPE 16(U8) // 4
+ [1042] COMPARE into Base[4]: Base[1] = ['en']
+ [1065] SETFLAG NOT Base[4]
+ [1072] POP // 3
+ [1073] FLAGGOTO currpos + 27 [1105]
+ [1078] ASSIGN Base[1], ['Install']
+ [1100] GOTO currpos + 351 [1456]
+ [1105] PUSHTYPE 16(U8) // 4
+ [1110] COMPARE into Base[4]: Base[1] = ['de']
+ [1133] SETFLAG NOT Base[4]
+ [1140] POP // 3
+ [1141] FLAGGOTO currpos + 32 [1178]
+ [1146] ASSIGN Base[1], ['Installieren']
+ [1173] GOTO currpos + 278 [1456]
+ [1178] PUSHTYPE 16(U8) // 4
+ [1183] COMPARE into Base[4]: Base[1] = ['jp']
+ [1206] SETFLAG NOT Base[4]
+ [1213] POP // 3
+ [1214] FLAGGOTO currpos + 32 [1251]
+ [1219] ASSIGN Base[1], ['ÉCÉìÉXÉgÅ[Éã']
+ [1246] GOTO currpos + 205 [1456]
+ [1251] PUSHTYPE 16(U8) // 4
+ [1256] COMPARE into Base[4]: Base[1] = ['fr']
+ [1279] SETFLAG NOT Base[4]
+ [1286] POP // 3
+ [1287] FLAGGOTO currpos + 29 [1321]
+ [1292] ASSIGN Base[1], ['Installer']
+ [1316] GOTO currpos + 135 [1456]
+ [1321] PUSHTYPE 16(U8) // 4
+ [1326] COMPARE into Base[4]: Base[1] = ['sp']
+ [1349] SETFLAG NOT Base[4]
+ [1356] POP // 3
+ [1357] FLAGGOTO currpos + 28 [1390]
+ [1362] ASSIGN Base[1], ['Instalar']
+ [1385] GOTO currpos + 66 [1456]
+ [1390] PUSHTYPE 16(U8) // 4
+ [1395] COMPARE into Base[4]: Base[1] = ['pobr']
+ [1420] SETFLAG NOT Base[4]
+ [1427] POP // 3
+ [1428] FLAGGOTO currpos + 23 [1456]
+ [1433] ASSIGN Base[1], ['Instalar']
+ [1456] PUSHTYPE 8(String) // 4
+ [1461] ASSIGN Base[4], Base[1]
+ [1472] PUSHTYPE 35(Class) // 5
+ [1477] PUSHTYPE 34(Class) // 6
+ [1482] PUSHVAR Base[6] // 7
+ [1488] CALL 24
+ [1493] POP // 6
+ [1494] PUSHVAR Base[5] // 7
+ [1500] CALL 25
+ [1505] POP // 6
+ [1506] POP // 5
+ [1507] CALL 65
+ [1512] POP // 4
+ [1513] POP // 3
+ [1514] GOTO currpos + 343 [1862]
+ [1519] COMPARE into Base[3]: [100] = Base[2]
+ [1540] COND_NOT_GOTO currpos + 312 Base[3] [1862]
+ [1550] PUSHTYPE 16(U8) // 4
+ [1555] PUSHTYPE 16(U8) // 5
+ [1560] PUSHTYPE 10(S32) // 6
+ [1565] ASSIGN Base[6], [1]
+ [1580] PUSHTYPE 22(Class) // 7
+ [1585] ASSIGN Base[7], GlobalVar[7]
+ [1596] PUSHVAR Base[5] // 8
+ [1602] CALL 23
+ [1607] POP // 7
+ [1608] POP // 6
+ [1609] POP // 5
+ [1610] COMPARE into Base[4]: Base[5] = [1]
+ [1628] POP // 4
+ [1629] SETFLAG NOT Base[4]
+ [1636] POP // 3
+ [1637] FLAGGOTO currpos + 64 [1706]
+ [1642] PUSHTYPE 16(U8) // 4
+ [1647] ASSIGN Base[4], [1]
+ [1659] PUSHTYPE 35(Class) // 5
+ [1664] PUSHTYPE 34(Class) // 6
+ [1669] PUSHVAR Base[6] // 7
+ [1675] CALL 24
+ [1680] POP // 6
+ [1681] PUSHVAR Base[5] // 7
+ [1687] CALL 25
+ [1692] POP // 6
+ [1693] POP // 5
+ [1694] CALL 26
+ [1699] POP // 4
+ [1700] POP // 3
+ [1701] GOTO currpos + 151 [1857]
+ [1706] PUSHTYPE 16(U8) // 4
+ [1711] PUSHTYPE 16(U8) // 5
+ [1716] PUSHTYPE 10(S32) // 6
+ [1721] ASSIGN Base[6], [2]
+ [1736] PUSHTYPE 22(Class) // 7
+ [1741] ASSIGN Base[7], GlobalVar[7]
+ [1752] PUSHVAR Base[5] // 8
+ [1758] CALL 23
+ [1763] POP // 7
+ [1764] POP // 6
+ [1765] POP // 5
+ [1766] COMPARE into Base[4]: Base[5] = [1]
+ [1784] POP // 4
+ [1785] SETFLAG NOT Base[4]
+ [1792] POP // 3
+ [1793] FLAGGOTO currpos + 59 [1857]
+ [1798] PUSHTYPE 16(U8) // 4
+ [1803] ASSIGN Base[4], [0]
+ [1815] PUSHTYPE 35(Class) // 5
+ [1820] PUSHTYPE 34(Class) // 6
+ [1825] PUSHVAR Base[6] // 7
+ [1831] CALL 24
+ [1836] POP // 6
+ [1837] PUSHVAR Base[5] // 7
+ [1843] CALL 25
+ [1848] POP // 6
+ [1849] POP // 5
+ [1850] CALL 26
+ [1855] POP // 4
+ [1856] POP // 3
+ [1857] GOTO currpos + 0 [1862]
+ [1862] POP // 2
+ [1863] POP // 1
+ [1864] RET
+Proc [64]: External Decl: class:TWIZARDPAGE|ID|\01\00\00\00 
+Proc [65]: External Decl: class:TBUTTON|CAPTION@|\01\00\00\00 
+Proc [66]: External Decl: class:TWIZARDFORM|LICENSEACCEPTEDRADIO|\01\00\00\00 
+Proc [67]: External Decl: class:TCONTROL|HIDE|\00\00 
+Proc [68]: External Decl: class:TWIZARDFORM|LICENSENOTACCEPTEDRADIO|\01\00\00\00 
+Proc [69]: External Decl: class:TRADIOBUTTON|CHECKED@|\01\00\00\00 
+Proc [70] Export: PROMPTCLEANOLDVERSION 16
+ [0] PUSHTYPE 10(S32) // 1
+ [5] PUSHTYPE 8(String) // 2
+ [10] PUSHTYPE 8(String) // 3
+ [15] ASSIGN Base[3], ['{language}']
+ [40] PUSHVAR Base[2] // 4
+ [46] CALL 6
+ [51] POP // 3
+ [52] POP // 2
+ [53] PUSHTYPE 16(U8) // 3
+ [58] COMPARE into Base[3]: Base[2] = ['en']
+ [81] SETFLAG NOT Base[3]
+ [88] POP // 2
+ [89] FLAGGOTO currpos + 109 [203]
+ [94] ASSIGN Base[2], ['You have installed lower version of DoYourData Uninstaller, please uninstall it manually.']
+ [198] GOTO currpos + 842 [1045]
+ [203] PUSHTYPE 16(U8) // 3
+ [208] COMPARE into Base[3]: Base[2] = ['de']
+ [231] SETFLAG NOT Base[3]
+ [238] POP // 2
+ [239] FLAGGOTO currpos + 165 [409]
+ [244] ASSIGN Base[2], ['Sie haben eine niedrigere Version des DoYourData Uninstaller installiert. Bitte deinstallieren Sie zuvor manuell die vorher installierte Version.']
+ [404] GOTO currpos + 636 [1045]
+ [409] PUSHTYPE 16(U8) // 3
+ [414] COMPARE into Base[3]: Base[2] = ['jp']
+ [437] SETFLAG NOT Base[3]
+ [444] POP // 2
+ [445] FLAGGOTO currpos + 130 [580]
+ [450] ASSIGN Base[2], ['DoYourData UninstallerÇÃí·ÉoÅ[ÉWÉáÉìÇÉCÉìÉXÉgÅ[ÉãçœÇ›Ç∆ÇÃÇ±Ç∆Ç≈ÅAÉ}ÉjÉÖÉAÉãÇ…ÇƒÉAÉìÉCÉìÉXÉgÅ[ÉãÇµÇƒÇ≠ÇæÇ≥Ç¢ÅB']
+ [575] GOTO currpos + 465 [1045]
+ [580] PUSHTYPE 16(U8) // 3
+ [585] COMPARE into Base[3]: Base[2] = ['fr']
+ [608] SETFLAG NOT Base[3]
+ [615] POP // 2
+ [616] FLAGGOTO currpos + 126 [747]
+ [621] ASSIGN Base[2], ['Vous avez installÈ la version infÈrieure de DoYourData Uninstaller, veuillez le dÈsinstaller manuellement.']
+ [742] GOTO currpos + 298 [1045]
+ [747] PUSHTYPE 16(U8) // 3
+ [752] COMPARE into Base[3]: Base[2] = ['sp']
+ [775] SETFLAG NOT Base[3]
+ [782] POP // 2
+ [783] FLAGGOTO currpos + 116 [904]
+ [788] ASSIGN Base[2], ['Ha instalado una versiÛn inferior de DoYourData Uninstaller, por favor desinst·lelo manualmente.']
+ [899] GOTO currpos + 141 [1045]
+ [904] PUSHTYPE 16(U8) // 3
+ [909] COMPARE into Base[3]: Base[2] = ['pobr']
+ [934] SETFLAG NOT Base[3]
+ [941] POP // 2
+ [942] FLAGGOTO currpos + 98 [1045]
+ [947] ASSIGN Base[2], ['VocÍ j· instalou a vers„o menor do Do Your Data Recovery, desinstale-o manualmente.']
+ [1045] PUSHTYPE 10(S32) // 3
+ [1050] ASSIGN Base[3], [0]
+ [1065] PUSHTYPE 43(U8) // 4
+ [1070] ASSIGN Base[4], [1]
+ [1082] PUSHTYPE 8(String) // 5
+ [1087] ASSIGN Base[5], Base[2]
+ [1098] PUSHVAR Base[1] // 6
+ [1104] CALL 55
+ [1109] POP // 5
+ [1110] POP // 4
+ [1111] POP // 3
+ [1112] POP // 2
+ [1113] PUSHTYPE 16(U8) // 3
+ [1118] COMPARE into Base[3]: Base[1] = [1]
+ [1139] SETFLAG NOT Base[3]
+ [1146] POP // 2
+ [1147] FLAGGOTO currpos + 39 [1191]
+ [1152] PUSHTYPE 10(S32) // 3
+ [1157] PUSHTYPE 10(S32) // 4
+ [1162] ASSIGN Base[4], [0]
+ [1177] PUSHVAR Base[3] // 5
+ [1183] CALL 3
+ [1188] POP // 4
+ [1189] POP // 3
+ [1190] POP // 2
+ [1191] RET
+Proc [71] Export: ISDELETEKEY 16
+ [0] PUSHTYPE 8(String) // 1
+ [5] PUSHTYPE 8(String) // 2
+ [10] PUSHTYPE 8(String) // 3
+ [15] PUSHTYPE 16(U8) // 4
+ [20] PUSHVAR Base[4] // 5
+ [26] CALL 13
+ [31] POP // 4
+ [32] SETFLAG NOT Base[4]
+ [39] POP // 3
+ [40] FLAGGOTO currpos + 115 [160]
+ [45] ASSIGN Base[2], ['Software\DoYourData\WinUninstaller\Version']
+ [102] ASSIGN Base[3], ['Software\DoYourData\WinUninstaller\Key']
+ [155] GOTO currpos + 110 [270]
+ [160] ASSIGN Base[2], ['Software\DoYourData\WinUninstaller\Version']
+ [217] ASSIGN Base[3], ['Software\DoYourData\WinUninstaller\Key']
+ [270] PUSHTYPE 16(U8) // 4
+ [275] PUSHTYPE 16(U8) // 5
+ [280] PUSHTYPE 0(Pointer) // 6
+ [285] SETPOINTER Base[6]: Base[1]
+ [296] PUSHTYPE 8(String) // 7
+ [301] ASSIGN Base[7], ['OldVersion']
+ [326] PUSHTYPE 8(String) // 8
+ [331] ASSIGN Base[8], Base[2]
+ [342] PUSHTYPE 10(S32) // 9
+ [347] ASSIGN Base[9], [-2147483646]
+ [362] PUSHVAR Base[5] // 10
+ [368] CALL 60
+ [373] POP // 9
+ [374] POP // 8
+ [375] POP // 7
+ [376] POP // 6
+ [377] POP // 5
+ [378] COMPARE into Base[4]: Base[5] = [1]
+ [396] POP // 4
+ [397] SETFLAG NOT Base[4]
+ [404] POP // 3
+ [405] FLAGGOTO currpos + 148 [558]
+ [410] PUSHTYPE 16(U8) // 4
+ [415] COMPARE into Base[4]: Base[1] = [#50]
+ [433] SETFLAG NOT Base[4]
+ [440] POP // 3
+ [441] FLAGGOTO currpos + 112 [558]
+ [446] PUSHTYPE 16(U8) // 4
+ [451] PUSHTYPE 8(String) // 5
+ [456] ASSIGN Base[5], Base[2]
+ [467] PUSHTYPE 10(S32) // 6
+ [472] ASSIGN Base[6], [-2147483646]
+ [487] PUSHVAR Base[4] // 7
+ [493] CALL 72
+ [498] POP // 6
+ [499] POP // 5
+ [500] POP // 4
+ [501] POP // 3
+ [502] PUSHTYPE 16(U8) // 4
+ [507] PUSHTYPE 8(String) // 5
+ [512] ASSIGN Base[5], Base[3]
+ [523] PUSHTYPE 10(S32) // 6
+ [528] ASSIGN Base[6], [-2147483646]
+ [543] PUSHVAR Base[4] // 7
+ [549] CALL 72
+ [554] POP // 6
+ [555] POP // 5
+ [556] POP // 4
+ [557] POP // 3
+ [558] RET
+Proc [72]: External Decl: \01\00\00 REGDELETEKEYINCLUDINGSUBKEYS
+Proc [73] Export: UNINSTALLDRW 16 @8
+ [0] PUSHTYPE 8(String) // 1
+ [5] PUSHTYPE 8(String) // 2
+ [10] PUSHTYPE 10(S32) // 3
+ [15] PUSHTYPE 8(String) // 4
+ [20] ASSIGN Base[-1], [0]
+ [32] PUSHTYPE 16(U8) // 5
+ [37] PUSHTYPE 16(U8) // 6
+ [42] PUSHTYPE 0(Pointer) // 7
+ [47] SETPOINTER Base[7]: Base[1]
+ [58] PUSHTYPE 8(String) // 8
+ [63] ASSIGN Base[8], ['InstallLocation']
+ [93] PUSHTYPE 8(String) // 9
+ [98] ASSIGN Base[9], Base[-2]
+ [109] PUSHTYPE 10(S32) // 10
+ [114] ASSIGN Base[10], [-2130706430]
+ [129] PUSHVAR Base[6] // 11
+ [135] CALL 60
+ [140] POP // 10
+ [141] POP // 9
+ [142] POP // 8
+ [143] POP // 7
+ [144] POP // 6
+ [145] COMPARE into Base[5]: Base[6] = [1]
+ [163] POP // 5
+ [164] SETFLAG NOT Base[5]
+ [171] POP // 4
+ [172] FLAGGOTO currpos + 409 [586]
+ [177] ASSIGN Base[2], Base[1]
+ [188] CALC Base[2] + ['unins000.exe']
+ [216] PUSHTYPE 16(U8) // 5
+ [221] PUSHTYPE 16(U8) // 6
+ [226] PUSHTYPE 0(Pointer) // 7
+ [231] SETPOINTER Base[7]: Base[3]
+ [242] PUSHTYPE 44(U8) // 8
+ [247] ASSIGN Base[8], [1]
+ [259] PUSHTYPE 10(S32) // 9
+ [264] ASSIGN Base[9], [5]
+ [279] PUSHTYPE 8(String) // 10
+ [284] ASSIGN Base[10], ['']
+ [299] PUSHTYPE 8(String) // 11
+ [304] ASSIGN Base[11], ['']
+ [319] PUSHTYPE 8(String) // 12
+ [324] PUSHTYPE 8(String) // 13
+ [329] ASSIGN Base[13], Base[2]
+ [340] PUSHVAR Base[12] // 14
+ [346] CALL 6
+ [351] POP // 13
+ [352] POP // 12
+ [353] PUSHVAR Base[6] // 13
+ [359] CALL 74
+ [364] POP // 12
+ [365] POP // 11
+ [366] POP // 10
+ [367] POP // 9
+ [368] POP // 8
+ [369] POP // 7
+ [370] POP // 6
+ [371] COMPARE into Base[5]: Base[6] = [0]
+ [389] POP // 5
+ [390] SETFLAG NOT Base[5]
+ [397] POP // 4
+ [398] FLAGGOTO currpos + 162 [565]
+ [403] PUSHTYPE 16(U8) // 5
+ [408] PUSHTYPE 8(String) // 6
+ [413] ASSIGN Base[6], Base[-2]
+ [424] PUSHTYPE 10(S32) // 7
+ [429] ASSIGN Base[7], [-2130706430]
+ [444] PUSHVAR Base[5] // 8
+ [450] CALL 72
+ [455] POP // 7
+ [456] POP // 6
+ [457] POP // 5
+ [458] POP // 4
+ [459] PUSHTYPE 16(U8) // 5
+ [464] PUSHTYPE 16(U8) // 6
+ [469] ASSIGN Base[6], [1]
+ [481] PUSHTYPE 16(U8) // 7
+ [486] ASSIGN Base[7], [1]
+ [498] PUSHTYPE 16(U8) // 8
+ [503] ASSIGN Base[8], [1]
+ [515] PUSHTYPE 8(String) // 9
+ [520] ASSIGN Base[9], Base[1]
+ [531] PUSHVAR Base[5] // 10
+ [537] CALL 75
+ [542] POP // 9
+ [543] POP // 8
+ [544] POP // 7
+ [545] POP // 6
+ [546] POP // 5
+ [547] POP // 4
+ [548] ASSIGN Base[-1], [1]
+ [560] GOTO currpos + 21 [586]
+ [565] COMPARE into Base[-1]: Base[3] = [0]
+ [586] PUSHTYPE 16(U8) // 5
+ [591] COMPARE into Base[5]: Base[-1] = [0]
+ [609] SETFLAG NOT Base[5]
+ [616] POP // 4
+ [617] FLAGGOTO currpos + 554 [1176]
+ [622] PUSHTYPE 16(U8) // 5
+ [627] PUSHTYPE 16(U8) // 6
+ [632] PUSHTYPE 0(Pointer) // 7
+ [637] SETPOINTER Base[7]: Base[1]
+ [648] PUSHTYPE 8(String) // 8
+ [653] ASSIGN Base[8], ['InstallLocation']
+ [683] PUSHTYPE 8(String) // 9
+ [688] ASSIGN Base[9], Base[-2]
+ [699] PUSHTYPE 10(S32) // 10
+ [704] ASSIGN Base[10], [-2113929214]
+ [719] PUSHVAR Base[6] // 11
+ [725] CALL 60
+ [730] POP // 10
+ [731] POP // 9
+ [732] POP // 8
+ [733] POP // 7
+ [734] POP // 6
+ [735] COMPARE into Base[5]: Base[6] = [1]
+ [753] POP // 5
+ [754] SETFLAG NOT Base[5]
+ [761] POP // 4
+ [762] FLAGGOTO currpos + 409 [1176]
+ [767] ASSIGN Base[2], Base[1]
+ [778] CALC Base[2] + ['unins000.exe']
+ [806] PUSHTYPE 16(U8) // 5
+ [811] PUSHTYPE 16(U8) // 6
+ [816] PUSHTYPE 0(Pointer) // 7
+ [821] SETPOINTER Base[7]: Base[3]
+ [832] PUSHTYPE 44(U8) // 8
+ [837] ASSIGN Base[8], [1]
+ [849] PUSHTYPE 10(S32) // 9
+ [854] ASSIGN Base[9], [5]
+ [869] PUSHTYPE 8(String) // 10
+ [874] ASSIGN Base[10], ['']
+ [889] PUSHTYPE 8(String) // 11
+ [894] ASSIGN Base[11], ['']
+ [909] PUSHTYPE 8(String) // 12
+ [914] PUSHTYPE 8(String) // 13
+ [919] ASSIGN Base[13], Base[2]
+ [930] PUSHVAR Base[12] // 14
+ [936] CALL 6
+ [941] POP // 13
+ [942] POP // 12
+ [943] PUSHVAR Base[6] // 13
+ [949] CALL 74
+ [954] POP // 12
+ [955] POP // 11
+ [956] POP // 10
+ [957] POP // 9
+ [958] POP // 8
+ [959] POP // 7
+ [960] POP // 6
+ [961] COMPARE into Base[5]: Base[6] = [0]
+ [979] POP // 5
+ [980] SETFLAG NOT Base[5]
+ [987] POP // 4
+ [988] FLAGGOTO currpos + 162 [1155]
+ [993] PUSHTYPE 16(U8) // 5
+ [998] PUSHTYPE 8(String) // 6
+ [1003] ASSIGN Base[6], Base[-2]
+ [1014] PUSHTYPE 10(S32) // 7
+ [1019] ASSIGN Base[7], [-2113929214]
+ [1034] PUSHVAR Base[5] // 8
+ [1040] CALL 72
+ [1045] POP // 7
+ [1046] POP // 6
+ [1047] POP // 5
+ [1048] POP // 4
+ [1049] PUSHTYPE 16(U8) // 5
+ [1054] PUSHTYPE 16(U8) // 6
+ [1059] ASSIGN Base[6], [1]
+ [1071] PUSHTYPE 16(U8) // 7
+ [1076] ASSIGN Base[7], [1]
+ [1088] PUSHTYPE 16(U8) // 8
+ [1093] ASSIGN Base[8], [1]
+ [1105] PUSHTYPE 8(String) // 9
+ [1110] ASSIGN Base[9], Base[1]
+ [1121] PUSHVAR Base[5] // 10
+ [1127] CALL 75
+ [1132] POP // 9
+ [1133] POP // 8
+ [1134] POP // 7
+ [1135] POP // 6
+ [1136] POP // 5
+ [1137] POP // 4
+ [1138] ASSIGN Base[-1], [1]
+ [1150] GOTO currpos + 21 [1176]
+ [1155] COMPARE into Base[-1]: Base[3] = [0]
+ [1176] ASSIGN GlobalVar[25], Base[1]
+ [1187] CALC GlobalVar[25] + ['Configure.dat']
+ [1216] PUSHTYPE 16(U8) // 5
+ [1221] COMPARE into Base[5]: Base[-1] = [1]
+ [1239] SETFLAG NOT Base[5]
+ [1246] POP // 4
+ [1247] FLAGGOTO currpos + 106 [1358]
+ [1252] PUSHTYPE 16(U8) // 5
+ [1257] PUSHTYPE 8(String) // 6
+ [1262] ASSIGN Base[6], ['Software\DoYourData\WinUninstaller']
+ [1311] PUSHTYPE 10(S32) // 7
+ [1316] ASSIGN Base[7], [-2147483647]
+ [1331] PUSHVAR Base[5] // 8
+ [1337] CALL 72
+ [1342] POP // 7
+ [1343] POP // 6
+ [1344] POP // 5
+ [1345] POP // 4
+ [1346] PUSHVAR Base[-1] // 5
+ [1352] CALL 71
+ [1357] POP // 4
+ [1358] RET
+Proc [74]: External Decl: \01\00\00\00\00\00\01 EXEC
+Proc [75]: External Decl: \01\00\00\00\00 DELTREE
+Proc [76] Export: CLEANDRW 16
+ [0] PUSHTYPE 8(String) // 1
+ [5] PUSHTYPE 46(Array of String) // 2
+ [10] PUSHTYPE 10(S32) // 3
+ [15] PUSHTYPE 8(String) // 4
+ [20] PUSHTYPE 8(String) // 5
+ [25] PUSHTYPE 8(String) // 6
+ [30] ASSIGN Base[-1], [1]
+ [42] PUSHTYPE 8(String) // 7
+ [47] ASSIGN Base[7], ['{language}']
+ [72] PUSHVAR Base[6] // 8
+ [78] CALL 6
+ [83] POP // 7
+ [84] POP // 6
+ [85] PUSHTYPE 16(U8) // 7
+ [90] COMPARE into Base[7]: Base[6] = ['en']
+ [113] SETFLAG NOT Base[7]
+ [120] POP // 6
+ [121] FLAGGOTO currpos + 133 [259]
+ [126] ASSIGN Base[6], ['You have installed another version of DoYourData Uninstaller, please uninstall it to continue.'#13' Uninstall it now?']
+ [254] GOTO currpos + 952 [1211]
+ [259] PUSHTYPE 16(U8) // 7
+ [264] COMPARE into Base[7]: Base[6] = ['de']
+ [287] SETFLAG NOT Base[7]
+ [294] POP // 6
+ [295] FLAGGOTO currpos + 154 [454]
+ [300] ASSIGN Base[6], ['Es ist bereits eine andere Version von DoYourData Uninstaller installiert.Bitte deinstallieren um fortzufahren.'#13' Jetzt deinstallieren?']
+ [449] GOTO currpos + 757 [1211]
+ [454] PUSHTYPE 16(U8) // 7
+ [459] COMPARE into Base[7]: Base[6] = ['jp']
+ [482] SETFLAG NOT Base[7]
+ [489] POP // 6
+ [490] FLAGGOTO currpos + 175 [670]
+ [495] ASSIGN Base[6], ['ãMï˚ÇÕä˘Ç…DoYourData UninstallerÇÃÇ‡Ç§àÍÇ¬ÉoÅ[ÉWÉáÉìÇÉCÉìÉXÉgÅ[ÉãÇµÇƒÇ†ÇÈÇΩÇﬂÅAêÊÇ…ÉAÉìÉCÉìÉXÉgÅ[ÉãÇµÇƒÇ©ÇÁåpë±ÇµÇƒâ∫Ç≥Ç¢ÅB'#13'ÇÕë¶éûÇ…ÉAÉìÉCÉìÉXÉgÅ[ÉãÇ∑ÇÈÅH']
+ [665] GOTO currpos + 541 [1211]
+ [670] PUSHTYPE 16(U8) // 7
+ [675] COMPARE into Base[7]: Base[6] = ['fr']
+ [698] SETFLAG NOT Base[7]
+ [705] POP // 6
+ [706] FLAGGOTO currpos + 147 [858]
+ [711] ASSIGN Base[6], ['Vous avez installÈ une autre version de DoYourData Uninstaller, veuillez dÈsinstaller pour continuer. '#13'DÈsinstallez maintenant?']
+ [853] GOTO currpos + 353 [1211]
+ [858] PUSHTYPE 16(U8) // 7
+ [863] COMPARE into Base[7]: Base[6] = ['sp']
+ [886] SETFLAG NOT Base[7]
+ [893] POP // 6
+ [894] FLAGGOTO currpos + 142 [1041]
+ [899] ASSIGN Base[6], ['Ha instalado otra versiÛn de DoYourData Uninstaller, por favor desinst·lelo para continuar. '#13' øQuiere desinstalarlo ahora?']
+ [1036] GOTO currpos + 170 [1211]
+ [1041] PUSHTYPE 16(U8) // 7
+ [1046] COMPARE into Base[7]: Base[6] = ['pobr']
+ [1071] SETFLAG NOT Base[7]
+ [1078] POP // 6
+ [1079] FLAGGOTO currpos + 127 [1211]
+ [1084] ASSIGN Base[6], ['VocÍ j· instalou uma outra vers„o do DoYourData Uninstaller, desinstale-o para continuar. '#13' Desinstale-lo agora?']
+ [1211] ASSIGN GlobalVar[20], [0]
+ [1223] PUSHTYPE 16(U8) // 7
+ [1228] PUSHTYPE 16(U8) // 8
+ [1233] PUSHVAR Base[8] // 9
+ [1239] CALL 13
+ [1244] POP // 8
+ [1245] COMPARE into Base[7]: Base[8] = [0]
+ [1263] POP // 7
+ [1264] SETFLAG NOT Base[7]
+ [1271] POP // 6
+ [1272] FLAGGOTO currpos + 810 [2087]
+ [1277] ASSIGN Base[1], ['SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall']
+ [1343] PUSHTYPE 16(U8) // 7
+ [1348] PUSHTYPE 0(Pointer) // 8
+ [1353] SETPOINTER Base[8]: Base[2]
+ [1364] PUSHTYPE 8(String) // 9
+ [1369] ASSIGN Base[9], Base[1]
+ [1380] PUSHTYPE 10(S32) // 10
+ [1385] ASSIGN Base[10], [-2147483646]
+ [1400] PUSHVAR Base[7] // 11
+ [1406] CALL 77
+ [1411] POP // 10
+ [1412] POP // 9
+ [1413] POP // 8
+ [1414] POP // 7
+ [1415] SETFLAG NOT Base[7]
+ [1422] POP // 6
+ [1423] FLAGGOTO currpos + 654 [2082]
+ [1428] ASSIGN Base[3], [0]
+ [1443] PUSHTYPE 16(U8) // 7
+ [1448] PUSHTYPE 10(S32) // 8
+ [1453] PUSHTYPE 0(Pointer) // 9
+ [1458] SETPOINTER Base[9]: Base[2]
+ [1469] PUSHVAR Base[8] // 10
+ [1475] CALL 78
+ [1480] POP // 9
+ [1481] POP // 8
+ [1482] CALC Base[8] - [1]
+ [1498] COMPARE into Base[7]: Base[3] <= Base[8]
+ [1515] POP // 7
+ [1516] COND_NOT_GOTO currpos + 555 Base[7] [2081]
+ [1526] ASSIGN Base[4], Base[2].Base[3]
+ [1541] PUSHTYPE 16(U8) // 8
+ [1546] PUSHTYPE 10(S32) // 9
+ [1551] PUSHTYPE 8(String) // 10
+ [1556] ASSIGN Base[10], Base[4]
+ [1567] PUSHTYPE 8(String) // 11
+ [1572] ASSIGN Base[11], ['DoYourData Uninstaller Free']
+ [1614] PUSHVAR Base[9] // 12
+ [1620] CALL 79
+ [1625] POP // 11
+ [1626] POP // 10
+ [1627] POP // 9
+ [1628] COMPARE into Base[8]: Base[9] > [0]
+ [1649] POP // 8
+ [1650] SETFLAG NOT Base[8]
+ [1657] POP // 7
+ [1658] FLAGGOTO currpos + 407 [2070]
+ [1663] PUSHTYPE 16(U8) // 8
+ [1668] PUSHTYPE 16(U8) // 9
+ [1673] PUSHTYPE 0(Pointer) // 10
+ [1678] SETPOINTER Base[10]: Base[5]
+ [1689] PUSHTYPE 8(String) // 11
+ [1694] ASSIGN Base[11], ['InstallLocation']
+ [1724] PUSHTYPE 8(String) // 12
+ [1729] ASSIGN Base[12], Base[1]
+ [1740] CALC Base[12] + [#92]
+ [1753] CALC Base[12] + Base[4]
+ [1765] PUSHTYPE 10(S32) // 13
+ [1770] ASSIGN Base[13], [-2147483646]
+ [1785] PUSHVAR Base[9] // 14
+ [1791] CALL 60
+ [1796] POP // 13
+ [1797] POP // 12
+ [1798] POP // 11
+ [1799] POP // 10
+ [1800] POP // 9
+ [1801] COMPARE into Base[8]: Base[9] = [1]
+ [1819] POP // 8
+ [1820] SETFLAG NOT Base[8]
+ [1827] POP // 7
+ [1828] FLAGGOTO currpos + 237 [2070]
+ [1833] PUSHTYPE 16(U8) // 8
+ [1838] PUSHTYPE 10(S32) // 9
+ [1843] PUSHTYPE 10(S32) // 10
+ [1848] ASSIGN Base[10], [4]
+ [1863] PUSHTYPE 43(U8) // 11
+ [1868] ASSIGN Base[11], [1]
+ [1880] PUSHTYPE 8(String) // 12
+ [1885] ASSIGN Base[12], Base[6]
+ [1896] PUSHVAR Base[9] // 13
+ [1902] CALL 55
+ [1907] POP // 12
+ [1908] POP // 11
+ [1909] POP // 10
+ [1910] POP // 9
+ [1911] COMPARE into Base[8]: Base[9] = [6]
+ [1932] POP // 8
+ [1933] SETFLAG NOT Base[8]
+ [1940] POP // 7
+ [1941] FLAGGOTO currpos + 71 [2017]
+ [1946] ASSIGN GlobalVar[20], [1]
+ [1958] PUSHTYPE 8(String) // 8
+ [1963] ASSIGN Base[8], Base[1]
+ [1974] CALC Base[8] + [#92]
+ [1987] CALC Base[8] + Base[4]
+ [1999] PUSHVAR Base[-1] // 9
+ [2005] CALL 73
+ [2010] POP // 8
+ [2011] POP // 7
+ [2012] GOTO currpos + 12 [2029]
+ [2017] ASSIGN Base[-1], [0]
+ [2029] PUSHTYPE 16(U8) // 8
+ [2034] COMPARE into Base[8]: Base[-1] = [0]
+ [2052] SETFLAG NOT Base[8]
+ [2059] POP // 7
+ [2060] FLAGGOTO currpos + 5 [2070]
+ [2065] GOTO currpos + 11 [2081]
+ [2070] INC Base[3]
+ [2076] GOTO currpos + 4294966663 [1448]
+ [2081] POP // 6
+ [2082] GOTO currpos + 1282 [3369]
+ [2087] ASSIGN Base[1], ['SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall']
+ [2165] PUSHTYPE 16(U8) // 7
+ [2170] PUSHTYPE 0(Pointer) // 8
+ [2175] SETPOINTER Base[8]: Base[2]
+ [2186] PUSHTYPE 8(String) // 9
+ [2191] ASSIGN Base[9], Base[1]
+ [2202] PUSHTYPE 10(S32) // 10
+ [2207] ASSIGN Base[10], [-2130706430]
+ [2222] PUSHVAR Base[7] // 11
+ [2228] CALL 77
+ [2233] POP // 10
+ [2234] POP // 9
+ [2235] POP // 8
+ [2236] POP // 7
+ [2237] SETFLAG NOT Base[7]
+ [2244] POP // 6
+ [2245] FLAGGOTO currpos + 484 [2734]
+ [2250] ASSIGN Base[3], [0]
+ [2265] PUSHTYPE 16(U8) // 7
+ [2270] PUSHTYPE 10(S32) // 8
+ [2275] PUSHTYPE 0(Pointer) // 9
+ [2280] SETPOINTER Base[9]: Base[2]
+ [2291] PUSHVAR Base[8] // 10
+ [2297] CALL 78
+ [2302] POP // 9
+ [2303] POP // 8
+ [2304] CALC Base[8] - [1]
+ [2320] COMPARE into Base[7]: Base[3] <= Base[8]
+ [2337] POP // 7
+ [2338] COND_NOT_GOTO currpos + 385 Base[7] [2733]
+ [2348] ASSIGN Base[4], Base[2].Base[3]
+ [2363] PUSHTYPE 16(U8) // 8
+ [2368] PUSHTYPE 10(S32) // 9
+ [2373] PUSHTYPE 8(String) // 10
+ [2378] ASSIGN Base[10], Base[4]
+ [2389] PUSHTYPE 8(String) // 11
+ [2394] ASSIGN Base[11], ['DoYourData Uninstaller Free']
+ [2436] PUSHVAR Base[9] // 12
+ [2442] CALL 79
+ [2447] POP // 11
+ [2448] POP // 10
+ [2449] POP // 9
+ [2450] COMPARE into Base[8]: Base[9] > [0]
+ [2471] POP // 8
+ [2472] SETFLAG NOT Base[8]
+ [2479] POP // 7
+ [2480] FLAGGOTO currpos + 237 [2722]
+ [2485] PUSHTYPE 16(U8) // 8
+ [2490] PUSHTYPE 10(S32) // 9
+ [2495] PUSHTYPE 10(S32) // 10
+ [2500] ASSIGN Base[10], [4]
+ [2515] PUSHTYPE 43(U8) // 11
+ [2520] ASSIGN Base[11], [1]
+ [2532] PUSHTYPE 8(String) // 12
+ [2537] ASSIGN Base[12], Base[6]
+ [2548] PUSHVAR Base[9] // 13
+ [2554] CALL 55
+ [2559] POP // 12
+ [2560] POP // 11
+ [2561] POP // 10
+ [2562] POP // 9
+ [2563] COMPARE into Base[8]: Base[9] = [6]
+ [2584] POP // 8
+ [2585] SETFLAG NOT Base[8]
+ [2592] POP // 7
+ [2593] FLAGGOTO currpos + 71 [2669]
+ [2598] ASSIGN GlobalVar[20], [1]
+ [2610] PUSHTYPE 8(String) // 8
+ [2615] ASSIGN Base[8], Base[1]
+ [2626] CALC Base[8] + [#92]
+ [2639] CALC Base[8] + Base[4]
+ [2651] PUSHVAR Base[-1] // 9
+ [2657] CALL 73
+ [2662] POP // 8
+ [2663] POP // 7
+ [2664] GOTO currpos + 12 [2681]
+ [2669] ASSIGN Base[-1], [0]
+ [2681] PUSHTYPE 16(U8) // 8
+ [2686] COMPARE into Base[8]: Base[-1] = [0]
+ [2704] SETFLAG NOT Base[8]
+ [2711] POP // 7
+ [2712] FLAGGOTO currpos + 5 [2722]
+ [2717] GOTO currpos + 11 [2733]
+ [2722] INC Base[3]
+ [2728] GOTO currpos + 4294966833 [2270]
+ [2733] POP // 6
+ [2734] ASSIGN Base[1], ['SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall']
+ [2800] PUSHTYPE 16(U8) // 7
+ [2805] PUSHTYPE 0(Pointer) // 8
+ [2810] SETPOINTER Base[8]: Base[2]
+ [2821] PUSHTYPE 8(String) // 9
+ [2826] ASSIGN Base[9], Base[1]
+ [2837] PUSHTYPE 10(S32) // 10
+ [2842] ASSIGN Base[10], [-2113929214]
+ [2857] PUSHVAR Base[7] // 11
+ [2863] CALL 77
+ [2868] POP // 10
+ [2869] POP // 9
+ [2870] POP // 8
+ [2871] POP // 7
+ [2872] SETFLAG NOT Base[7]
+ [2879] POP // 6
+ [2880] FLAGGOTO currpos + 484 [3369]
+ [2885] ASSIGN Base[3], [0]
+ [2900] PUSHTYPE 16(U8) // 7
+ [2905] PUSHTYPE 10(S32) // 8
+ [2910] PUSHTYPE 0(Pointer) // 9
+ [2915] SETPOINTER Base[9]: Base[2]
+ [2926] PUSHVAR Base[8] // 10
+ [2932] CALL 78
+ [2937] POP // 9
+ [2938] POP // 8
+ [2939] CALC Base[8] - [1]
+ [2955] COMPARE into Base[7]: Base[3] <= Base[8]
+ [2972] POP // 7
+ [2973] COND_NOT_GOTO currpos + 385 Base[7] [3368]
+ [2983] ASSIGN Base[4], Base[2].Base[3]
+ [2998] PUSHTYPE 16(U8) // 8
+ [3003] PUSHTYPE 10(S32) // 9
+ [3008] PUSHTYPE 8(String) // 10
+ [3013] ASSIGN Base[10], Base[4]
+ [3024] PUSHTYPE 8(String) // 11
+ [3029] ASSIGN Base[11], ['DoYourData Uninstaller Free']
+ [3071] PUSHVAR Base[9] // 12
+ [3077] CALL 79
+ [3082] POP // 11
+ [3083] POP // 10
+ [3084] POP // 9
+ [3085] COMPARE into Base[8]: Base[9] > [0]
+ [3106] POP // 8
+ [3107] SETFLAG NOT Base[8]
+ [3114] POP // 7
+ [3115] FLAGGOTO currpos + 237 [3357]
+ [3120] PUSHTYPE 16(U8) // 8
+ [3125] PUSHTYPE 10(S32) // 9
+ [3130] PUSHTYPE 10(S32) // 10
+ [3135] ASSIGN Base[10], [4]
+ [3150] PUSHTYPE 43(U8) // 11
+ [3155] ASSIGN Base[11], [1]
+ [3167] PUSHTYPE 8(String) // 12
+ [3172] ASSIGN Base[12], Base[6]
+ [3183] PUSHVAR Base[9] // 13
+ [3189] CALL 55
+ [3194] POP // 12
+ [3195] POP // 11
+ [3196] POP // 10
+ [3197] POP // 9
+ [3198] COMPARE into Base[8]: Base[9] = [6]
+ [3219] POP // 8
+ [3220] SETFLAG NOT Base[8]
+ [3227] POP // 7
+ [3228] FLAGGOTO currpos + 71 [3304]
+ [3233] ASSIGN GlobalVar[20], [1]
+ [3245] PUSHTYPE 8(String) // 8
+ [3250] ASSIGN Base[8], Base[1]
+ [3261] CALC Base[8] + [#92]
+ [3274] CALC Base[8] + Base[4]
+ [3286] PUSHVAR Base[-1] // 9
+ [3292] CALL 73
+ [3297] POP // 8
+ [3298] POP // 7
+ [3299] GOTO currpos + 12 [3316]
+ [3304] ASSIGN Base[-1], [0]
+ [3316] PUSHTYPE 16(U8) // 8
+ [3321] COMPARE into Base[8]: Base[-1] = [0]
+ [3339] SETFLAG NOT Base[8]
+ [3346] POP // 7
+ [3347] FLAGGOTO currpos + 5 [3357]
+ [3352] GOTO currpos + 11 [3368]
+ [3357] INC Base[3]
+ [3363] GOTO currpos + 4294966833 [2905]
+ [3368] POP // 6
+ [3369] RET
+Proc [77]: External Decl: \01\00\00\01 REGGETSUBKEYNAMES
+Proc [78]: External Decl: \01 GETARRAYLENGTH
+Proc [79]: External Decl: \01\00\00 POS
+Proc [80] Export: NEXTBUTTONCLICK 16 @10
+ [0] PUSHTYPE 8(String) // 1
+ [5] PUSHTYPE 10(S32) // 2
+ [10] PUSHTYPE 8(String) // 3
+ [15] PUSHTYPE 8(String) // 4
+ [20] PUSHTYPE 8(String) // 5
+ [25] PUSHTYPE 10(S32) // 6
+ [30] PUSHTYPE 8(String) // 7
+ [35] PUSHTYPE 16(U8) // 8
+ [40] PUSHTYPE 8(String) // 9
+ [45] PUSHTYPE 8(String) // 10
+ [50] ASSIGN Base[-1], [1]
+ [62] ASSIGN GlobalVar[12], [2]
+ [77] PUSHTYPE 10(S32) // 11
+ [82] ASSIGN Base[11], Base[-2]
+ [93] PUSHTYPE 16(U8) // 12
+ [98] PUSHTYPE 10(S32) // 13
+ [103] PUSHTYPE 23(Class) // 14
+ [108] ASSIGN Base[14], GlobalVar[8]
+ [119] PUSHVAR Base[13] // 15
+ [125] CALL 64
+ [130] POP // 14
+ [131] POP // 13
+ [132] COMPARE into Base[12]: Base[13] = Base[11]
+ [149] POP // 12
+ [150] COND_NOT_GOTO currpos + 281 Base[12] [441]
+ [160] CALL 57
+ [165] ASSIGN Base[-1], [1]
+ [177] PUSHTYPE 16(U8) // 13
+ [182] PUSHTYPE 24(Class) // 14
+ [187] ASSIGN Base[14], GlobalVar[9]
+ [198] PUSHVAR Base[13] // 15
+ [204] CALL 81
+ [209] POP // 14
+ [210] POP // 13
+ [211] SETFLAG NOT Base[13]
+ [218] POP // 12
+ [219] FLAGGOTO currpos + 212 [436]
+ [224] PUSHTYPE 16(U8) // 13
+ [229] PUSHTYPE 0(Pointer) // 14
+ [234] SETPOINTER Base[14]: Base[6]
+ [245] PUSHTYPE 44(U8) // 15
+ [250] ASSIGN Base[15], [0]
+ [262] PUSHTYPE 10(S32) // 16
+ [267] ASSIGN Base[16], [1]
+ [282] PUSHTYPE 8(String) // 17
+ [287] ASSIGN Base[17], ['']
+ [302] PUSHTYPE 8(String) // 18
+ [307] ASSIGN Base[18], ['']
+ [322] PUSHTYPE 8(String) // 19
+ [327] PUSHTYPE 8(String) // 20
+ [332] ASSIGN Base[20], ['{app}\DoYourData Uninstaller.exe']
+ [379] PUSHVAR Base[19] // 21
+ [385] CALL 6
+ [390] POP // 20
+ [391] POP // 19
+ [392] PUSHTYPE 8(String) // 20
+ [397] ASSIGN Base[20], ['open']
+ [416] PUSHVAR Base[13] // 21
+ [422] CALL 58
+ [427] POP // 20
+ [428] POP // 19
+ [429] POP // 18
+ [430] POP // 17
+ [431] POP // 16
+ [432] POP // 15
+ [433] POP // 14
+ [434] POP // 13
+ [435] POP // 12
+ [436] GOTO currpos + 123 [564]
+ [441] COMPARE into Base[12]: [1] = Base[11]
+ [462] COND_NOT_GOTO currpos + 92 Base[12] [564]
+ [472] PUSHVAR Base[-1] // 13
+ [478] CALL 76
+ [483] POP // 12
+ [484] PUSHTYPE 16(U8) // 13
+ [489] COMPARE into Base[13]: Base[-1] = [0]
+ [507] SETFLAG NOT Base[13]
+ [514] POP // 12
+ [515] FLAGGOTO currpos + 39 [559]
+ [520] PUSHTYPE 10(S32) // 13
+ [525] PUSHTYPE 10(S32) // 14
+ [530] ASSIGN Base[14], [0]
+ [545] PUSHVAR Base[13] // 15
+ [551] CALL 3
+ [556] POP // 14
+ [557] POP // 13
+ [558] POP // 12
+ [559] GOTO currpos + 0 [564]
+ [564] POP // 11
+ [565] POP // 10
+ [566] RET
+Proc [81]: External Decl: class:TCHECKBOX|CHECKED|\01\00\00\00 
+Proc [82] Export: DELETEMETROICON 16
+ [0] PUSHTYPE 8(String) // 1
+ [5] PUSHTYPE 8(String) // 2
+ [10] PUSHTYPE 8(String) // 3
+ [15] PUSHTYPE 8(String) // 4
+ [20] PUSHTYPE 8(String) // 5
+ [25] PUSHTYPE 8(String) // 6
+ [30] PUSHTYPE 48(Record(String,U32,U32,U32,Record(U32,U32),Record(U32,U32),Record(U32,U32),String,S32)) // 7
+ [35] PUSHTYPE 8(String) // 8
+ [40] ASSIGN Base[1], ['SYSTEM\Setup']
+ [67] ASSIGN Base[6], ['DoYourData Uninstaller 5.4']
+ [108] PUSHVAR Base[5] // 9
+ [114] CALL 83
+ [119] POP // 8
+ [120] PUSHTYPE 16(U8) // 9
+ [125] PUSHTYPE 16(U8) // 10
+ [130] PUSHVAR Base[10] // 11
+ [136] CALL 14
+ [141] POP // 10
+ [142] COMPARE into Base[9]: Base[10] = [1]
+ [160] POP // 9
+ [161] COND_GOTO currpos + 54 Base[9] [225]
+ [171] PUSHTYPE 16(U8) // 10
+ [176] PUSHTYPE 16(U8) // 11
+ [181] PUSHVAR Base[11] // 12
+ [187] CALL 11
+ [192] POP // 11
+ [193] COMPARE into Base[10]: Base[11] = [1]
+ [211] POP // 10
+ [212] CALC Base[9] OR Base[10]
+ [224] POP // 9
+ [225] SETFLAG NOT Base[9]
+ [232] POP // 8
+ [233] FLAGGOTO currpos + 701 [939]
+ [238] PUSHTYPE 16(U8) // 9
+ [243] PUSHTYPE 16(U8) // 10
+ [248] PUSHTYPE 0(Pointer) // 11
+ [253] SETPOINTER Base[11]: Base[2]
+ [264] PUSHTYPE 8(String) // 12
+ [269] ASSIGN Base[12], ['WorkingDirectory']
+ [300] PUSHTYPE 8(String) // 13
+ [305] ASSIGN Base[13], Base[1]
+ [316] PUSHTYPE 10(S32) // 14
+ [321] ASSIGN Base[14], [-2147483646]
+ [336] PUSHVAR Base[10] // 15
+ [342] CALL 60
+ [347] POP // 14
+ [348] POP // 13
+ [349] POP // 12
+ [350] POP // 11
+ [351] POP // 10
+ [352] COMPARE into Base[9]: Base[10] = [1]
+ [370] POP // 9
+ [371] SETFLAG NOT Base[9]
+ [378] POP // 8
+ [379] FLAGGOTO currpos + 555 [939]
+ [384] PUSHTYPE 10(S32) // 9
+ [389] ASSIGN Base[9], [3]
+ [404] PUSHTYPE 10(S32) // 10
+ [409] ASSIGN Base[10], [0]
+ [424] PUSHTYPE 8(String) // 11
+ [429] ASSIGN Base[11], Base[2]
+ [440] PUSHVAR Base[3] // 12
+ [446] CALL 84
+ [451] POP // 11
+ [452] POP // 10
+ [453] POP // 9
+ [454] POP // 8
+ [455] ASSIGN Base[4], Base[3]
+ [466] CALC Base[4] + ['Users\']
+ [488] CALC Base[4] + Base[5]
+ [500] CALC Base[4] + ['\AppData\Roaming\Microsoft\Windows\Start Menu\Programs']
+ [570] PUSHTYPE 16(U8) // 9
+ [575] PUSHTYPE 0(Pointer) // 10
+ [580] SETPOINTER Base[10]: Base[7]
+ [591] PUSHTYPE 8(String) // 11
+ [596] ASSIGN Base[11], Base[4]
+ [607] CALC Base[11] + ['\*.*']
+ [627] PUSHVAR Base[9] // 12
+ [633] CALL 85
+ [638] POP // 11
+ [639] POP // 10
+ [640] POP // 9
+ [641] POP // 8
+ [642] PUSHTYPE 16(U8) // 9
+ [647] ASSIGN Base[9], [1]
+ [659] COND_NOT_GOTO currpos + 269 Base[9] [938]
+ [669] PUSHTYPE 10(S32) // 10
+ [674] PUSHTYPE 8(String) // 11
+ [679] ASSIGN Base[11], Base[6]
+ [690] PUSHVAR Base[10] // 12
+ [696] CALL 61
+ [701] POP // 11
+ [702] POP // 10
+ [703] PUSHTYPE 10(S32) // 11
+ [708] ASSIGN Base[11], [0]
+ [723] PUSHTYPE 8(String) // 12
+ [728] ASSIGN Base[12], Base[7].[0]
+ [743] PUSHVAR Base[8] // 13
+ [749] CALL 84
+ [754] POP // 12
+ [755] POP // 11
+ [756] POP // 10
+ [757] POP // 9
+ [758] PUSHTYPE 16(U8) // 10
+ [763] COMPARE into Base[10]: Base[8] = Base[6]
+ [780] SETFLAG NOT Base[10]
+ [787] POP // 9
+ [788] FLAGGOTO currpos + 64 [857]
+ [793] PUSHTYPE 16(U8) // 10
+ [798] PUSHTYPE 8(String) // 11
+ [803] ASSIGN Base[11], Base[4]
+ [814] CALC Base[11] + [#92]
+ [827] CALC Base[11] + Base[7].[0]
+ [843] PUSHVAR Base[10] // 12
+ [849] CALL 86
+ [854] POP // 11
+ [855] POP // 10
+ [856] POP // 9
+ [857] PUSHTYPE 16(U8) // 10
+ [862] PUSHTYPE 16(U8) // 11
+ [867] PUSHTYPE 0(Pointer) // 12
+ [872] SETPOINTER Base[12]: Base[7]
+ [883] PUSHVAR Base[11] // 13
+ [889] CALL 87
+ [894] POP // 12
+ [895] POP // 11
+ [896] COMPARE into Base[10]: Base[11] = [0]
+ [914] POP // 10
+ [915] SETFLAG NOT Base[10]
+ [922] POP // 9
+ [923] FLAGGOTO currpos + 5 [933]
+ [928] GOTO currpos + 5 [938]
+ [933] GOTO currpos + 4294967005 [647]
+ [938] POP // 8
+ [939] RET
+Proc [83]: External Decl: \01 GETUSERNAMESTRING
+Proc [84]: External Decl: \01\00\00\00 COPY
+Proc [85]: External Decl: \01\00\01 FINDFIRST
+Proc [86]: External Decl: \01\00 DELETEFILE
+Proc [87]: External Decl: \01\01 FINDNEXT
+Proc [88] Export: GETUNINSTALLPARA 8
+ [0] PUSHTYPE 8(String) // 1
+ [5] PUSHTYPE 8(String) // 2
+ [10] PUSHTYPE 8(String) // 3
+ [15] PUSHTYPE 8(String) // 4
+ [20] ASSIGN Base[4], ['{language}']
+ [45] PUSHVAR Base[2] // 5
+ [51] CALL 6
+ [56] POP // 4
+ [57] POP // 3
+ [58] PUSHTYPE 16(U8) // 4
+ [63] COMPARE into Base[4]: Base[2] = ['en']
+ [86] SETFLAG NOT Base[4]
+ [93] POP // 3
+ [94] FLAGGOTO currpos + 27 [126]
+ [99] ASSIGN Base[3], ['English']
+ [121] GOTO currpos + 348 [474]
+ [126] PUSHTYPE 16(U8) // 4
+ [131] COMPARE into Base[4]: Base[2] = ['de']
+ [154] SETFLAG NOT Base[4]
+ [161] POP // 3
+ [162] FLAGGOTO currpos + 26 [193]
+ [167] ASSIGN Base[3], ['German']
+ [188] GOTO currpos + 281 [474]
+ [193] PUSHTYPE 16(U8) // 4
+ [198] COMPARE into Base[4]: Base[2] = ['jp']
+ [221] SETFLAG NOT Base[4]
+ [228] POP // 3
+ [229] FLAGGOTO currpos + 28 [262]
+ [234] ASSIGN Base[3], ['Japanese']
+ [257] GOTO currpos + 212 [474]
+ [262] PUSHTYPE 16(U8) // 4
+ [267] COMPARE into Base[4]: Base[2] = ['fr']
+ [290] SETFLAG NOT Base[4]
+ [297] POP // 3
+ [298] FLAGGOTO currpos + 26 [329]
+ [303] ASSIGN Base[3], ['French']
+ [324] GOTO currpos + 145 [474]
+ [329] PUSHTYPE 16(U8) // 4
+ [334] COMPARE into Base[4]: Base[2] = ['sp']
+ [357] SETFLAG NOT Base[4]
+ [364] POP // 3
+ [365] FLAGGOTO currpos + 27 [397]
+ [370] ASSIGN Base[3], ['Spanish']
+ [392] GOTO currpos + 77 [474]
+ [397] PUSHTYPE 16(U8) // 4
+ [402] COMPARE into Base[4]: Base[2] = ['pobr']
+ [427] SETFLAG NOT Base[4]
+ [434] POP // 3
+ [435] FLAGGOTO currpos + 34 [474]
+ [440] ASSIGN Base[3], ['BrazilianPortuguese']
+ [474] PUSHTYPE 16(U8) // 4
+ [479] PUSHVAR Base[4] // 5
+ [485] CALL 21
+ [490] POP // 4
+ [491] SETFLAG NOT Base[4]
+ [498] POP // 3
+ [499] FLAGGOTO currpos + 97 [601]
+ [504] ASSIGN Base[1], [' DoYourData Uninstaller Free 5.4 Uninstall Feedback(']
+ [571] CALC Base[1] + Base[3]
+ [583] CALC Base[1] + [#41]
+ [596] GOTO currpos + 92 [693]
+ [601] ASSIGN Base[1], [' DoYourData Uninstaller Free 5.4 Uninstall Feedback(']
+ [668] CALC Base[1] + Base[3]
+ [680] CALC Base[1] + [#41]
+ [693] ASSIGN Base[-1], Base[1]
+ [704] RET
+Proc [89] Export: INITIALIZEUNINSTALL 16
+ [0] PUSHTYPE 8(String) // 1
+ [5] PUSHTYPE 8(String) // 2
+ [10] PUSHTYPE 10(S32) // 3
+ [15] PUSHTYPE 8(String) // 4
+ [20] PUSHTYPE 8(String) // 5
+ [25] PUSHTYPE 10(S32) // 6
+ [30] PUSHTYPE 8(String) // 7
+ [35] PUSHTYPE 8(String) // 8
+ [40] PUSHTYPE 8(String) // 9
+ [45] PUSHTYPE 8(String) // 10
+ [50] PUSHTYPE 8(String) // 11
+ [55] PUSHTYPE 8(String) // 12
+ [60] PUSHTYPE 8(String) // 13
+ [65] PUSHTYPE 8(String) // 14
+ [70] PUSHTYPE 8(String) // 15
+ [75] PUSHTYPE 8(String) // 16
+ [80] PUSHTYPE 16(U8) // 17
+ [85] PUSHTYPE 8(String) // 18
+ [90] ASSIGN Base[18], ['{app}\Configure.dat']
+ [124] PUSHVAR Base[16] // 19
+ [130] CALL 6
+ [135] POP // 18
+ [136] POP // 17
+ [137] ASSIGN Base[17], [0]
+ [149] PUSHTYPE 16(U8) // 18
+ [154] PUSHTYPE 8(String) // 19
+ [159] ASSIGN Base[19], Base[16]
+ [170] PUSHVAR Base[18] // 20
+ [176] CALL 90
+ [181] POP // 19
+ [182] POP // 18
+ [183] SETFLAG NOT Base[18]
+ [190] POP // 17
+ [191] FLAGGOTO currpos + 12 [208]
+ [196] ASSIGN Base[17], [1]
+ [208] PUSHTYPE 16(U8) // 18
+ [213] PUSHTYPE 16(U8) // 19
+ [218] PUSHVAR Base[19] // 20
+ [224] CALL 13
+ [229] POP // 19
+ [230] COMPARE into Base[18]: Base[19] = [0]
+ [248] POP // 18
+ [249] SETFLAG NOT Base[18]
+ [256] POP // 17
+ [257] FLAGGOTO currpos + 266 [528]
+ [262] ASSIGN Base[2], ['SOFTWARE\DoYourData\WinUninstaller\Version']
+ [319] ASSIGN Base[4], ['SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\DoYourData Uninstaller Free 5.4_is1']
+ [421] ASSIGN Base[7], ['SOFTWARE\DoYourData\WinUninstaller\Key']
+ [474] ASSIGN Base[12], ['SOFTWARE\DoYourData\WinUninstaller']
+ [523] GOTO currpos + 261 [789]
+ [528] ASSIGN Base[2], ['SOFTWARE\DoYourData\WinUninstaller\Version']
+ [585] ASSIGN Base[4], ['SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\DoYourData Uninstaller Free 5.4_is1']
+ [687] ASSIGN Base[7], ['SOFTWARE\DoYourData\WinUninstaller\Key']
+ [740] ASSIGN Base[12], ['SOFTWARE\DoYourData\WinUninstaller']
+ [789] PUSHTYPE 16(U8) // 18
+ [794] PUSHTYPE 16(U8) // 19
+ [799] PUSHTYPE 0(Pointer) // 20
+ [804] SETPOINTER Base[20]: Base[1]
+ [815] PUSHTYPE 8(String) // 21
+ [820] ASSIGN Base[21], ['Version']
+ [842] PUSHTYPE 8(String) // 22
+ [847] ASSIGN Base[22], Base[2]
+ [858] PUSHTYPE 10(S32) // 23
+ [863] ASSIGN Base[23], [-2147483646]
+ [878] PUSHVAR Base[19] // 24
+ [884] CALL 60
+ [889] POP // 23
+ [890] POP // 22
+ [891] POP // 21
+ [892] POP // 20
+ [893] POP // 19
+ [894] COMPARE into Base[18]: Base[19] = [1]
+ [912] POP // 18
+ [913] SETFLAG NOT Base[18]
+ [920] POP // 17
+ [921] FLAGGOTO currpos + 36 [962]
+ [926] PUSHTYPE 16(U8) // 18
+ [931] COMPARE into Base[18]: Base[1] = [#48]
+ [949] SETFLAG NOT Base[18]
+ [956] POP // 17
+ [957] FLAGGOTO currpos + 0 [962]
+ [962] PUSHTYPE 16(U8) // 18
+ [967] PUSHTYPE 16(U8) // 19
+ [972] PUSHTYPE 0(Pointer) // 20
+ [977] SETPOINTER Base[20]: Base[5]
+ [988] PUSHTYPE 8(String) // 21
+ [993] ASSIGN Base[21], ['InstallLocation']
+ [1023] PUSHTYPE 8(String) // 22
+ [1028] ASSIGN Base[22], Base[4]
+ [1039] PUSHTYPE 10(S32) // 23
+ [1044] ASSIGN Base[23], [-2147483646]
+ [1059] PUSHVAR Base[19] // 24
+ [1065] CALL 60
+ [1070] POP // 23
+ [1071] POP // 22
+ [1072] POP // 21
+ [1073] POP // 20
+ [1074] POP // 19
+ [1075] COMPARE into Base[18]: Base[19] = [1]
+ [1093] POP // 18
+ [1094] SETFLAG NOT Base[18]
+ [1101] POP // 17
+ [1102] FLAGGOTO currpos + 452 [1559]
+ [1107] PUSHTYPE 16(U8) // 18
+ [1112] PUSHTYPE 16(U8) // 19
+ [1117] PUSHTYPE 0(Pointer) // 20
+ [1122] SETPOINTER Base[20]: Base[8]
+ [1133] PUSHTYPE 8(String) // 21
+ [1138] ASSIGN Base[21], ['Key']
+ [1156] PUSHTYPE 8(String) // 22
+ [1161] ASSIGN Base[22], Base[7]
+ [1172] PUSHTYPE 10(S32) // 23
+ [1177] ASSIGN Base[23], [-2147483646]
+ [1192] PUSHVAR Base[19] // 24
+ [1198] CALL 60
+ [1203] POP // 23
+ [1204] POP // 22
+ [1205] POP // 21
+ [1206] POP // 20
+ [1207] POP // 19
+ [1208] COMPARE into Base[18]: Base[19] = [1]
+ [1226] POP // 18
+ [1227] SETFLAG NOT Base[18]
+ [1234] POP // 17
+ [1235] FLAGGOTO currpos + 124 [1364]
+ [1240] PUSHTYPE 16(U8) // 18
+ [1245] PUSHTYPE 10(S32) // 19
+ [1250] PUSHTYPE 8(String) // 20
+ [1255] ASSIGN Base[20], Base[8]
+ [1266] PUSHVAR Base[19] // 21
+ [1272] CALL 61
+ [1277] POP // 20
+ [1278] POP // 19
+ [1279] COMPARE into Base[18]: Base[19] = [0]
+ [1300] POP // 18
+ [1301] SETFLAG NOT Base[18]
+ [1308] POP // 17
+ [1309] FLAGGOTO currpos + 50 [1364]
+ [1314] ASSIGN Base[9], Base[5]
+ [1325] CALC Base[9] + ['ureport.exe']
+ [1352] PUSHVAR Base[14] // 18
+ [1358] CALL 88
+ [1363] POP // 17
+ [1364] PUSHTYPE 16(U8) // 18
+ [1369] PUSHTYPE 16(U8) // 19
+ [1374] PUSHTYPE 0(Pointer) // 20
+ [1379] SETPOINTER Base[20]: Base[13]
+ [1390] PUSHTYPE 8(String) // 21
+ [1395] ASSIGN Base[21], ['IsUpgrade']
+ [1419] PUSHTYPE 8(String) // 22
+ [1424] ASSIGN Base[22], Base[7]
+ [1435] PUSHTYPE 10(S32) // 23
+ [1440] ASSIGN Base[23], [-2147483646]
+ [1455] PUSHVAR Base[19] // 24
+ [1461] CALL 60
+ [1466] POP // 23
+ [1467] POP // 22
+ [1468] POP // 21
+ [1469] POP // 20
+ [1470] POP // 19
+ [1471] COMPARE into Base[18]: Base[19] = [0]
+ [1489] POP // 18
+ [1490] SETFLAG NOT Base[18]
+ [1497] POP // 17
+ [1498] FLAGGOTO currpos + 56 [1559]
+ [1503] PUSHTYPE 16(U8) // 18
+ [1508] PUSHTYPE 8(String) // 19
+ [1513] ASSIGN Base[19], Base[12]
+ [1524] PUSHTYPE 10(S32) // 20
+ [1529] ASSIGN Base[20], [-2147483646]
+ [1544] PUSHVAR Base[18] // 21
+ [1550] CALL 72
+ [1555] POP // 20
+ [1556] POP // 19
+ [1557] POP // 18
+ [1558] POP // 17
+ [1559] PUSHTYPE 16(U8) // 18
+ [1564] PUSHVAR Base[18] // 19
+ [1570] CALL 82
+ [1575] POP // 18
+ [1576] POP // 17
+ [1577] PUSHTYPE 16(U8) // 18
+ [1582] COMPARE into Base[18]: Base[17] = [0]
+ [1600] SETFLAG NOT Base[18]
+ [1607] POP // 17
+ [1608] FLAGGOTO currpos + 1686 [3299]
+ [1613] PUSHTYPE 8(String) // 18
+ [1618] ASSIGN Base[18], ['{language}']
+ [1643] PUSHVAR Base[15] // 19
+ [1649] CALL 6
+ [1654] POP // 18
+ [1655] POP // 17
+ [1656] PUSHTYPE 16(U8) // 18
+ [1661] COMPARE into Base[18]: Base[15] = ['en']
+ [1684] SETFLAG NOT Base[18]
+ [1691] POP // 17
+ [1692] FLAGGOTO currpos + 230 [1927]
+ [1697] PUSHTYPE 16(U8) // 18
+ [1702] PUSHTYPE 0(Pointer) // 19
+ [1707] SETPOINTER Base[19]: Base[3]
+ [1718] PUSHTYPE 44(U8) // 20
+ [1723] ASSIGN Base[20], [0]
+ [1735] PUSHTYPE 10(S32) // 21
+ [1740] ASSIGN Base[21], [1]
+ [1755] PUSHTYPE 8(String) // 22
+ [1760] ASSIGN Base[22], ['']
+ [1775] PUSHTYPE 8(String) // 23
+ [1780] ASSIGN Base[23], ['']
+ [1795] PUSHTYPE 8(String) // 24
+ [1800] ASSIGN Base[24], ['http://www.doyourdata.com/uninstall/doyourdata-uninstaller.html']
+ [1878] PUSHTYPE 8(String) // 25
+ [1883] ASSIGN Base[25], ['open']
+ [1902] PUSHVAR Base[18] // 26
+ [1908] CALL 58
+ [1913] POP // 25
+ [1914] POP // 24
+ [1915] POP // 23
+ [1916] POP // 22
+ [1917] POP // 21
+ [1918] POP // 20
+ [1919] POP // 19
+ [1920] POP // 18
+ [1921] POP // 17
+ [1922] GOTO currpos + 1372 [3299]
+ [1927] PUSHTYPE 16(U8) // 18
+ [1932] COMPARE into Base[18]: Base[15] = ['de']
+ [1955] SETFLAG NOT Base[18]
+ [1962] POP // 17
+ [1963] FLAGGOTO currpos + 234 [2202]
+ [1968] PUSHTYPE 16(U8) // 18
+ [1973] PUSHTYPE 0(Pointer) // 19
+ [1978] SETPOINTER Base[19]: Base[3]
+ [1989] PUSHTYPE 44(U8) // 20
+ [1994] ASSIGN Base[20], [0]
+ [2006] PUSHTYPE 10(S32) // 21
+ [2011] ASSIGN Base[21], [1]
+ [2026] PUSHTYPE 8(String) // 22
+ [2031] ASSIGN Base[22], ['']
+ [2046] PUSHTYPE 8(String) // 23
+ [2051] ASSIGN Base[23], ['']
+ [2066] PUSHTYPE 8(String) // 24
+ [2071] ASSIGN Base[24], ['http://www.doyourdata.com/uninstall/do-your-data-recovery-free.html']
+ [2153] PUSHTYPE 8(String) // 25
+ [2158] ASSIGN Base[25], ['open']
+ [2177] PUSHVAR Base[18] // 26
+ [2183] CALL 58
+ [2188] POP // 25
+ [2189] POP // 24
+ [2190] POP // 23
+ [2191] POP // 22
+ [2192] POP // 21
+ [2193] POP // 20
+ [2194] POP // 19
+ [2195] POP // 18
+ [2196] POP // 17
+ [2197] GOTO currpos + 1097 [3299]
+ [2202] PUSHTYPE 16(U8) // 18
+ [2207] COMPARE into Base[18]: Base[15] = ['jp']
+ [2230] SETFLAG NOT Base[18]
+ [2237] POP // 17
+ [2238] FLAGGOTO currpos + 234 [2477]
+ [2243] PUSHTYPE 16(U8) // 18
+ [2248] PUSHTYPE 0(Pointer) // 19
+ [2253] SETPOINTER Base[19]: Base[3]
+ [2264] PUSHTYPE 44(U8) // 20
+ [2269] ASSIGN Base[20], [0]
+ [2281] PUSHTYPE 10(S32) // 21
+ [2286] ASSIGN Base[21], [1]
+ [2301] PUSHTYPE 8(String) // 22
+ [2306] ASSIGN Base[22], ['']
+ [2321] PUSHTYPE 8(String) // 23
+ [2326] ASSIGN Base[23], ['']
+ [2341] PUSHTYPE 8(String) // 24
+ [2346] ASSIGN Base[24], ['http://www.doyourdata.com/uninstall/do-your-data-recovery-free.html']
+ [2428] PUSHTYPE 8(String) // 25
+ [2433] ASSIGN Base[25], ['open']
+ [2452] PUSHVAR Base[18] // 26
+ [2458] CALL 58
+ [2463] POP // 25
+ [2464] POP // 24
+ [2465] POP // 23
+ [2466] POP // 22
+ [2467] POP // 21
+ [2468] POP // 20
+ [2469] POP // 19
+ [2470] POP // 18
+ [2471] POP // 17
+ [2472] GOTO currpos + 822 [3299]
+ [2477] PUSHTYPE 16(U8) // 18
+ [2482] COMPARE into Base[18]: Base[15] = ['fr']
+ [2505] SETFLAG NOT Base[18]
+ [2512] POP // 17
+ [2513] FLAGGOTO currpos + 234 [2752]
+ [2518] PUSHTYPE 16(U8) // 18
+ [2523] PUSHTYPE 0(Pointer) // 19
+ [2528] SETPOINTER Base[19]: Base[3]
+ [2539] PUSHTYPE 44(U8) // 20
+ [2544] ASSIGN Base[20], [0]
+ [2556] PUSHTYPE 10(S32) // 21
+ [2561] ASSIGN Base[21], [1]
+ [2576] PUSHTYPE 8(String) // 22
+ [2581] ASSIGN Base[22], ['']
+ [2596] PUSHTYPE 8(String) // 23
+ [2601] ASSIGN Base[23], ['']
+ [2616] PUSHTYPE 8(String) // 24
+ [2621] ASSIGN Base[24], ['http://www.doyourdata.com/uninstall/do-your-data-recovery-free.html']
+ [2703] PUSHTYPE 8(String) // 25
+ [2708] ASSIGN Base[25], ['open']
+ [2727] PUSHVAR Base[18] // 26
+ [2733] CALL 58
+ [2738] POP // 25
+ [2739] POP // 24
+ [2740] POP // 23
+ [2741] POP // 22
+ [2742] POP // 21
+ [2743] POP // 20
+ [2744] POP // 19
+ [2745] POP // 18
+ [2746] POP // 17
+ [2747] GOTO currpos + 547 [3299]
+ [2752] PUSHTYPE 16(U8) // 18
+ [2757] COMPARE into Base[18]: Base[15] = ['sp']
+ [2780] SETFLAG NOT Base[18]
+ [2787] POP // 17
+ [2788] FLAGGOTO currpos + 234 [3027]
+ [2793] PUSHTYPE 16(U8) // 18
+ [2798] PUSHTYPE 0(Pointer) // 19
+ [2803] SETPOINTER Base[19]: Base[3]
+ [2814] PUSHTYPE 44(U8) // 20
+ [2819] ASSIGN Base[20], [0]
+ [2831] PUSHTYPE 10(S32) // 21
+ [2836] ASSIGN Base[21], [1]
+ [2851] PUSHTYPE 8(String) // 22
+ [2856] ASSIGN Base[22], ['']
+ [2871] PUSHTYPE 8(String) // 23
+ [2876] ASSIGN Base[23], ['']
+ [2891] PUSHTYPE 8(String) // 24
+ [2896] ASSIGN Base[24], ['http://www.doyourdata.com/uninstall/do-your-data-recovery-free.html']
+ [2978] PUSHTYPE 8(String) // 25
+ [2983] ASSIGN Base[25], ['open']
+ [3002] PUSHVAR Base[18] // 26
+ [3008] CALL 58
+ [3013] POP // 25
+ [3014] POP // 24
+ [3015] POP // 23
+ [3016] POP // 22
+ [3017] POP // 21
+ [3018] POP // 20
+ [3019] POP // 19
+ [3020] POP // 18
+ [3021] POP // 17
+ [3022] GOTO currpos + 272 [3299]
+ [3027] PUSHTYPE 16(U8) // 18
+ [3032] COMPARE into Base[18]: Base[15] = ['pobr']
+ [3057] SETFLAG NOT Base[18]
+ [3064] POP // 17
+ [3065] FLAGGOTO currpos + 229 [3299]
+ [3070] PUSHTYPE 16(U8) // 18
+ [3075] PUSHTYPE 0(Pointer) // 19
+ [3080] SETPOINTER Base[19]: Base[3]
+ [3091] PUSHTYPE 44(U8) // 20
+ [3096] ASSIGN Base[20], [0]
+ [3108] PUSHTYPE 10(S32) // 21
+ [3113] ASSIGN Base[21], [1]
+ [3128] PUSHTYPE 8(String) // 22
+ [3133] ASSIGN Base[22], ['']
+ [3148] PUSHTYPE 8(String) // 23
+ [3153] ASSIGN Base[23], ['']
+ [3168] PUSHTYPE 8(String) // 24
+ [3173] ASSIGN Base[24], ['http://www.doyourdata.com/uninstall/do-your-data-recovery-free.html']
+ [3255] PUSHTYPE 8(String) // 25
+ [3260] ASSIGN Base[25], ['open']
+ [3279] PUSHVAR Base[18] // 26
+ [3285] CALL 58
+ [3290] POP // 25
+ [3291] POP // 24
+ [3292] POP // 23
+ [3293] POP // 22
+ [3294] POP // 21
+ [3295] POP // 20
+ [3296] POP // 19
+ [3297] POP // 18
+ [3298] POP // 17
+ [3299] ASSIGN Base[-1], [1]
+ [3311] RET
+Proc [90]: External Decl: \01\00 FILEEXISTS
+
