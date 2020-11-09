@@ -1,0 +1,11 @@
+CAppEnum::Enum64Bit begin with 2020.11.10 01:47:52
+CAppEnum::Enum64Bit end with 2020.11.10 01:47:52
+CAppEnum::Enum32Bit end with 2020.11.10 01:47:52
+CAppEnum::EnumLocalUser end with 2020.11.10 01:47:52
+create tree begin with 2020.11.10 01:47:52
+enum appp finished!
+create tree end with 2020.11.10 01:47:54
+create winapp tree begin with 2020.11.10 01:47:55
+create winapp tree end with 2020.11.10 01:47:55
+create winapp tree get size with 2020.11.10 01:47:55
+CStartDlg received MSG_CLOSE_DLG!

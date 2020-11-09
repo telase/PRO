@@ -1,0 +1,35 @@
+[Main]
+CreateWizard=true
+WinSize=@Size(960 640)
+BtnRadius=118
+TreeMinSize=230
+ProductName=DoYourData Uninstaller
+VersionNum=5.2
+BuildNum=20200409
+FileListMaxCnt=4000
+startSyncBtnN=@Size(155 35)
+startSyncBtn=@Size(205 50)
+selBtnSize=@Size(100 80)
+blinkClr=113,213,84
+blinkAlpha=100,95,90,85,80,75,70,65,60,55,50,45,40,35,30,25,20,15,10,5,0,5,10,15,20,25,30,35,40,45,50,55,60,65,70,75,80,85,90,95,100
+blinkInt=70
+
+[PopupDlg]
+LabelEnter=@Point(15 15)
+NetIPLabel=@Point(15 35)
+NetUserEdit=@Point(15 65)
+NetPasswordEdit=@Point(15 105)
+LabelError=@Point(15 140)
+
+[URL]
+ID_LINK_SUPPORT=https://www.doyourdata.com/support/
+ID_LINK_BUYNOW=https://www.doyourdata.com/utilities/upgrade-to-uninstaller-pro.html
+ID_LINK_HELP=https://www.doyourdata.com/guide/windows-uninstaller-user-guide.html
+ID_LINK_PRO=https://www.doyourdata.com/utilities/pc-uninstaller.html
+ID_LINK_DATARECOVERY=https://www.doyourdata.com/data-recovery-software/free-data-recovery-software.html
+ID_LINK_SE=https://www.doyourdata.com/data-erase-software/super-eraser.html
+ID_LINK_MAC_UNINSTALL=https://www.doyourdata.com/mac-manager/mac-uninstaller.html
+ID_LINK_FACEBOOK=https://www.facebook.com/sharer.php?u=http%3A%2F%2Fwww.doyourdata.com%2Futilities%2Fpc-uninstaller.html
+ID_LINK_TWITTER=https://twitter.com/intent/tweet?url=http%3A%2F%2Fwww.doyourdata.com%2Futilities%2Fpc-uninstaller.html&text=Smart+free+uninstaller%21+So+easily+uninstall+programs+and+clean+up+all+leftovers%21
+ID_LINK_GOOLE=https://plus.google.com/share?url=http%3A%2F%2Fwww.doyourdata.com%2Futilities%2Fpc-uninstaller.html
+
